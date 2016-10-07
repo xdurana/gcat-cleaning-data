@@ -4,7 +4,7 @@ namespace :datacleaning do
   
   task :clean do
     Dir.chdir(SCRIPTS_DIR) do
-      sh %{source jupyter.sh}
+      sh %{source bin/jupyter.sh}
     end
   end
 

@@ -5,6 +5,9 @@ library(vcd)
 library(arulesViz)
 library(visNetwork)
 library(igraph)
+library(shiny)
+
+directory <- 'output/rules'
 
 getTransactions <- function() {
   
@@ -36,12 +39,40 @@ getTransactions <- function() {
   }
   
   status <- merge(conditions, drugs)
-  
+  status <- status[ , -which(names(status) %in% c('entity_id'))]
+
   transactions <- as(status, "transactions")
   transactions
 }
 
-plotRulesNetwork <- function(ig) {
+#' Get rules based on transactions
+#' @param transactions
+#' @param support
+#' @param confidence
+getRules <- function(transactions, support = 0.001, confidence = 0.8) {
+  
+  rules <- apriori(transactions, parameter = list(support = support, confidence = confidence))
+  rules <- rules[is.maximal(generatingItemsets(rules))]
+  quality(rules) <- interestMeasure(rules, c("support", "confidence", "chiSquared", "lift", "conviction"), transactions = transactions)
+  write(rules, file = file.path(directory, "rules.csv"), sep = ",", col.names = NA)
+  rules
+}
+
+#' Get subrules based on a set of conditions
+#' @param rules
+#' @param conditions
+#' @param n
+#' @param measure
+getSubrules <- function(rules, conditions, n, measure='chiSquared') {
+
+  subrules <- head(sort(subset(rules, subset = rhs %in% conditions), by=measure), n=n)
+  subrules
+}
+
+plotRulesNetwork <- function(subrules) {
+  
+  ig <- plot(subrules, method = "graph")
+  plotRulesNetwork(ig)
   
   ig_df <- get.data.frame(ig, what = "both")
   nodes <- data.frame(
@@ -68,33 +99,8 @@ plotRulesNetwork <- function(ig) {
   #visOptions(selectedBy = "title", highlightNearest = TRUE)
 }
 
-rules <- function() {
-  
-  itemFrequencyPlot(transactions, support = 0.01, cex.names=0.8)
-  
-  rules <- apriori(transactions, parameter = list(support = 0.001, confidence = 0.8))
-  rules <- rules[is.maximal(generatingItemsets(rules))]
-  
-  quality(rules) <- interestMeasure(rules, c("support", "confidence", "chiSquared", "lift", "conviction"), transactions = transactions)
-
-  write(rules, file = "output/relative-risk/rules.csv", sep = ",", col.names = NA)
-  
-  inspect(head(sort(rules, by="lift"), n=10))
-  summary(rules)
-  
-  subrules <- head(sort(subset(rules, subset = rhs %in% "ENFERMEDADES_HTA"), by='lift'), n=6)
-  subrules <- rules
-  
-  plot(subrules)
-  plot(subrules, method="grouped")
-  plot(subrules, method="graph")
-  plot(subrules, method="graph", control=list(type="items"))
-  
-  ig <- plot(subrules, method = "graph")
-  plotRulesNetwork(ig)
-}
-
 itemsets <- function() {
+  
   itemsets <- unique(generatingItemsets(rules))
   summary(itemsets)
   write(itemsets, file = "output/relative-risk/itemsets.csv", sep = ",", col.names = NA)
@@ -108,3 +114,11 @@ itemsets <- function() {
 
 transactions <- getTransactions()
 summary(transactions)
+rules <- getRules(transactions)
+subrules <- getSubrules(rules, c('ENFERMEDADES_PSORIASIS', 'ENFERMEDADES_ALERGIA'), 6)
+inspect(head(sort(subrules, by="chiSquared")))
+
+plot(subrules, method="graph")
+plotRulesNetwork(subrules)
+
+arulesApp(transactions, supp = 0.001, conf = 0.8)
