@@ -39,8 +39,16 @@ getTransactions <- function() {
   }
   
   status <- merge(conditions, drugs)
-  status <- status[ , -which(names(status) %in% c('entity_id'))]
+  status <- status[ , -which(names(status) %in% c('entity_id', 'ENFERMEDADES_NS_NC'))]
+  
+  df <- status
+  names(df)[grep("^ENFERMEDADES", names(df))] <- substring(names(df)[grep("^ENFERMEDADES", names(df))], 14)
+  names(df)
+  df
 
+  status <- df  
+  saveRDS(status, 'R/rules/data/medsnconditions.Rds')
+  
   transactions <- as(status, "transactions")
   transactions
 }
@@ -121,4 +129,4 @@ inspect(head(sort(subrules, by="chiSquared")))
 plot(subrules, method="graph")
 plotRulesNetwork(subrules)
 
-arulesApp(transactions, supp = 0.001, conf = 0.8)
+arulesApp(transactions, supp = 0.001, conf = 0.8, bin = TRUE, vars = transactions@data@Dim[1])

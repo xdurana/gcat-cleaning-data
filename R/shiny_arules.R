@@ -84,7 +84,7 @@ arulesApp <- function (dataset, bin=T, vars=5, supp=0.1, conf=0.5) {
         uiOutput("choose_columns"), br(),
         sliderInput("supp", "Support:", min = 0, max = 1, value = supp , step = 1/10000), br(),
         sliderInput("conf", "Confidence:", min = 0, max = 1, value = conf , step = 1/10000), br(),
-        selectInput('sort', label='Sorting Criteria:', choices = c('lift', 'confidence', 'support')), br(), br(),
+        selectInput('sort', label='Sorting Criteria:', choices = c('chiSquare', 'lift', 'confidence', 'support')), br(), br(),
         numericInput("minL", "Min. items per set:", 2), br(), 
         numericInput("maxL", "Max. items per set::", 3), br(),
         radioButtons('lhsv', label='LHS variables', choices=c('All', 'Subset')), br(),
@@ -167,14 +167,14 @@ arulesApp <- function (dataset, bin=T, vars=5, supp=0.1, conf=0.5) {
        } else {
          ar <- arAll
        }
-       quality(ar)$conviction <- interestMeasure(ar, method='conviction', transactions=tr)
-       quality(ar)$hyperConfidence <- interestMeasure(ar, method='hyperConfidence', transactions=tr)
-       quality(ar)$cosine <- interestMeasure(ar, method='cosine', transactions=tr)
        quality(ar)$chiSquare <- interestMeasure(ar, method='chiSquare', transactions=tr)
-       quality(ar)$coverage <- interestMeasure(ar, method='coverage', transactions=tr)
-       quality(ar)$doc <- interestMeasure(ar, method='doc', transactions=tr)
-       quality(ar)$gini <- interestMeasure(ar, method='gini', transactions=tr)
-       quality(ar)$hyperLift <- interestMeasure(ar, method='hyperLift', transactions=tr)
+       quality(ar)$conviction <- interestMeasure(ar, method='conviction', transactions=tr)
+       #quality(ar)$hyperConfidence <- interestMeasure(ar, method='hyperConfidence', transactions=tr)
+       #quality(ar)$cosine <- interestMeasure(ar, method='cosine', transactions=tr)
+       #quality(ar)$coverage <- interestMeasure(ar, method='coverage', transactions=tr)
+       #quality(ar)$doc <- interestMeasure(ar, method='doc', transactions=tr)
+       #quality(ar)$gini <- interestMeasure(ar, method='gini', transactions=tr)
+       #quality(ar)$hyperLift <- interestMeasure(ar, method='hyperLift', transactions=tr)
        ar
      })
      
