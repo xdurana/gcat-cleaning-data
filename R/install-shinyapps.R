@@ -1,3 +1,6 @@
+require('devtools')
+devtools::install_github('rstudio/shinyapps')
+
 install.packages('PKI')
 devtools::install_github("s-u/pki")
 

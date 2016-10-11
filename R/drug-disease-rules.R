@@ -14,8 +14,6 @@ getTransactions <- function() {
   medication <- read.table('output/medications/data.csv', sep = ',', header = TRUE)
   conditions <- read.table('output/conditions/data.csv', sep = ',', header = TRUE)
   
-  conditions <- conditions[ , -which(names(conditions) %in% c('ENFERMEDADES_DIABETES_T1DM', 'ENFERMEDADES_DIABETES_T2DM'))]
-  
   medication$ATC_CODE_3 <- as.factor(substring(medication$ATC_CODE, 1, 3))
   medication$value <- TRUE
   
@@ -39,10 +37,9 @@ getTransactions <- function() {
   }
   
   status <- merge(conditions, drugs)
-  status <- status[ , -which(names(status) %in% c('entity_id', 'ENFERMEDADES_NS_NC'))]
+  status <- status[ , -which(names(status) %in% c('entity_id'))]
   
   df <- status
-  names(df)[grep("^ENFERMEDADES", names(df))] <- substring(names(df)[grep("^ENFERMEDADES", names(df))], 14)
   names(df)
   df
 
@@ -120,13 +117,15 @@ itemsets <- function() {
   plotRulesNetwork(ig)
 }
 
-transactions <- getTransactions()
-summary(transactions)
-rules <- getRules(transactions)
-subrules <- getSubrules(rules, c('ENFERMEDADES_PSORIASIS', 'ENFERMEDADES_ALERGIA'), 6)
-inspect(head(sort(subrules, by="chiSquared")))
-
-plot(subrules, method="graph")
-plotRulesNetwork(subrules)
-
-arulesApp(transactions, supp = 0.001, conf = 0.8, bin = TRUE, vars = transactions@data@Dim[1])
+a <- function() {
+  transactions <- getTransactions()
+  summary(transactions)
+  rules <- getRules(transactions)
+  subrules <- getSubrules(rules, c('ENFERMEDADES_PSORIASIS', 'ENFERMEDADES_ALERGIA'), 6)
+  inspect(head(sort(subrules, by="chiSquared")))
+  
+  plot(subrules, method="graph")
+  plotRulesNetwork(subrules)
+  
+  arulesApp(transactions, supp = 0.001, conf = 0.8, bin = TRUE, vars = transactions@data@Dim[1])
+}
