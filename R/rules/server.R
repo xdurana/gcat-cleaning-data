@@ -2,7 +2,7 @@ library(shiny)
 library(arules)
 library(arulesViz)
 
-source('https://raw.githubusercontent.com/brooksandrew/Rsenal/master/R/rules2df.R')
+source('rules2df.R')
 dataset <- readRDS('data/medsnconditions.Rds')
 
 function(input, output) {
@@ -65,8 +65,8 @@ function(input, output) {
     } else {
       ar <- arAll
     }
-    quality(ar)$chiSquare <- interestMeasure(ar, method='chiSquare', transactions=tr)
-    quality(ar)$conviction <- interestMeasure(ar, method='conviction', transactions=tr)
+    quality(ar)$chiSquare <- interestMeasure(ar, measure='chiSquare', transactions=tr)
+    quality(ar)$conviction <- interestMeasure(ar, measure='conviction', transactions=tr)
     #quality(ar)$hyperConfidence <- interestMeasure(ar, method='hyperConfidence', transactions=tr)
     #quality(ar)$cosine <- interestMeasure(ar, method='cosine', transactions=tr)
     #quality(ar)$coverage <- interestMeasure(ar, method='coverage', transactions=tr)
