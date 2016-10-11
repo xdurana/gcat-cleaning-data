@@ -5,11 +5,10 @@ library(vcd)
 library(arulesViz)
 library(visNetwork)
 library(igraph)
-library(shiny)
 
 directory <- 'output/rules'
 
-getTransactions <- function() {
+getMedsnconditions <- function() {
   
   medication <- read.table('output/medications/data.csv', sep = ',', header = TRUE)
   conditions <- read.table('output/conditions/data.csv', sep = ',', header = TRUE)
@@ -37,15 +36,14 @@ getTransactions <- function() {
   }
   
   status <- merge(conditions, drugs)
-  status <- status[ , -which(names(status) %in% c('entity_id'))]
-  
-  df <- status
-  names(df)
-  df
+  status
+}
 
-  status <- df  
+#' Get transactions from dataset
+#' @param status  
+getTransactions <- function(status) {
+  status <- status[ , -which(names(status) %in% c('entity_id'))]
   saveRDS(status, 'R/rules/data/medsnconditions.Rds')
-  
   transactions <- as(status, "transactions")
   transactions
 }
