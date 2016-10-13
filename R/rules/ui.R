@@ -36,7 +36,7 @@ shinyUI(pageWithSidebar(
     ),
     
     conditionalPanel(
-      condition = "input.mytab %in%' c('grouped', 'graph', 'table', 'datatable', 'scatter', 'paracoord', 'matrix', 'itemFreq')", 
+      condition = "true", 
       radioButtons('samp', label='Sample', choices=c('All Rules', 'Sample'), inline=T), br(),
       uiOutput("choose_columns"), br(),
       sliderInput("supp", "Support:", min = 0, max = 1, value = supp , step = 1/10000), br(),

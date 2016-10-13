@@ -1,8 +1,9 @@
 name: rules
 account: xdurana
 server: shinyapps.io
-bundleId: 582554
+appId: 130856
+bundleId: 585372
 url: https://xdurana.shinyapps.io/rules/
-when: 1476122271.12422
+when: 1476350383.68942
 asMultiple: FALSE
 asStatic: FALSE
