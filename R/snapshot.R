@@ -29,7 +29,7 @@ participants <- select(participants,
                        Admin.Participant.birthDate,
                        Admin.Participant.birthYear,
                        Admin.Participant.age,
-                       Admin.Participant.PostalCode,
+                       Admin.Participant.PostalCodePrefix,
                        Admin.Action.comment
                        )
 
