@@ -1,9 +1,7 @@
 data
-docs
 output
 .ipynb_checkpoints
 .Rproj.user
 .RData
 .Rhistory
 *.Rproj
-*.html
