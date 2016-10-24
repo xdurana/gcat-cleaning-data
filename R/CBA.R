@@ -1,7 +1,7 @@
 library(arulesCBA)
 library(caret)
 
-source('drug-disease-rules.R')
+source('R/drug-disease-rules.R')
 
 status <- getMedsnconditions()
 transactions <- getTransactions(status)
