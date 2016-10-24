@@ -2,10 +2,10 @@ library(dplyr)
 library(tidyr)
 library(stringi)
 
-directory <- '/home/labs/dnalab/share/lims/R/gcat-cohort/output/export/'
+directory <- 'inst/ext-data'
 
 questionari <- read.csv(file.path(directory, 'QUESTIONARI/data.csv'), sep = ',')
-participants <- read.csv(file.path(directory, 'PARTICIPANTS/data.csv'), sep = ',')
+participants <- read.csv(file.path(directory, 'Participants/data.csv'), sep = ',')
 all <- merge(participants, questionari, by='entity_id')
 
 ### MAIN CONDITIONS
@@ -46,7 +46,9 @@ for (i in 1:nrow(conditions)) {
 ### SUMMARY
 
 all.summary <- arrange(data.frame(table(all.ds$condition)), desc(Freq)) %>%
-  filter(Freq > 10)
+  filter(Freq > 5)
+
+write.table(all.summary, 'output/conditions/summary.csv', sep = ',', row.names = FALSE)
 
 ### FILTER BY FREQUENCY
 
@@ -55,7 +57,9 @@ all.ds <- all.ds %>%
   unique() %>%
   mutate(count = 1)
 
+write.table(all.ds, 'output/conditions/long.csv', sep = ',', row.names = FALSE)
+
 all.wide <- all.ds %>% spread(condition, count)
 all.wide[is.na(all.wide)] <- 0
 
-write.table(all.wide, 'output/conditions/data.csv', sep = ',', row.names = FALSE)
+write.table(all.wide, 'output/conditions/wide.csv', sep = ',', row.names = FALSE)
