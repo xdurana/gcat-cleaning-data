@@ -1,13 +1,6 @@
-library(arules)
-library(reshape)
-library(dplyr)
-library(vcd)
-library(arulesViz)
-library(visNetwork)
-library(igraph)
-
 directory <- 'output/rules'
 
+#' @title Get meds and conditions
 getMedsnconditions <- function() {
   
   medication <- read.table('output/medications/data.csv', sep = ',', header = TRUE)
@@ -18,7 +11,7 @@ getMedsnconditions <- function() {
   
   ### ATC conversion
   
-  atc_conversion <- read.table('data/medications/ATC.csv', sep = ',', header = TRUE)
+  atc_conversion <- read.table('inst/extdata/medications/ATC.csv', sep = ',', header = TRUE)
   medication <- merge(medication, atc_conversion, by.x='ATC_CODE_3', by.y='id')
   medication <- medication[, c('entity_id', 'ATC_CODE_3', 'text', 'value')]
   
@@ -39,19 +32,19 @@ getMedsnconditions <- function() {
   status
 }
 
-#' Get transactions from dataset
-#' @param status  
+#' @title Get transactions from dataset
+#' @param status status
 getTransactions <- function(status) {
   status <- status[ , -which(names(status) %in% c('entity_id'))]
-  saveRDS(status, 'R/rules/data/medsnconditions.Rds')
+  saveRDS(status, 'output/medsnconditions.Rds')
   transactions <- as(status, "transactions")
   transactions
 }
 
-#' Get rules based on transactions
-#' @param transactions
-#' @param support
-#' @param confidence
+#' @title Get rules based on transactions
+#' @param transactions transactions
+#' @param support support
+#' @param confidence confidence
 getRules <- function(transactions, support = 0.001, confidence = 0.8) {
   
   rules <- apriori(transactions, parameter = list(support = support, confidence = confidence))
@@ -61,17 +54,19 @@ getRules <- function(transactions, support = 0.001, confidence = 0.8) {
   rules
 }
 
-#' Get subrules based on a set of conditions
-#' @param rules
-#' @param conditions
-#' @param n
-#' @param measure
+#' @title Get subrules based on a set of conditions
+#' @param rules rules
+#' @param conditions conditions
+#' @param n n
+#' @param measure measure
 getSubrules <- function(rules, conditions, n, measure='chiSquared') {
 
   subrules <- head(sort(subset(rules, subset = rhs %in% conditions), by=measure), n=n)
   subrules
 }
 
+#' @title Plor rules network
+#' @param subrules subrules
 plotRulesNetwork <- function(subrules) {
   
   ig <- plot(subrules, method = "graph")
@@ -102,6 +97,7 @@ plotRulesNetwork <- function(subrules) {
   #visOptions(selectedBy = "title", highlightNearest = TRUE)
 }
 
+#' @title Get itemsets
 itemsets <- function() {
   
   itemsets <- unique(generatingItemsets(rules))
@@ -115,7 +111,8 @@ itemsets <- function() {
   plotRulesNetwork(ig)
 }
 
-a <- function() {
+#' @title Get rules
+getRules <- function() {
   transactions <- getTransactions()
   summary(transactions)
   rules <- getRules(transactions)

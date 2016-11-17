@@ -1,0 +1,22 @@
+Package: gcatcleaning
+Type: Package
+Title: Cleaning GCAT dataset
+Version: 0.0.0.9000
+Date: 2016-10-24
+Author: Xavier Duran
+Maintainer: Xavier Duran <xadual@gmail.com>
+Description: This package contains the code and data of the gcatcleaning
+License: GPL-3
+Imports:
+  dplyr,
+  tidyr,
+  stringi,
+  circlize,
+  arules,
+  arulesViz,
+  visNetwork,
+  igraph,
+  reshape,
+  vcd
+LazyData: true
+RoxygenNote: 5.0.1

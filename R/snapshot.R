@@ -1,4 +1,4 @@
-options(java.parameters = "-Xmx4g")
+options(java.parameters = "-Xmx16g")
 
 library(data.table)
 library(dplyr)
@@ -22,10 +22,11 @@ snapshot <- function(date, participants, prefix = 'gcat') {
   
   ## Merge all
   
-  participants <- filter(participants,
-                         participants$PARTICIPANTE_ENTREVISTA_STATUS == 'COMPLETED',
-                         participants$PARTICIPANTE_ENTREVISTA_INICIO < date)
-  
+  participants <- participants %>%
+    filter(participants$PARTICIPANTE_ENTREVISTA_STATUS == 'COMPLETED',
+           participants$PARTICIPANTE_ENTREVISTA_INICIO < date) %>%
+    select(-PARTICIPANTE_ENTREVISTA_COMENTARIOS)
+    
   seleccio <- select(seleccio, entity_id, TIPO_CUESTIONARIO)
   
   all <- left_join(participants, gcat) %>%
@@ -37,6 +38,15 @@ snapshot <- function(date, participants, prefix = 'gcat') {
   
   write.csv2(all, file.path(sprintf('/home/labs/dnalab/share/lims/GCAT database/%s', date), 'data.csv'), row.names = FALSE)
   
+  all <- left_join(participants, gcat) %>%
+    left_join(altura) %>%
+    left_join(cinturacadera) %>%
+    left_join(peso) %>%
+    left_join(tensionarterial) %>%
+    left_join(seleccio)
+  
+  write.csv2(all, file.path(sprintf('/home/labs/dnalab/share/lims/GCAT database/%s', date), 'data.csv'), row.names = FALSE)
+
   gcat_participants <- select(participants, entity_id)
   gcat <- left_join(participants, as.data.frame(gcat))
   
@@ -55,11 +65,26 @@ snapshot <- function(date, participants, prefix = 'gcat') {
     left_join(tensionarterial) %>%
     left_join(seleccio)
 
-  for (n in 0:8) {
+  rm(all)
+  rm(altura)
+  rm(cinturacadera)
+  rm(peso)
+  rm(tensionarterial)
+  rm(gcat)
+  rm(gcat_participants)
+  rm(participants)
+  rm(seleccio)
+    
+  for (n in 3:8) {
     ds <- eval(parse(text=sprintf("gcat_%s", n)))
     write.csv2(ds, file.path(file.path(directory.snapshot, date), sprintf('%s_%s.csv', prefix, n)), row.names = FALSE)
-    write.xlsx2(ds, file.path(file.path(directory.snapshot, date), sprintf('%s_%s.xlsx', prefix, n)), row.names = FALSE)
   }
+  
+  for (n in 3:8) {
+    ds <- eval(parse(text=sprintf("gcat_%s", n)))
+    write.xlsx(ds, file.path(file.path(directory.snapshot, date), sprintf('%s_%s.xlsx', prefix, n)), row.names = FALSE)
+  }
+  
 }
 
 
