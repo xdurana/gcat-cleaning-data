@@ -2,7 +2,7 @@
 #' @param filename name of the CIM9CM file
 #' @export
 #' @examples
-#' readCIM9MC(file.path('inst/extdata/malalties', 'CIM9MC_2014_2015_20140313.txt'))
+#' readCIM9MC(file.path('inst/extdata/conditions', 'CIM9MC_2014_2015_20140313.txt'))
 readCIM9MC <- function(filename) {
   CIM9MC <- read.fwf(
     file = filename,
@@ -61,7 +61,7 @@ exploreCIM9MC <- function(text) {
 #' @title Merge CIM9MC
 mergeCIM9MC <- function() {
   summary <- read.csv2(file.path('inst/extdata', 'summary.csv'), sep = ',')
-  summary.cim9 <- read.csv2(file.path('inst/extdata/conditions', 'summary-cim9.csv'), sep = ',')
+  summary.cim9 <- read.csv2(file.path('inst/extdata/conditions', 'summary-cim9.csv'), sep = ';')
   summary.cim9 <- merge(summary, summary.cim9, all.x = TRUE)
   summary.cim9 <- summary.cim9[with(summary.cim9, order(-Freq)),]
   write.table(summary.cim9, 'output/summary-cim9.csv', sep = ',', row.names = FALSE)
