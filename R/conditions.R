@@ -72,7 +72,7 @@ get_conditions <- function(others = FALSE) {
   
   if (others) {
     write.table(all.summary, 'output/conditions/others_summary.csv', sep = ',', row.names = FALSE, quote = FALSE)
-    write.table(all.ds, 'output/conditions/others_long.csv', sep = ',', row.names = FALSE, quote = FALSE)
+    write.table(all.ds, 'output/conditions/others_long.csv', sep = ',', row.names = FALSE, quote = TRUE)
     write.table(all.wide, 'output/conditions/others_wide.csv', sep = ',', row.names = FALSE, quote = FALSE)
     save_conditions()
   } else {
@@ -113,7 +113,8 @@ get_conditions_cod_3_ds <- function(filename) {
 #' @title Get conditions from genotyped participants dataset
 #' @export
 get_conditions_genotyped_ds <- function() {
-  conditions <- get_conditions_ds('output/conditions/others_long.csv')
+  conditions <- get_conditions_ds('output/conditions/others_long.csv') %>%
+    select(-Freq)
   genotyped <- read.csv2(file.path('output/genotyped', 'data.csv'), sep = ',', stringsAsFactors = FALSE) %>%
     rename(entity_id = Sample.Id) %>%
     merge(conditions)
@@ -124,6 +125,28 @@ get_conditions_genotyped_ds <- function() {
 #' @export
 save_conditions <- function() {
   write.table(get_conditions_cod_3_ds('output/conditions/others_long.csv'), 'output/conditions/icd9.csv', row.names = FALSE, sep = ',')
+}
+
+save_conditions_genotyped <- function() {
+
+  conditions_genotyped <- get_conditions_genotyped_ds()
+  
+  conditions_genotyped.rl <- conditions_genotyped %>%
+    filter(sampleType == 'RL')
+  
+  grouped.rl <- group_by(conditions_genotyped.rl, condition, Codi, Descr_codi)
+  grouped.genotyped <- group_by(conditions_genotyped, condition, Codi, Descr_codi)
+
+  ds.rl <- summarise(grouped.rl, count.rl=length(condition))
+  ds <- summarise(grouped.genotyped, count=length(condition))
+  
+  ds <- merge(
+    summarise(grouped.rl, count.rl=length(condition)),
+    summarise(grouped.genotyped, count=length(condition))
+  ) %>%
+    arrange(desc(count))
+
+  write.table(ds, 'output/conditions/icd9_genotyped.csv', row.names = FALSE, sep = ',')
 }
 
 run <- function() {
