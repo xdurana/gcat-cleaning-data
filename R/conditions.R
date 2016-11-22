@@ -1,6 +1,8 @@
 library(dplyr)
 library(tidyr)
+library(xlsx)
 library(stringi)
+library(limma)
 
 #' @title Get conditions from GCAT
 #' @param other Take into account the others conditions
@@ -127,6 +129,8 @@ save_conditions <- function() {
   write.table(get_conditions_cod_3_ds('output/conditions/others_long.csv'), 'output/conditions/icd9.csv', row.names = FALSE, sep = ',')
 }
 
+#' @title Summary of the conditions of the genotyped participants
+#' @export
 save_conditions_genotyped <- function() {
 
   conditions_genotyped <- get_conditions_genotyped_ds()
@@ -134,11 +138,11 @@ save_conditions_genotyped <- function() {
   conditions_genotyped.rl <- conditions_genotyped %>%
     filter(sampleType == 'RL')
   
-  grouped.rl <- group_by(conditions_genotyped.rl, condition, Codi, Descr_codi)
   grouped.genotyped <- group_by(conditions_genotyped, condition, Codi, Descr_codi)
+  grouped.rl <- group_by(conditions_genotyped.rl, condition, Codi, Descr_codi)
 
-  ds.rl <- summarise(grouped.rl, count.rl=length(condition))
   ds <- summarise(grouped.genotyped, count=length(condition))
+  ds.rl <- summarise(grouped.rl, count.rl=length(condition))
   
   ds <- merge(
     summarise(grouped.rl, count.rl=length(condition)),
@@ -146,7 +150,48 @@ save_conditions_genotyped <- function() {
   ) %>%
     arrange(desc(count))
 
-  write.table(ds, 'output/conditions/icd9_genotyped.csv', row.names = FALSE, sep = ',')
+  write.xlsx(ds, 'output/conditions/icd9_genotyped.xlsx')
+
+  ### VENN DIAGRAM
+  
+  conditions <- read.csv2('output/conditions/wide.csv', sep = ',', stringsAsFactors = FALSE)
+  conditions <- read.csv2(file.path('output/genotyped', 'data.csv'), sep = ',', stringsAsFactors = FALSE) %>%
+    rename(entity_id = Sample.Id) %>%
+    merge(conditions)
+  
+  conditions <- conditions %>%
+    filter(sampleType == 'RL')
+  
+  HIPERCOLESTEROLEMIA <- (conditions$ENFERMEDADES_HIPERCOLESTEROLEMIA == 1)
+  ALERGIA <- (conditions$ENFERMEDADES_ALERGIA == 1)
+  HTA <- (conditions$ENFERMEDADES_HTA == 1)
+  ASMA <- (conditions$ENFERMEDADES_ASMA == 1)
+  RINITIS <- (conditions$ENFERMEDADES_RINITIS == 1)
+  DIABETIS <- (conditions$ENFERMEDADES_DIABETES == 1)
+
+  vennDiagram(
+    vennCounts(
+      cbind(
+        HIPERCOLESTEROLEMIA,
+        HTA,
+        DIABETIS,
+        ALERGIA,
+        ASMA
+      )
+    ),
+    circle.col = c("red", "blue", "green", "chocolate", "deepskyblue")
+  )
+  
+  vennDiagram(
+    vennCounts(
+      cbind(
+        HIPERCOLESTEROLEMIA,
+        HTA,
+        DIABETIS
+      )
+    ),
+    circle.col = c("red", "blue", "green", "chocolate", "deepskyblue")
+  )
 }
 
 run <- function() {
