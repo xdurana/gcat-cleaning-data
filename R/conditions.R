@@ -126,7 +126,8 @@ get_conditions_genotyped_ds <- function() {
 #' @title Create RData from phenotypes
 #' @export
 save_conditions <- function() {
-  write.table(get_conditions_cod_3_ds('output/conditions/others_long.csv'), 'output/conditions/icd9.csv', row.names = FALSE, sep = ',')
+  write.table(get_conditions_ds('output/conditions/others_long.csv'), 'output/conditions/icd9.csv', row.names = FALSE, sep = ',')
+  write.table(get_conditions_cod_3_ds('output/conditions/others_long.csv'), 'output/conditions/icd9_3.csv', row.names = FALSE, sep = ',')
 }
 
 #' @title Summary of the conditions of the genotyped participants
