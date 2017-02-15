@@ -3,6 +3,7 @@ library(tidyr)
 library(xlsx)
 library(stringi)
 library(limma)
+library(data.table)
 
 #' @title Get conditions from GCAT
 #' @param other Take into account the others conditions
@@ -117,8 +118,10 @@ get_conditions_cod_3_ds <- function(filename) {
 get_conditions_genotyped_ds <- function() {
   conditions <- get_conditions_ds('output/conditions/others_long.csv') %>%
     select(-Freq)
+  
+  as.data.table(table(conditions$condition)) %>% arrange(desc(N)) %>% write.xlsx2('output/conditions/all.xlsx')
+  
   genotyped <- read.csv2(file.path('output/genotyped', 'data.csv'), sep = ',', stringsAsFactors = FALSE) %>%
-    rename(entity_id = Sample.Id) %>%
     merge(conditions)
   genotyped
 }
@@ -135,6 +138,7 @@ save_conditions <- function() {
 save_conditions_genotyped <- function() {
 
   conditions_genotyped <- get_conditions_genotyped_ds()
+  as.data.table(table(conditions_genotyped$condition)) %>% arrange(desc(N)) %>% write.xlsx2('output/conditions-genotyped/genotyped.xlsx')
   
   conditions_genotyped.rl <- conditions_genotyped %>%
     filter(sampleType == 'RL')
@@ -157,7 +161,6 @@ save_conditions_genotyped <- function() {
   
   conditions <- read.csv2('output/conditions/wide.csv', sep = ',', stringsAsFactors = FALSE)
   conditions <- read.csv2(file.path('output/genotyped', 'data.csv'), sep = ',', stringsAsFactors = FALSE) %>%
-    rename(entity_id = Sample.Id) %>%
     merge(conditions)
   
   conditions <- conditions %>%
