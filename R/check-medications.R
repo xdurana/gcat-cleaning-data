@@ -1,10 +1,12 @@
 library(dplyr)
 library(tidyr)
 
+system('sh exec/jupyter.sh')
+
 #' @title Get medications file
 #' @export
 get_medications <- function() {
-  medications <- read.csv2('output/medications/data.csv', sep = ',', stringsAsFactors = FALSE)
+  medications <- read.csv2('output/check/medications/data.csv', sep = ',', stringsAsFactors = FALSE)
   medications
 }
 
@@ -34,5 +36,7 @@ get_medications_atc_ds <- function() {
 #' @title Create RData from phenotypes
 #' @export
 save_medications <- function() {
-  write.table(get_medications_atc_ds(), 'output/medications/atc.csv', row.names = FALSE, sep = ',')
+  write.table(get_medications_atc_ds(), 'output/check/medications/atc.csv', row.names = FALSE, sep = ',')
 }
+
+save_medications()

@@ -89,7 +89,7 @@ gcat_ds <- function() {
 
   ### MALALTIES
   
-  conditions <- horizontal_ds('output/conditions/icd9.csv') %>%
+  conditions <- horizontal_ds('output/check/conditions/icd9.csv') %>%
     transform(entity_id=as.character(entity_id))
   
   ### ANTECEDENTS

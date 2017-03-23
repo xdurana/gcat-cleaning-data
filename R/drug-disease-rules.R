@@ -1,10 +1,12 @@
+library(data.table)
+
 directory <- 'output/rules'
 
 #' @title Get meds and conditions
 getMedsnconditions <- function() {
   
-  medication <- read.table('output/medications/data.csv', sep = ',', header = TRUE)
-  conditions <- read.table('output/conditions/data.csv', sep = ',', header = TRUE)
+  medication <- fread('output/check/medications/data.csv')
+  conditions <- fread('output/check/conditions/icd9_3.csv')
   
   medication$ATC_CODE_3 <- as.factor(substring(medication$ATC_CODE, 1, 3))
   medication$value <- TRUE

@@ -1,4 +1,5 @@
 library(data.table)
+library(lubridate)
 library(xlsx)
 library(dplyr)
 library(plyr)
@@ -31,7 +32,6 @@ all <- participants %>%
   mutate(
     Admin.Participant.age=as.numeric(Admin.Participant.age),
     EDAD.EDAD.ANOS=as.numeric(EDAD.EDAD.ANOS),
-    Admin.Participant.age.CALC=as.numeric(floor(difftime(Admin.Interview.startDate, Admin.Participant.birthDate, units="days")/365.25)),
     FECHA_NACIMIENTO=as.Date(
       sprintf('%s/%s/%s',
               FECHA_NACIMIENTO.Fecha.Dia,
@@ -40,7 +40,8 @@ all <- participants %>%
     Admin.Participant.birthDate=as.Date(Admin.Participant.birthDate),
     Admin.Interview.startDate=as.Date(Admin.Interview.startDate),
     DIFF_DAYS=FECHA_NACIMIENTO - Admin.Participant.birthDate,
-    EDAD.EDAD.ANOS.CALC=as.numeric(floor(difftime(Admin.Interview.startDate, FECHA_NACIMIENTO, units="days")/365.25))
+    Admin.Participant.age.CALC=as.period(interval(Admin.Participant.birthDate, Admin.Interview.startDate), unit = 'year')$year,
+    EDAD.EDAD.ANOS.CALC=as.period(interval(FECHA_NACIMIENTO, Admin.Interview.startDate), unit = 'year')$year
   )
 
 ### Tots els errors
@@ -84,7 +85,7 @@ errors %>%
     entity_id,
     EDAD.EDAD.ANOS
   ) %>%
-  write.table('output/check/age/GCAT_edad_participants.csv', row.names = FALSE, sep = ',')
+  write.table(sprintf('/home/labs/dnalab/share/lims/R/gcat-cohort/output/import/E00__%s_GCAT.csv', Sys.Date()), row.names = FALSE, sep = ',')
 
 ### Errors en els anys reportats per l'adminstracio
 
@@ -105,7 +106,7 @@ errors %>%
     entity_id,
     Admin.Participant.age
   ) %>%
-  write.table('output/check/age/GCAT_edad_administracio.csv', row.names = FALSE, sep = ',')
+  write.table(sprintf('/home/labs/dnalab/share/lims/R/gcat-cohort/output/import/E00__%s_Participants.csv', Sys.Date()), row.names = FALSE, sep = ',')
 
 
 errors %>% write.xlsx2('output/check/age/errors.xlsx', row.names = FALSE)

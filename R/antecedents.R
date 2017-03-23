@@ -1,8 +1,10 @@
 library(dplyr)
 library(reshape)
 
+directory <- '/home/labs/dnalab/share/lims/R/gcat-cohort/output/export'
+
 get_questionari <- function() {
-  questionari <- read.csv('/home/labs/dnalab/share/lims/R/gcat-cohort/output/export/QUESTIONARI/data.csv')
+  questionari <- fread(file.path(directory, 'QUESTIONARI/data.csv'))
   questionari
 }
 
