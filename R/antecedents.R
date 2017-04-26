@@ -1,10 +1,11 @@
 library(dplyr)
+library(readr)
 library(reshape)
 
 directory <- '/home/labs/dnalab/share/lims/R/gcat-cohort/output/export'
 
 get_questionari <- function() {
-  questionari <- fread(file.path(directory, 'QUESTIONARI/data.csv'))
+  questionari <- read_csv(file.path(directory, 'QUESTIONARI/data.csv'))
   questionari
 }
 
@@ -69,7 +70,7 @@ get_antecedents <- function(questionari) {
   )
   
   antecedents <- questionari[,columns_prevalent] %>%
-    melt(id=c('entity_id')) %>%
+    data.table::melt(id=c('entity_id')) %>%
     filter(value == 'true') %>%
     select(entity_id, variable) %>%
     mutate(variable = gsub('FAMILIA_PADRE_ENFERMEDADES_', '', variable)) %>%
@@ -78,10 +79,10 @@ get_antecedents <- function(questionari) {
     select(-variable) %>%
     unique()
   
-  write.table(antecedents, 'output/antecedents/long.csv', row.names = FALSE, sep = ',')
+  write.table(antecedents, 'output/check/antecedents/long.csv', row.names = FALSE, sep = ',')
 }
 
-#' @title Get cancer antecedents
+#' @title Get cancer antecedentsget_questionari
 #' @export
 get_antecedents_cancer <- function(questionari) {
   
@@ -105,14 +106,19 @@ get_antecedents_cancer <- function(questionari) {
   icd <- read.csv('inst/extdata/malalties/ICD_cancer_cast.csv')
   conditions_icd <- merge(conditions, icd, by.x='Var1', by.y='ID')
   
-  write.table(conditions_icd, 'output/antecedents/cancer.csv', row.names = FALSE, sep = ',')
+  write.table(conditions_icd, 'output/check/antecedents/cancer.csv', row.names = FALSE, sep = ',')
+}
+
+run <- function() {
+  gcat <- get_questionari()
+  get_antecedents(gcat)
 }
 
 #' @title Create RData from phenotypes
 #' @export
 save_antecedents <- function() {
-  antecedents <- get_conditions_cod_3_ds('output/antecedents/long.csv') %>%
+  antecedents <- get_conditions_cod_3_ds('output/check/antecedents/long.csv') %>%
     mutate(variable = 'ICD_9_antecedents',
            value = sprintf('A_%s', value))
-  write.table(antecedents, 'output/antecedents/icd9.csv', row.names = FALSE, sep = ',')
+  write.table(antecedents, 'output/check/antecedents/icd9.csv', row.names = FALSE, sep = ',')
 }

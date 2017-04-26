@@ -3,15 +3,16 @@ library(tidyr)
 library(xlsx)
 library(stringi)
 library(limma)
+library(readr)
 library(data.table)
 
 directory <- '/home/labs/dnalab/share/lims/R/gcat-cohort/output/export'
 directory_conditions <- 'output/check/conditions'
 
 #' @title Get conditions from GCAT
-#' @param other Take into account the others conditions
+#' 
 #' @export
-get_conditions <- function(others = FALSE) {
+get_conditions <- function() {
 
   questionari <- read.csv(file.path(directory, 'QUESTIONARI/data.csv'), sep = ',')
   participants <- read.csv(file.path(directory, 'Participants/data.csv'), sep = ',')
@@ -34,30 +35,26 @@ get_conditions <- function(others = FALSE) {
 
   columns <- c('entity_id', 'condition')
 
-  ### OTHER CONDITIONS
-  
-  if (others) {
-    otras <- colnames(all)[grep('^ENFERMEDADES_E[0-9]$', colnames(all))]
-    otras.ds <- all[, c('entity_id', otras)]
-    otras.ds.long <- gather(otras.ds, cardinal, condition, ENFERMEDADES_E1:ENFERMEDADES_E7, factor_key=TRUE)
-    otras.ds.long <- otras.ds.long[otras.ds.long$condition != '',]
-    otras.ds.long$condition <- toupper(otras.ds.long$condition)
-    all.ds <- rbind(enfermedades.ds.long[, columns], otras.ds.long[, columns])
-  } else {
-    all.ds <- enfermedades.ds.long[, columns]
-  }
-    
+  otras <- colnames(all)[grep('^ENFERMEDADES_E[0-9]$', colnames(all))]
+  otras.ds <- all[, c('entity_id', otras)]
+  otras.ds.long <- gather(otras.ds, cardinal, condition, ENFERMEDADES_E1:ENFERMEDADES_E7, factor_key=TRUE)
+  otras.ds.long <- otras.ds.long[otras.ds.long$condition != '',]
+  otras.ds.long$condition <- toupper(otras.ds.long$condition)
+  all.ds <- rbind(enfermedades.ds.long[, columns], otras.ds.long[, columns])
+
   ### ALL CONDITIONS
   
   all.ds <- filter(all.ds, (!(condition %in% c('ENFERMEDADES_NINGUNA', 'ENFERMEDADES_NS_NC', 'ENFERMEDADES_OTRAS'))))
-  if (others) {
-    all.ds$condition <- gsub("ENFERMEDADES_", "", all.ds$condition)
-  }
+  all.ds$condition <- gsub("ENFERMEDADES_", "", all.ds$condition)
   #all.ds$condition <- stri_trans_general(all.ds$condition, "Latin-ASCII")
   
   ### TRANSLATE
   
   all.ds <- all.ds %>% mutate(count = 1)
+  
+  ### REMOVE NOT WANTED CHARACTERS
+  
+  all.ds <- all.ds %>% mutate(condition = iconv(condition, to='ASCII//TRANSLIT'))
   
   ### SUMMARY
   
@@ -65,25 +62,14 @@ get_conditions <- function(others = FALSE) {
   
   ### FILTER BY FREQUENCY
   
-  if (FALSE) {
-    all.ds <- all.ds %>% filter(condition %in% all.summary$Var1)
-  }
-  
   all.ds <- all.ds %>% unique()
   
   all.wide <- all.ds %>% spread(condition, count)
   all.wide[is.na(all.wide)] <- 0
   
-  if (others) {
-    write.csv2(all.summary, file.path(directory_conditions, 'others_summary.csv'), row.names = FALSE, quote = TRUE)
-    write.csv2(all.ds, file.path(directory_conditions, 'others_long.csv'), row.names = FALSE, quote = TRUE)
-    write.csv2(all.wide, file.path(directory_conditions, 'others_wide.csv'), row.names = FALSE, quote = TRUE)
-    save_conditions()
-  } else {
-    write.csv2(all.summary, file.path(directory_conditions, 'summary.csv'), row.names = FALSE, quote = TRUE)
-    write.csv2(all.ds, file.path(directory_conditions, 'long.csv'), row.names = FALSE, quote = TRUE)
-    write.csv2(all.wide, file.path(directory_conditions, 'wide.csv'), row.names = FALSE, quote = TRUE)
-  }
+  write.csv2(all.summary, file.path(directory_conditions, 'text/summary.csv'), row.names = FALSE, quote = TRUE)
+  write.csv2(all.ds, file.path(directory_conditions, 'text/long.csv'), row.names = FALSE, quote = TRUE)
+  write.csv2(all.wide, file.path(directory_conditions, 'text/wide.csv'), row.names = FALSE, quote = TRUE)
 }
 
 #' @title Get conditions dataset
@@ -125,13 +111,6 @@ get_conditions_genotyped_ds <- function() {
   genotyped <- read.csv2(file.path('output/genotyped', 'data.csv'), sep = ',', stringsAsFactors = FALSE) %>%
     merge(conditions)
   genotyped
-}
-
-#' @title Create RData from phenotypes
-#' @export
-save_conditions <- function() {
-  write.table(get_conditions_ds(file.path(directory_conditions, 'others_long.csv')), file.path(directory_conditions, 'icd9.csv'), row.names = FALSE, sep = ',')
-  write.table(get_conditions_cod_3_ds(file.path(directory_conditions, 'others_long.csv')), file.path(directory_conditions, 'icd9_3.csv'), row.names = FALSE, sep = ',')
 }
 
 #' @title Summary of the conditions of the genotyped participants
@@ -201,17 +180,17 @@ save_conditions_genotyped <- function() {
 
 #' @title Merge CIM9MC
 mergeCIM9MC <- function() {
-  summary <- fread(file.path(directory_conditions, 'others_summary.csv')) %>%
+  summary <- fread(file.path(directory_conditions, 'text/summary.csv')) %>%
     dplyr::rename(
       Text=Var1
     )
-  summary.cim9 <- fread('inst/extdata/conditions/summary-cim9.csv') %>%
+  summary.cim9 <- fread('inst/extdata/conditions/summary-cim9-updated.csv') %>%
     select(
       -Freq
     )
   summary.cim9 <- merge(summary, summary.cim9, all.x = TRUE)
   summary.cim9 <- summary.cim9[with(summary.cim9, order(-Freq)),]
-  write.csv(summary.cim9, file.path(directory_conditions, 'summary-cim9-updated.csv'), row.names = FALSE)
+  write.csv(summary.cim9, file.path(directory_conditions, 'summary-cim9-updated.csv'), row.names = FALSE, na = '')
 }
 
 #' @title Read CIM9CM file
@@ -306,9 +285,8 @@ getSummary <- function() {
            Codi,
            Descr_codi,
            Gran_grup_classif,
-           Descr_gran_grup_clasif,
-           Gran_grup_CCS,
-           Desc_gran_grup_CCS)
+           Descr_gran_grup_clasif
+           )
   
   summary.cim9.merge <- summary.cim9.merge %>%
     mutate(Codi_3 = substring(summary.cim9.merge$Codi, 1, 3))
@@ -326,9 +304,8 @@ getSummary <- function() {
            Codi_3,
            Descr_codi_3,
            Gran_grup_classif,
-           Descr_gran_grup_clasif,
-           Gran_grup_CCS,
-           Desc_gran_grup_CCS)
+           Descr_gran_grup_clasif
+           )
   
   summary.cim9.merge.3[is.na(summary.cim9.merge.3)] <- ''
   
@@ -338,7 +315,104 @@ getSummary <- function() {
   write.csv2(summary.cim9.merge.3, file.path(directory_conditions, 'summary-cim9-updated.csv'), row.names = FALSE, fileEncoding = 'utf-8')
 }
 
-get_conditions(FALSE)
-get_conditions(TRUE)
+save <- function() {
+  
+  participants <- read_csv(file.path(directory, 'Participants/data.csv')) %>%
+    select(
+      entity_id
+    )
+  
+  save_ds(
+    participants,
+    get_conditions_ds(file.path(directory_conditions, 'text/long.csv')) %>%
+      dplyr::rename(
+        codi=Codi
+      ) %>%
+      select(
+        entity_id,
+        codi
+      ),
+    'icd9'
+    )
+  
+  save_ds(
+    participants,
+    get_conditions_ds(file.path(directory_conditions, 'text/long.csv')) %>%
+      dplyr::rename(
+        codi=Codi_3
+      ) %>%
+      select(
+        entity_id,
+        codi
+      ),
+    'icd9_3'
+  )
+  
+  save_ds(
+    participants,
+    get_conditions_ds(file.path(directory_conditions, 'text/long.csv')) %>%
+      dplyr::rename(
+        codi=Gran_grup_classif
+      ) %>%
+      select(
+        entity_id,
+        codi
+      ),
+    'icd9_grup'
+  )
+  
+}
+
+save_ds <- function(participants, ds, prefix) {
+
+  #ICD9 long
+  ds %>%
+    unique() %>%
+    write.csv2(file.path(directory_conditions, file.path(prefix, 'long.csv')), row.names = FALSE, quote = FALSE)
+  
+  #ICD9 wide
+  ds_wide <- ds %>%
+    transform(
+      value=1
+    ) %>%
+    unique() %>%
+    filter(
+      !is.na(codi) & codi != ''
+    ) %>%
+    spread(codi, value) %>%
+    right_join(participants)
+  
+  ds_wide[is.na(ds_wide)] <- 0
+  
+  ds_wide %>%
+    write.csv2(file.path(directory_conditions, file.path(prefix, 'wide.csv')), row.names = FALSE, quote = FALSE)
+
+  arrange(data.frame(table(ds$codi)), desc(Freq)) %>%
+    write.csv2(file.path(directory_conditions, file.path(prefix, 'summary.csv')), row.names = FALSE, quote = FALSE)
+
+  #lapply(unique(icd9_3$icd), function(icd_code) {
+  #  attr(icd9_3_wide$variable, icd_code) <- as.character(unique((icd9_3 %>% filter(icd==icd_code))$description))
+  #})
+}
+
+graphics <- function() {
+  read_csv2(file.path(directory_conditions, 'icd9_grup/wide.csv')) %>% correlation_matrix
+}
+
+correlation_matrix <- function(ds) {
+  
+  library(corrplot)
+  library(RColorBrewer)
+  
+  ds <- ds %>%
+    select(-entity_id) %>%
+    as.matrix()
+  
+  res <- cor(ds)
+  corrplot(res, type = "upper", order = "hclust", tl.col = "black", col=brewer.pal(n=8, name="RdBu"), tl.srt = 45)
+}
+
+get_conditions()
 mergeCIM9MC()
 getSummary()
+save()
