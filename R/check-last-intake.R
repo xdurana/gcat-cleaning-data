@@ -7,14 +7,12 @@ lab_dir <- '/home/labs/dnalab/share/lims/R/gcat-laboratori/inst/extdata'
 
 pst_lims <- read.csv(file.path(lab_dir, 'extraccions/20161214_PST_LIMS.csv'), sep = ';')
 pst_lims <- pst_lims %>%
-  rename(
-    entity_id=External.Id
-  ) %>%
   transform(
-    entity_id=sprintf('=%s', entity_id)
+    entity_id=sprintf('=%s', External.Id)
   )
 
 gcat <- read.csv(file.path(export_dir, 'GCAT/data.csv'), sep = ',')
+
 gcat <- gcat %>%
   select(
     entity_id,

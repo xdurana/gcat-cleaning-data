@@ -1,0 +1,53 @@
+---
+title: "GCAT summary report"
+date: "`r Sys.Date()`"
+output: pdf_document
+classoption: landscape
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Recruitment
+
+Recruitment of the GCAT Genomes for Life by center and year of recruitment
+
+```{r recruitment, echo=FALSE}
+recruitment()
+```
+
+\newpage
+
+## Continuous variables
+
+```{r descriptive statistics continuous, results="asis", echo=FALSE}
+xtable(desc, tabular.environment = "longtable")
+```
+
+\newpage
+
+## Binary variables
+
+```{r descriptive statistics binary, results="asis", echo=FALSE}
+print(xtable(binary %>% slice(1:25), tabular.environment = "longtable"), include.rownames=FALSE)
+```
+
+\newpage
+
+```{r descriptive statistics binary 2, results="asis", echo=FALSE}
+print(xtable(binary %>% slice(26:n()), tabular.environment = "longtable"), include.rownames=FALSE)
+```
+
+\newpage
+
+## Conditions
+
+```{r conditions, results="asis", echo=FALSE}
+print(xtable(conditions %>% slice(1:30), tabular.environment = "longtable"), include.rownames=FALSE, floating=FALSE)
+```
+\newpage
+
+```{r conditions2, results="asis", echo=FALSE}
+print(xtable(conditions %>% slice(31:60), tabular.environment = "longtable"), include.rownames=FALSE, floating=FALSE)
+```

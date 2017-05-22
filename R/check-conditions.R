@@ -1,22 +1,18 @@
-library(dplyr)
-library(tidyr)
+library(tidyverse)
 library(xlsx)
 library(stringi)
 library(limma)
-library(readr)
-library(data.table)
+library(plyr)
 
-directory <- '/home/labs/dnalab/share/lims/R/gcat-cohort/output/export'
-directory_conditions <- 'output/check/conditions'
+directory_conditions <- 'output/conditions'
 
 #' @title Get conditions from GCAT
 #' 
 #' @export
 get_conditions <- function() {
 
-  questionari <- read.csv(file.path(directory, 'QUESTIONARI/data.csv'), sep = ',')
-  participants <- read.csv(file.path(directory, 'Participants/data.csv'), sep = ',')
-  all <- merge(participants, questionari, by='entity_id')
+  all <- participants %>%
+    left_join(gcat)
   
   ### DIABETES
   
@@ -67,17 +63,18 @@ get_conditions <- function() {
   all.wide <- all.ds %>% spread(condition, count)
   all.wide[is.na(all.wide)] <- 0
   
-  write.csv2(all.summary, file.path(directory_conditions, 'text/summary.csv'), row.names = FALSE, quote = TRUE)
-  write.csv2(all.ds, file.path(directory_conditions, 'text/long.csv'), row.names = FALSE, quote = TRUE)
-  write.csv2(all.wide, file.path(directory_conditions, 'text/wide.csv'), row.names = FALSE, quote = TRUE)
+  write_csv(all.summary, file.path(directory_conditions, 'text/summary.csv'))
+  write_csv(all.ds, file.path(directory_conditions, 'text/long.csv'))
+  write_csv(all.wide, file.path(directory_conditions, 'text/wide.csv'))
 }
 
 #' @title Get conditions dataset
 #' @param filename Conditions file
 #' @export
 get_conditions_ds <- function(filename) {
-  long <- fread(filename)
-  summary <- fread('inst/extdata/conditions/summary-cim9.csv')
+  long <- read_csv(filename)
+  summary <- read_csv('inst/extdata/conditions/summary-cim9.csv')
+  
   phenotype <- merge(long, summary, by.x = 'condition', by.y = 'Text')
   phenotype.icd9 <- phenotype %>%
     filter(!is.na(Codi) & Codi != '') %>%
@@ -108,7 +105,7 @@ get_conditions_genotyped_ds <- function() {
   
   as.data.table(table(conditions$condition)) %>% arrange(desc(N)) %>% write.xlsx2('output/conditions/all.xlsx')
   
-  genotyped <- read.csv2(file.path('output/genotyped', 'data.csv'), sep = ',', stringsAsFactors = FALSE) %>%
+  genotyped <- read_csv2(file.path('output/genotyped', 'data.csv'), sep = ',', stringsAsFactors = FALSE) %>%
     merge(conditions)
   genotyped
 }
@@ -139,8 +136,8 @@ save_conditions_genotyped <- function() {
 
   ### VENN DIAGRAM
   
-  conditions <- read.csv2(file.path(directory_conditions, 'wide.csv'), sep = ',', stringsAsFactors = FALSE)
-  conditions <- read.csv2(file.path('output/genotyped', 'data.csv'), sep = ',', stringsAsFactors = FALSE) %>%
+  conditions <- read_csv(file.path(directory_conditions, 'wide.csv'))
+  conditions <- read_csv2(file.path('output/genotyped', 'data.csv')) %>%
     merge(conditions)
   
   conditions <- conditions %>%
@@ -180,17 +177,17 @@ save_conditions_genotyped <- function() {
 
 #' @title Merge CIM9MC
 mergeCIM9MC <- function() {
-  summary <- fread(file.path(directory_conditions, 'text/summary.csv')) %>%
+  summary <- read_csv(file.path(directory_conditions, 'text/summary.csv')) %>%
     dplyr::rename(
       Text=Var1
     )
-  summary.cim9 <- fread('inst/extdata/conditions/summary-cim9-updated.csv') %>%
-    select(
+  summary.cim9 <- read_csv('inst/extdata/conditions/summary-cim9-updated.csv') %>%
+    dplyr::select(
       -Freq
     )
   summary.cim9 <- merge(summary, summary.cim9, all.x = TRUE)
   summary.cim9 <- summary.cim9[with(summary.cim9, order(-Freq)),]
-  write.csv(summary.cim9, file.path(directory_conditions, 'summary-cim9-updated.csv'), row.names = FALSE, na = '')
+  write_csv(summary.cim9, file.path(directory_conditions, 'summary-cim9-updated.csv'))
 }
 
 #' @title Read CIM9CM file
@@ -258,8 +255,8 @@ getSummary <- function() {
   
   cim9mc <- readCIM9MC(file.path('inst/extdata/conditions', 'CIM9MC_2014_2015_20140313.txt'))
   
-  summary.cim9 <- fread(file.path(directory_conditions, 'summary-cim9-updated.csv')) %>%
-    select(Text,
+  summary.cim9 <- read_csv(file.path(directory_conditions, 'summary-cim9-updated.csv')) %>%
+    dplyr::select(Text,
            Freq,
            Codi)
   
@@ -270,65 +267,60 @@ getSummary <- function() {
   cim9mc$Gran_grup_CCS <- gsub("^\\s+|\\s+$", "", cim9mc$Gran_grup_CCS)
   cim9mc$Desc_gran_grup_CCS <- gsub("^\\s+|\\s+$", "", cim9mc$Desc_gran_grup_CCS)
   
-  cim9mc.select <- select(cim9mc,
-                          Codi,
-                          Descr_codi,
-                          Gran_grup_classif,
-                          Descr_gran_grup_clasif,
-                          Gran_grup_CCS,
-                          Desc_gran_grup_CCS)
+  cim9mc.select <- cim9mc %>%
+    dplyr::select(
+      Codi,
+      Descr_codi,
+      Gran_grup_classif,
+      Descr_gran_grup_clasif,
+      Gran_grup_CCS,
+      Desc_gran_grup_CCS)
   
-  summary.cim9.merge <-
-    merge(summary.cim9, cim9mc.select, all.x = TRUE, by.x = 'Codi', by.y = 'Codi') %>%
-    select(Text,
-           Freq,
-           Codi,
-           Descr_codi,
-           Gran_grup_classif,
-           Descr_gran_grup_clasif
-           )
+  summary.cim9.merge <- summary.cim9 %>%
+    merge(cim9mc.select, all.x = TRUE, by.x = 'Codi', by.y = 'Codi') %>%
+    dplyr::select(
+      Text,
+      Freq,
+      Codi,
+      Descr_codi,
+      Gran_grup_classif,
+      Descr_gran_grup_clasif)
   
   summary.cim9.merge <- summary.cim9.merge %>%
     mutate(Codi_3 = substring(summary.cim9.merge$Codi, 1, 3))
   
   c3 <- cim9mc %>%
-    select(Codi, Descr_codi) %>%
+    dplyr::select(Codi, Descr_codi) %>%
     dplyr::rename(Codi_3 = Codi) %>%
     dplyr::rename(Descr_codi_3 = Descr_codi)
   
   summary.cim9.merge.3 <- merge(summary.cim9.merge, c3, by='Codi_3', all.x = TRUE) %>%
-    select(Text,
-           Freq,
-           Codi,
-           Descr_codi,
-           Codi_3,
-           Descr_codi_3,
-           Gran_grup_classif,
-           Descr_gran_grup_clasif
-           )
+    dplyr::select(
+      Text,
+      Freq,
+      Codi,
+      Descr_codi,
+      Codi_3,
+      Descr_codi_3,
+      Gran_grup_classif,
+      Descr_gran_grup_clasif)
   
   summary.cim9.merge.3[is.na(summary.cim9.merge.3)] <- ''
   
   summary.cim9.merge.3 <- summary.cim9.merge.3 %>%
     arrange(desc(Freq))
   
-  write.csv2(summary.cim9.merge.3, file.path(directory_conditions, 'summary-cim9-updated.csv'), row.names = FALSE, fileEncoding = 'utf-8')
+  write_csv(summary.cim9.merge.3, file.path(directory_conditions, 'summary-cim9-updated.csv'))
 }
 
 save <- function() {
   
-  participants <- read_csv(file.path(directory, 'Participants/data.csv')) %>%
-    select(
-      entity_id
-    )
-  
   save_ds(
-    participants,
     get_conditions_ds(file.path(directory_conditions, 'text/long.csv')) %>%
-      dplyr::rename(
-        codi=Codi
+      mutate(
+        codi=sprintf('icd9_%s', Codi)
       ) %>%
-      select(
+      dplyr::select(
         entity_id,
         codi
       ),
@@ -336,39 +328,37 @@ save <- function() {
     )
   
   save_ds(
-    participants,
     get_conditions_ds(file.path(directory_conditions, 'text/long.csv')) %>%
-      dplyr::rename(
-        codi=Codi_3
+      mutate(
+        codi=sprintf('icd9_code3_%s', Codi_3)
       ) %>%
-      select(
+      dplyr::select(
         entity_id,
         codi
       ),
-    'icd9_3'
+    'icd9_code3'
   )
   
   save_ds(
-    participants,
     get_conditions_ds(file.path(directory_conditions, 'text/long.csv')) %>%
-      dplyr::rename(
-        codi=Gran_grup_classif
+      mutate(
+        codi=sprintf('icd9_group_%s', Gran_grup_classif)
       ) %>%
-      select(
+      dplyr::select(
         entity_id,
         codi
       ),
-    'icd9_grup'
+    'icd9_group'
   )
   
 }
 
-save_ds <- function(participants, ds, prefix) {
+save_ds <- function(ds, prefix) {
 
   #ICD9 long
   ds %>%
     unique() %>%
-    write.csv2(file.path(directory_conditions, file.path(prefix, 'long.csv')), row.names = FALSE, quote = FALSE)
+    write_csv(file.path('output/check', prefix, 'long.csv'))
   
   #ICD9 wide
   ds_wide <- ds %>%
@@ -380,15 +370,15 @@ save_ds <- function(participants, ds, prefix) {
       !is.na(codi) & codi != ''
     ) %>%
     spread(codi, value) %>%
-    right_join(participants)
+    right_join(participants %>% dplyr::select(entity_id))
   
   ds_wide[is.na(ds_wide)] <- 0
   
   ds_wide %>%
-    write.csv2(file.path(directory_conditions, file.path(prefix, 'wide.csv')), row.names = FALSE, quote = FALSE)
+    write_csv(file.path('output/check', prefix, 'data.csv'))
 
   arrange(data.frame(table(ds$codi)), desc(Freq)) %>%
-    write.csv2(file.path(directory_conditions, file.path(prefix, 'summary.csv')), row.names = FALSE, quote = FALSE)
+    write_csv(file.path('output/check', prefix, 'summary.csv'))
 
   #lapply(unique(icd9_3$icd), function(icd_code) {
   #  attr(icd9_3_wide$variable, icd_code) <- as.character(unique((icd9_3 %>% filter(icd==icd_code))$description))
@@ -396,7 +386,7 @@ save_ds <- function(participants, ds, prefix) {
 }
 
 graphics <- function() {
-  read_csv2(file.path(directory_conditions, 'icd9_grup/wide.csv')) %>% correlation_matrix
+  read_csv(file.path(directory_conditions, 'icd9_grup/wide.csv')) %>% correlation_matrix
 }
 
 correlation_matrix <- function(ds) {
@@ -416,3 +406,22 @@ get_conditions()
 mergeCIM9MC()
 getSummary()
 save()
+
+summary <- read_csv(file.path(directory_conditions, 'summary-cim9-updated.csv'))
+summary <- summary %>%
+  select(
+    Freq,
+    Codi,
+    Descr_codi)
+
+summary_all <- ddply(summary, .(Codi, Descr_codi), summarise, Freq = sum(Freq)) %>%
+  filter(
+    !is.na(Codi)
+  ) %>%
+  arrange(desc(Freq)) %>%
+  mutate(
+    Percent = round(Freq/nrow(participants %>% filter(Admin.Interview.status == 'COMPLETED')), digits = 2)*100
+  )
+
+summary_all %>% write_csv(file.path(directory_conditions, 'summary.csv'))
+summary_all %>% write.xlsx(file.path(directory_conditions, 'summary.xlsx'))

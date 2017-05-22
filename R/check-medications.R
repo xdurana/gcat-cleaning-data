@@ -1,12 +1,13 @@
-library(dplyr)
-library(tidyr)
+library(tidyverse)
 
 system('sh exec/jupyter.sh')
+
+directory <- '/home/labs/dnalab/share/lims/R/gcat-cohort/output/export'
 
 #' @title Get medications file
 #' @export
 get_medications <- function() {
-  medications <- read.csv2('output/check/medications/data.csv', sep = ',', stringsAsFactors = FALSE)
+  medications <- read.csv2('output/medications/data.csv', sep = ',', stringsAsFactors = FALSE)
   medications
 }
 
@@ -36,7 +37,37 @@ get_medications_atc_ds <- function() {
 #' @title Create RData from phenotypes
 #' @export
 save_medications <- function() {
-  write.table(get_medications_atc_ds(), 'output/check/medications/atc.csv', row.names = FALSE, sep = ',')
+  medications <- get_medications_atc_ds()
+  medications %>% write_csv('output/medications/atc.csv')
+}
+
+save_atc <- function() {
+  medications <- read_csv('output/medications/atc.csv') %>%
+    transform(
+      value=substring(sprintf("atc_%s", value), 1, 7),
+      count = 1
+    )
+  
+  medications <- medications %>%
+    dplyr::select(
+      id,
+      value,
+      count
+    ) %>%
+    unique() %>%
+    spread(value, count, fill = 0) %>%
+    dplyr::rename(entity_id=id)
+  
+  as.data.frame(table(medications$value)) %>% arrange(desc(Freq)) %>% write_csv('output/medications/summary.csv')
+  
+  medications <- participants %>%
+    dplyr::select(entity_id) %>%
+    left_join(medications)
+
+  medications[is.na(medications)] <- 0
+    
+  medications %>% write_csv('output/check/atc/data.csv')
 }
 
 save_medications()
+save_atc()
