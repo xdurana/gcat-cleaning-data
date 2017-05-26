@@ -1,5 +1,7 @@
 library(tidyverse)
 
+directory <- 'bmi'
+
 bmi <- function(height, weight) {
   round(weight/(height/100)^2, 2)
 }
@@ -44,6 +46,21 @@ ds <- ds %>%
       NA,
       weight
     )
+  ) %>%
+  mutate(
+    bmi_who = cut(
+      bmi,
+      breaks = c(-Inf, 18.5, 25, 30, Inf),
+      labels = c("underweight", "normal weight", "overweight", "obesity"),
+      right = FALSE
+    )
+  ) %>%
+  mutate(
+    bmi_who_obesity = ifelse(bmi_who %in% c('obesity'), 1, 0)
   )
 
-ds %>% write_csv('output/check/bmi/data.csv')
+ds %>% write_csv(sprintf('output/check/%s/data.csv', directory))
+
+missings_plot(ds, directory)
+pair_plot(ds %>% select(height, weight), directory, 'bmi')
+histogram_plot(ds, directory, 'bmi')

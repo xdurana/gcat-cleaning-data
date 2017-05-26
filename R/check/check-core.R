@@ -2,7 +2,7 @@ library(tidyverse)
 library(gtools)
 library(xlsx)
 
-directory <- '/home/labs/dnalab/share/lims/R/gcat-seleccio'
+directory <- '/home/labs/dnalab/share/lims/R/gcat-core'
 
 getCurrentSelectedPlates <- function() {
   dirs <- list.dirs(file.path(directory, 'plates'))

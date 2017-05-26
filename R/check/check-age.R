@@ -22,9 +22,7 @@ ds <- gcat %>%
   ) %>%
   filter(
     Admin.Interview.status == 'COMPLETED'
-  )
-
-ds <- ds %>%
+  ) %>%
   mutate(
     Admin.Participant.age=as.numeric(Admin.Participant.age),
     EDAD_ANOS=as.numeric(EDAD_ANOS),
@@ -36,8 +34,8 @@ ds <- ds %>%
     Admin.Participant.birthDate=as.Date(Admin.Participant.birthDate),
     Admin.Interview.startDate=as.Date(Admin.Interview.startDate),
     DIFF_DAYS=FECHA_NACIMIENTO - Admin.Participant.birthDate,
-    Admin.Participant.age.CALC=as.period(interval(Admin.Participant.birthDate, Admin.Interview.startDate), unit = 'year')$year,
-    age=as.period(interval(FECHA_NACIMIENTO, Admin.Interview.startDate), unit = 'year')$year
+    Admin.Participant.age.CALC=floor(as.numeric(interval(Admin.Participant.birthDate, Admin.Interview.startDate), unit = 'year')),
+    age=floor(as.numeric(interval(FECHA_NACIMIENTO, Admin.Interview.startDate), unit = 'year'))
   )
 
 ### Tots els errors

@@ -1,9 +1,11 @@
 library(tidyverse)
 library(rjson)
 library(gtools)
+library(xlsx)
 
 datasets = c(
   'age',
+  'alcohol',
   'atc',
   'birth_weight',
   'bmi',
@@ -19,10 +21,12 @@ datasets = c(
   'icd9_code3',
   'life',
   'offspring',
+  'predimed',
   'psychology',
   'self_perceived_health',
   'skin',
   'sleep',
+  'smoking',
   'whr',
   'women-health',
   'work'
@@ -53,20 +57,14 @@ variables <- variables %>%
   mutate(
     nas = sapply(variables$name, function(variable) {
       sum(is.na(ds[variable]))
-    }) 
+    }),
+    cases = ifelse(type %in% c('binary'),
+                   sapply(variables$name, function(variable) {
+                     table(ds[variable])[2]
+                   }),
+                   NA
+                   )
   )
 
 variables %>% write_csv('output/check/heritability/variables.csv')
-
-
-cases <- function(variable, type) {
-  ifelse(type %in% c('binary'), min(table(heritability[variable])), NA)
-}
-
-controls <- function(variable, type) {
-  ifelse(type %in% c('binary'), max(table(heritability[variable])), NA)
-}
-
-distribution <- function(variable, type) {
-  ifelse(type %in% c('categorical', 'binary'), toJSON(table(heritability[variable])), NA)
-}
+variables %>% write.xlsx2('output/check/heritability/variables.xlsx')

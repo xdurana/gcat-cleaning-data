@@ -327,17 +327,40 @@ save <- function() {
     'icd9'
     )
   
-  save_ds(
-    get_conditions_ds(file.path(directory_conditions, 'text/long.csv')) %>%
-      mutate(
-        codi=sprintf('icd9_code3_%s', Codi_3)
-      ) %>%
-      dplyr::select(
-        entity_id,
-        codi
-      ),
-    'icd9_code3'
-  )
+  icd9_code3 <- get_conditions_ds(file.path(directory_conditions, 'text/long.csv')) %>%
+    mutate(
+      codi=sprintf('icd9_code3_%s', Codi_3)
+    ) %>%
+    dplyr::select(
+      entity_id,
+      codi
+    )
+  save_ds(icd9_code3, 'icd9_code3')
+
+  icd9_code3 <- get_conditions_ds(file.path(directory_conditions, 'text/long.csv')) %>%
+    mutate(
+      codi=sprintf('icd9_code3_%s', Codi_3)
+    ) %>%
+    select(
+      Codi_3,
+      Descr_codi_3
+    ) %>%
+    unique %>%
+    arrange(Codi_3) %>%
+    mutate(
+      name = sprintf('icd9_code3_%s', Codi_3),
+      category = 'Conditions',
+      description = Descr_codi_3,
+      type = 'binary'
+    ) %>%
+    select(
+      name,
+      category,
+      description,
+      type
+    )
+  
+  icd9_code3 %>% write_csv('output/check/icd9_code3/variables.csv')  
   
   save_ds(
     get_conditions_ds(file.path(directory_conditions, 'text/long.csv')) %>%

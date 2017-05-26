@@ -1,9 +1,5 @@
 library(tidyverse)
 
-system('sh exec/jupyter.sh')
-
-directory <- '/home/labs/dnalab/share/lims/R/gcat-cohort/output/export'
-
 #' @title Get medications file
 #' @export
 get_medications <- function() {

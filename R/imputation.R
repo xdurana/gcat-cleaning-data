@@ -3,46 +3,26 @@ library(mice)
 library(VIM)
 library(lattice)
 library(missMDA)
+library(FactoMineR)
 
 heritability <- read_csv(file.path('output/check/heritability', 'data.csv'))
 variables <- read_csv(file.path('output/check/heritability', 'variables.csv'))
 
-data <- heritability %>%
-  filter(
-    gender == 1
-  ) %>%
+ds <- heritability %>%
   select(
     -one_of((variables %>% filter(type %in% c('date', 'string')))$name)
   )
 
-mca <- function(data.to_impute) {
-  library(FactoMineR)
-  
-  data(vnf)
-  
-  ds <- data %>%
-    select(
-      age,
-      height,
-      weight,
-      hip,
-      waist
-    ) %>%
-    slice(1:100)
-  
-  nb <- estim_ncpPCA(ds, scale = TRUE)
-  imputeFAMD(ds)
-  
-  mca1 = MCA(data, graph = FALSE)
-  PCA(ds, scale.unit=TRUE, ncp=5, graph=T)
-}
+data_women <- ds %>% filter(gender == 1)
+data_men <- ds %>% filter(gender == 0)
 
-mosaic <- function(data.to_impute) {
-  library(graphics)
-  mosaicplot(data.imp, shade = TRUE, las=2, main = "height")
-}
+ds.women <- prepare(data_women, variables, 'women')
+ds.men <- prepare(data_men, variables, 'men')
 
-prepare <- function(data, variables) {
+impute_mice(ds.women, 'women')
+impute_mice(ds.men, 'men')
+
+prepare <- function(data, variables, name) {
 
   # imputation procedure from https://datascienceplus.com/imputing-missing-data-with-r-mice-package/
   # http://web.maths.unsw.edu.au/~dwarton/missingDataLab.html
@@ -50,7 +30,7 @@ prepare <- function(data, variables) {
   
   variables.complete <- variables %>%
     filter(
-      nas < 0.05*nrow(data)
+      nas < 1*nrow(data)
     )
   
   data.complete <- data %>%
@@ -75,7 +55,55 @@ prepare <- function(data, variables) {
     select(
       one_of(variables.complete.to_impute_numeric$name)
     )
+  
+  ds <- data.to_impute %>%
+    select(
+      -contains('icd9_'),
+      -contains('atc_')
+    )
+  
+  png(file.path('output/check/heritability', sprintf('missings_%s.png', name)), width = 800, height = 600)
+  aggr_plot <- aggr(
+    ds,
+    col=c('navyblue','red'), 
+    numbers=TRUE, 
+    sortVars=TRUE, 
+    labels=names(ds),
+    cex.axis=.7,
+    gap=0,
+    ylab=c("Histogram of missing data","Pattern")
+  )
+  dev.off()
+  
+  #marginplot(ds[, c("height","waist")])
+  
+  ds
 }  
+
+impute_mice <- function(ds, name) {
+  
+  data.imp <- mice(ds, seed = 1233)
+  summary(data.imp)
+  data.imputed <- complete(data.imp)
+  
+  # Inspecting the distribution of original and imputed data
+  png(file.path('output/check/heritability', sprintf('xyplot_%s.png', name)), width = 800, height = 600)
+  xyplot(data.imp, weight ~ height + hip + waist, pch=18, cex=1)
+  dev.off()
+  
+  # The density of the imputed data for each imputed dataset
+  png(file.path('output/check/heritability', sprintf('density_%s.png', name)), width = 800, height = 600)
+  densityplot(data.imp)
+  dev.off()
+  
+  # The distributions of the variables as individual points
+  #stripplot(data.imp, pch = 20, cex = 1.2)
+  
+  # PCA
+  png(file.path('output/check/heritability', sprintf('pca_%s.png', name)), width = 800, height = 600)
+  PCA(data.imputed, scale.unit=TRUE, ncp=5, graph=T)
+  dev.off()
+}
 
 impute_pca <- function(data.to_impute) {
   
@@ -84,41 +112,28 @@ impute_pca <- function(data.to_impute) {
   res.pca <- PCA(comp$completeObs)
 }
 
-impute_mice <- function(data.to_impute) {
+mca <- function(data.to_impute) {
   
-  ds <- data.to_impute %>%
-    slice(1:1000)
+  data(vnf)
   
-  # impute
+  ds <- data %>%
+    select(
+      age,
+      height,
+      weight,
+      hip,
+      waist
+    ) %>%
+    slice(1:100)
   
-  aggr_plot <- aggr(
-    ds,
-    col=c('navyblue','red'), 
-    numbers=TRUE, 
-    sortVars=TRUE, 
-    labels=names(data.to_impute),
-    cex.axis=.7,
-    gap=3,
-    ylab=c("Histogram of missing data","Pattern")
-  )
+  nb <- estim_ncpPCA(ds, scale = TRUE)
+  imputeFAMD(ds)
   
-  marginplot(ds[, c("height","waist")])
-  
-  pbox(ds, pos=1, int=FALSE, cex=1.2)
-  
-  data.imp <- mice(ds, seed = 1233)
-  summary(data.imp)
-  data.imputed <- complete(data.imp)
-  
-  # Inspecting the distribution of original and imputed data
-  xyplot(data.imp, weight ~ age + height, pch=18, cex=1)
-  
-  # The density of the imputed data for each imputed dataset
-  densityplot(data.imp)
-  
-  # The distributions of the variables as individual points
-  #stripplot(data.imp, pch = 20, cex = 1.2)
-  
-  # PCA
-  PCA(data.imputed, scale.unit=TRUE, ncp=5, graph=T)
+  mca1 = MCA(data, graph = FALSE)
+  PCA(ds, scale.unit=TRUE, ncp=5, graph=T)
+}
+
+mosaic <- function(data.to_impute) {
+  library(graphics)
+  mosaicplot(data.imp, shade = TRUE, las=2, main = "height")
 }
