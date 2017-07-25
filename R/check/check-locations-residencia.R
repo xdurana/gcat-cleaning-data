@@ -8,7 +8,7 @@ municipis <- read_csv2('inst/extdata/municipios/t446mun.csv', skip = 5) %>%
     `Tipus municipi` = cut(as.numeric(Total), breaks = c(0, 2000, 20000, 500000, 5000000), labels = c('1 Poble petit', '2 Poble', '3 Ciutat', '4 Ciutat gran'))
   )
 
-locations_residencia <- read_csv2('output/check/locations/location.csv') %>%
+locations_residencia <- read_csv('output/check/locations/location.csv') %>%
   select(
     entity_id,
     MUNICIPIO_RESIDENCIA
@@ -26,7 +26,7 @@ residencia <- locations_residencia %>%
 residencia %>%
   write_csv('output/check/locations/residencia.csv')
 
-locations_municipi <- read_csv2('output/check/locations/location.csv') %>%
+locations_municipi <- read_csv('output/check/locations/location.csv') %>%
   select(
     entity_id,
     MUNICIPIO_NACIMIENTO

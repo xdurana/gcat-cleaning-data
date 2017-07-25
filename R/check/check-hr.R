@@ -25,6 +25,11 @@ tension_arterial <- tension_arterial %>%
     systolic_blood_pressure,
     diastolic_blood_pressure,
     heart_rate
+  ) %>%
+  mutate(
+    systolic_blood_pressure_c = NA,
+    diastolic_blood_pressure_c = NA,
+    heart_rate_c = NA
   )
 
 tension_arterial %>% write_csv('output/check/hr/data.csv')

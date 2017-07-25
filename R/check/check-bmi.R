@@ -1,4 +1,5 @@
 library(tidyverse)
+library(VIM)
 
 directory <- 'bmi'
 
@@ -53,10 +54,18 @@ ds <- ds %>%
       breaks = c(-Inf, 18.5, 25, 30, Inf),
       labels = c("underweight", "normal weight", "overweight", "obesity"),
       right = FALSE
+    ),
+    bmi_deep = cut(
+      bmi,
+      breaks = c(0, 16.00, 17.00, 18.50, 25.00, 30.00, 35.00, 40.00, Inf),
+      labels = c("Severe thinness", "Moderate thinness", "Mild thinness", "Normal range", "Pre-obese", "Obese class I", "Obese class II", "Obese class III"),
+      right = FALSE
     )
   ) %>%
   mutate(
-    bmi_who_obesity = ifelse(bmi_who %in% c('obesity'), 1, 0)
+    bmi_who_obesity = ifelse(bmi_who %in% c('obesity'), 1, 0),
+    height_c = NA,
+    weight_c = NA
   )
 
 ds %>% write_csv(sprintf('output/check/%s/data.csv', directory))

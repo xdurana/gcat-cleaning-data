@@ -5,6 +5,7 @@ namespace :datacleaning do
   task :check do
     Dir.chdir(SCRIPTS_DIR) do
       sh %{/soft/bin/Rscript R/check.R run}
+      sh %{/soft/bin/Rscript R/summary-report.R}
     end
   end
 

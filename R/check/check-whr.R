@@ -8,6 +8,15 @@ whr <- function(waist, hip) {
 
 export_dir <- '/home/labs/dnalab/share/lims/R/gcat-cohort/output/export'
 
+MIN_HIP = 60
+MAX_HIP = 150
+
+MIN_WAIST = 50
+MAX_WAIST = 160
+
+MIN_WHR = 0.5
+MAX_WHR = 1.3
+
 ds <- read_csv(file.path(export_dir, 'CinturaCadera/data.csv')) %>%
   select(
     entity_id,
@@ -24,6 +33,14 @@ ds <- read_csv(file.path(export_dir, 'CinturaCadera/data.csv')) %>%
     waist=ifelse(diff_cintura > 1, NA, round((`1_Cintura` + `2_Cintura`)/2, digits=2)),
     hip=ifelse(diff_cadera > 1, NA, round((`1_Cadera` + `2_Cadera`)/2, digits=2)),
     whr=whr(waist, hip)
+  ) %>%
+  filter(
+    waist < MAX_WAIST &
+    waist > MIN_WAIST &
+    hip < MAX_HIP &
+    hip > MIN_HIP &
+    whr < MAX_WHR &
+    whr > MIN_WHR
   ) %>%
   left_join(
     gcat %>% select(entity_id, SEXO)
@@ -59,6 +76,10 @@ ds <- ds %>%
     whr,
     whr_who,
     whr_who_obesity
+  ) %>%
+  mutate(
+    waist_c = NA,
+    hip_c = NA
   )
   
 ds %>% write_csv(sprintf('output/check/%s/data.csv', directory))

@@ -6,7 +6,6 @@ export_dir <- '/home/labs/dnalab/share/lims/R/gcat-cohort/output/export'
 gcat <- read_csv(file.path(export_dir, 'QUESTIONARI/data.csv'))
 participants <- read_csv(file.path(export_dir, 'Participants/data.csv'))
 
-#source('R/check/check-last-intake.R')
 source('R/check/check-locations.R')
 source('R/check/check-locations-residencia.R')
 
@@ -36,5 +35,8 @@ source('R/check/check-conditions.R')
 source('R/check/check-medications.R')
 source('R/check/check-core.R')
 source('R/check/check-alcohol.R')
+source('R/check/check-last-intake.R')
+source('R/check/check-hemoglobin.R')
 
-source('R/heritability.R')
+source('R/check/check-all.R')
+source('R/check/check-imputation.R')

@@ -20,9 +20,6 @@ ds <- gcat %>%
         Admin.Interview.startDate
       )
   ) %>%
-  filter(
-    Admin.Interview.status == 'COMPLETED'
-  ) %>%
   mutate(
     Admin.Participant.age=as.numeric(Admin.Participant.age),
     EDAD_ANOS=as.numeric(EDAD_ANOS),
@@ -53,6 +50,7 @@ errors <- ds %>%
     DIFF_DAYS
   ) %>%
   filter(
+    is.na(age) |
     !(Admin.Participant.age == Admin.Participant.age.CALC &
         Admin.Participant.age.CALC == EDAD_ANOS &
         EDAD_ANOS == age &
@@ -61,9 +59,6 @@ errors <- ds %>%
   )
 
 ds %>%
-  filter(
-    EDAD_ANOS == age
-  ) %>%
   select(
     entity_id,
     age

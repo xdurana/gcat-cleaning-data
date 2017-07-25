@@ -1,7 +1,5 @@
-library(data.table)
+library(tidyverse)
 library(xlsx)
-library(dplyr)
-library(plyr)
 
 municipios <- read.xlsx2('inst/extdata/municipios/17codmun.xlsx', sheetIndex = 1, startRow = 2) %>%
   mutate(
@@ -21,11 +19,6 @@ correccions <- read.xlsx2('inst/extdata/municipios/correccions.xlsx', sheetIndex
   transform(
     x=gsub("\\)", "", x)
   )
-
-export_dir <- '/home/labs/dnalab/share/lims/R/gcat-cohort/output/export'
-gcat <- read.csv2(file.path(export_dir, 'QUESTIONARI/data.csv'), sep = ',', encoding="UTF-8")
-
-gcat <- read.csv2('/home/labs/dnalab/share/lims/GCAT Database/2016-10-01/gcat_1.csv', sep = ';', encoding="UTF-8")
 
 gcat.pais <- gcat %>%
   select(
@@ -112,7 +105,7 @@ gcat.municipis %>%
     MUNICIPIO_RESIDENCIA,
     PAIS_NACIMIENTO
   ) %>%
-  write.csv2('output/check/locations/location.csv', row.names = FALSE)
+  write_csv('output/check/locations/location.csv')
 
 ### Create text file with municipios
 

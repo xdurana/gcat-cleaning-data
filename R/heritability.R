@@ -1,70 +1,18 @@
 library(tidyverse)
-library(rjson)
-library(gtools)
-library(xlsx)
 
-datasets = c(
-  'age',
-  'alcohol',
-  'atc',
-  'birth_weight',
-  'bmi',
-  'core',
-  'eating',
-  'education',
-  'eyes',
-  'follow-up',
-  'gender',
-  'hair',
-  'handedness',
-  'hr',
-  'icd9_code3',
-  'life',
-  'offspring',
-  'predimed',
-  'psychology',
-  'self_perceived_health',
-  'skin',
-  'sleep',
-  'smoking',
-  'whr',
-  'women-health',
-  'work'
-)
+ids <- read_csv('inst/extdata/heritability/sample_name_GCAT_core.txt')
+all <- read_csv('output/check/imputation/imputed.csv')
+variables <- read_csv('output/check/imputation/variables.csv')
 
-rd <- function(dataset) {
-  read_csv(file.path('output/check', dataset, 'data.csv'))
-}
+ids_all <-
+  ids %>%
+  left_join(all) %>%
+  group_by(entity_id) %>%
+  arrange(core_extraction_plate) %>%
+  filter(row_number()==n()) %>%
+  ungroup()
 
-va <- function(dataset) {
-  read_csv(file.path('output/check', dataset, 'variables.csv'))
-}
-
-ds <- rd('participants')
-for(i in 1:length(datasets)) {
-  print(datasets[i])
-  ds <- ds %>% left_join(rd(datasets[i]))
-}
-
-ds %>% filter(status == 'COMPLETED') %>% select(-status) %>% write_csv('output/check/heritability/data.csv')
-
-variables <- do.call(bind_rows, lapply(datasets, function(ds) {
-  va(ds)
-})) %>%
-  unique()
-
-variables <- variables %>%
-  mutate(
-    nas = sapply(variables$name, function(variable) {
-      sum(is.na(ds[variable]))
-    }),
-    cases = ifelse(type %in% c('binary'),
-                   sapply(variables$name, function(variable) {
-                     table(ds[variable])[2]
-                   }),
-                   NA
-                   )
-  )
-
+ids_all %>% write_csv('output/check/heritability/data.csv')
 variables %>% write_csv('output/check/heritability/variables.csv')
-variables %>% write.xlsx2('output/check/heritability/variables.xlsx')
+
+which(is.na(ids_all$age))

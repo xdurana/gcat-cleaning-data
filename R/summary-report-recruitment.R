@@ -23,7 +23,7 @@ recruitment <- function() {
       year,
       centre
     ) %>%
-    summarise(n = n()) %>%
+    dplyr::summarise(n = n()) %>%
     arrange(year, desc(n))
   
   count %>%

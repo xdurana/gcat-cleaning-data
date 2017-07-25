@@ -2,9 +2,6 @@ library(tidyverse)
 library(xlsx)
 
 all <- participants %>%
-  filter(
-    Admin.Interview.status == 'COMPLETED'
-  ) %>%
   left_join(gcat) %>%
   select(
     entity_id,
@@ -12,7 +9,7 @@ all <- participants %>%
     SEXO
   ) %>%
   mutate(
-    gender = ifelse(Admin.Participant.gender == 'MALE' & SEXO == 1, 0, ifelse(Admin.Participant.gender == 'FEMALE' & SEXO == 2, 1, NA))
+    gender = ifelse(Admin.Participant.gender == 'MALE' & (SEXO == 1 | is.na(SEXO)), 0, ifelse(Admin.Participant.gender == 'FEMALE' & (SEXO == 2 |  is.na(SEXO)), 1, NA))
   )
 
 all %>% select(entity_id, gender) %>% write_csv('output/check/gender/data.csv')

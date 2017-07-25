@@ -1,17 +1,21 @@
 ---
-title: "GCAT summary report"
+title: "GCAT Informe de seguiment"
 date: "`r Sys.Date()`"
 output: pdf_document
-classoption: landscape
+header-includes:
+  - \usepackage{longtable}
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Recruitment
+## RECLUTAMENT
 
-Recruitment of the GCAT Genomes for Life by center and year of recruitment
+### Reclutament del GCAT per centre i any de reclutament
+
+Actualment hi ha *`r participants %>% nrow`* participants
+
 
 ```{r recruitment, echo=FALSE}
 recruitment()
@@ -19,29 +23,332 @@ recruitment()
 
 \newpage
 
-## Continuous variables
+## ENTREVISTADOR
+### Mesures
 
-```{r descriptive statistics continuous, results="asis", echo=FALSE}
-xtable(desc, tabular.environment = "longtable")
+```{r seccio mesures, results="asis", echo=FALSE}
+tableContinuous(
+  ds %>%
+    select(
+      bmi,
+      whr,
+      waist,
+      hip,
+      weight,
+      height,
+      heart_rate,
+      diastolic_blood_pressure,
+      systolic_blood_pressure
+    ) %>%
+    as.data.frame,
+  cumsum = FALSE
+)
+
+tableNominal(
+  ds %>%
+    select(
+      bmi_deep,
+      bmi_who,
+      whr_who
+    ) %>%
+    as.data.frame,
+  cumsum = FALSE
+)
+```
+
+## SECCIÓ A
+### Factors demogràfics i socioeconòmics
+
+```{r seccio a, results="asis", echo=FALSE}
+tableNominal(
+  ds %>%
+    select(
+      gender,
+      civil_status,
+      education,
+      ethnicity,
+      ethnicity_mother,
+      ethnicity_father
+    ) %>%
+    as.data.frame,
+  cumsum = FALSE
+)
+```
+
+
+\newpage
+
+## SECCIÓ B
+### Àmbit laboral
+
+```{r seccio b, results="asis", echo=FALSE}
+tableNominal(
+  ds %>%
+    select(
+      working_status
+    ) %>%
+    as.data.frame,
+  cumsum = FALSE
+)
 ```
 
 \newpage
 
-## Binary variables
+## SECCIO C
+### Activitat física
 
-```{r descriptive statistics binary, results="asis", echo=FALSE}
-print(xtable(binary %>% slice(1:25), tabular.environment = "longtable"), include.rownames=FALSE)
+```{r seccio c, results="asis", echo=FALSE}
+tableContinuous(
+  ds %>%
+    select(
+      walking_days_a_week,
+      walking_minutes_a_day,
+      weekly_domestic_labour
+    ) %>%
+    as.data.frame,
+  cumsum = FALSE
+)
+
+tableNominal(
+  ds %>%
+    select(
+      sport,
+      sport_last_year,
+      stairs
+    ) %>%
+    as.data.frame,
+  cumsum = FALSE
+)
 ```
 
 \newpage
 
-```{r descriptive statistics binary 2, results="asis", echo=FALSE}
-print(xtable(binary %>% slice(26:n()), tabular.environment = "longtable"), include.rownames=FALSE)
+## SECCIO D
+### Altres hàbits
+
+```{r seccio d, results="asis", echo=FALSE}
+tableNominal(
+  ds %>%
+    select(
+      hair_color,
+      skin_color,
+      eye_color,
+      freckling
+    ) %>%
+    as.data.frame,
+  cumsum = FALSE
+)
 ```
 
 \newpage
 
-## Conditions
+## SECCIO E
+### Tabaquisme
+
+```{r seccio e, results="asis", echo=FALSE}
+tableNominal(
+  ds %>%
+    select(
+      smoking_intensity,
+      smoking_100,
+      smoking_now,
+      smoking_habit
+    ) %>%
+    as.data.frame,
+  cumsum = FALSE
+)
+```
+
+\newpage
+
+## SECCIO F
+### Consum d'alcohol
+
+```{r seccio f, results="asis", echo=FALSE}
+tableNominal(
+  ds %>%
+    select(
+      alcohol_use,
+      alcohol_meals
+    ) %>%
+    as.data.frame,
+  cumsum = FALSE
+)
+```
+
+\newpage
+
+## SECCIÓ G
+### Alimentació
+
+```{r seccio g, results="asis", echo=FALSE}
+tableContinuous(
+  ds %>%
+    select(
+      last_intake
+    ) %>%
+    as.data.frame,
+  cumsum = FALSE
+)
+
+tableNominal(
+  ds %>%
+    select(
+      predimed_score,
+      cook_with_oil,
+      alimentos_frutas,
+      alimentos_carne_blanca,
+      alimentos_carne_roja,
+      alimentos_pescados,
+      alimentos_pasta,
+      alimentos_patata,
+      alimentos_pan,
+      alimentos_verdura,
+      alimentos_legumbre,
+      alimentos_embutidos,
+      alimentos_lacteos,
+      alimentos_huevos,
+      alimentos_dulces
+    ) %>%
+    as.data.frame,
+  cumsum = FALSE
+)
+```
+
+\newpage
+
+## SECCIÓ H
+### Historial mèdic
+
+```{r seccio h, results="asis", echo=FALSE}
+tableContinuous(
+  ds %>%
+    select(
+      weight_min,
+      weight_max
+    ) %>%
+    as.data.frame,
+  cumsum = FALSE
+)
+
+tableNominal(
+  ds %>%
+    select(
+      health_status,
+      salud_mental_feliz,
+      salud_mental_nervioso,
+      salud_mental_baja_moral,
+      salud_mental_calma,
+      salud_mental_trieste,
+      salud_mental_incapacidad      
+    ) %>%
+    as.data.frame,
+  cumsum = FALSE
+)
+```
+
+\newpage
+
+## SECCIÓ I
+### Salut de les dones
+
+```{r seccio i, results="asis", echo=FALSE}
+tableContinuous(
+  ds %>%
+    select(
+      age_at_menarche,
+      age_at_menopause,
+      reproductive_life_span,
+      pregnancy,
+      women_children
+    ) %>%
+    as.data.frame,
+  cumsum = FALSE
+)
+
+tableNominal(
+  ds %>%
+    select(
+      oc_use,
+      hrt_use,
+      menstruation,
+      menstruation_duration,
+      menopause_cause,
+      women_profile
+    ) %>%
+    as.data.frame,
+  cumsum = FALSE
+)
+```
+
+\newpage
+
+## SECCIÓ J
+### Salut dels homes
+
+```{r seccio j, results="asis", echo=FALSE}
+tableContinuous(
+  ds %>%
+    select(
+      beard_change,
+      voice_change,
+      men_children
+    ) %>%
+    as.data.frame,
+  cumsum = FALSE
+)
+
+tableNominal(
+  ds %>%
+    select(
+      prostate,
+      prostate_medication,
+      men_profile,
+      bald_20,
+      bald_30,
+      bald_40
+    ) %>%
+    as.data.frame,
+  cumsum = FALSE
+)
+```
+
+\newpage
+
+## SECCIÓ K
+### Història familiar dels pares
+
+```{r seccio k, results="asis", echo=FALSE}
+tableNominal(
+  ds %>%
+    select(
+      adopted,
+      multiple_delivery
+    ) %>%
+    as.data.frame,
+  cumsum = FALSE
+)
+```
+
+\newpage
+
+## SECCIÓ L
+### Història familiar dels germans
+
+```{r seccio l, results="asis", echo=FALSE}
+tableContinuous(
+  ds %>%
+    select(
+      brothers
+    ) %>%
+    as.data.frame,
+  cumsum = FALSE
+)
+```
+
+\newpage
+
+## MALALTIES
 
 ```{r conditions, results="asis", echo=FALSE}
 print(xtable(conditions %>% slice(1:30), tabular.environment = "longtable"), include.rownames=FALSE, floating=FALSE)
