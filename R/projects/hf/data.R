@@ -1,24 +1,24 @@
 library(tidyverse)
-library(xlsx)
+library(openxlsx)
 
-ids_all <- read_csv('output/check/heritability/data.csv')
-participants <- read_csv('output/check/participants/data.csv')
+hf_data <- read_csv('output/projects/hf/ids.csv') %>%
+  select(
+    -gender,
+    -core_sample_name,
+    -age,
+    -year_of_recruitment
+  ) %>%
+  left_join(read_csv('output/check/heritability/data.csv'))
 
-hf_data <- ids_all %>%
-  left_join(participants) %>%
-  rownames_to_column() %>%
-  mutate(
-    id = sprintf("HF%.4d", as.numeric(rowname)),
-    gender = ifelse(gender == 1, 'male', 'female')
+variables <- read.xlsx('/home/labs/dnalab/share/lims/GCAT Cessio_Colleccions/PI-2017-03 HealthForecast/PI-2017-03_Healthforecast_DOC9-Material-Data  Sheet_v1.xlsx', sheet = 4) %>%
+  filter(
+    PI_2017_3_HF %in% c('code', 'yes')
   ) %>%
   select(
-    id,
-    entity_id,
-    core_sample_name,
-    gender,
-    year_of_recruitment,
-    age
+    -X1
   )
 
-hf_data %>% write_csv('output/projects/hf/ids.csv')
-hf_data %>% as.data.frame %>% write.xlsx2('output/projects/hf/ids.xlsx', row.names = FALSE)
+hf_data_variables <- hf_data %>% select(one_of(c('id', variables$name)))
+
+hf_data_variables %>% write_csv('output/projects/hf/data.csv')
+hf_data_variables %>% as.data.frame %>% write.xlsx('output/projects/hf/data.xlsx')

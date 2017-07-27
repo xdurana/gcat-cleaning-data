@@ -9,10 +9,12 @@ datasets = c(
   'atc',
   'birth_weight',
   'bmi',
+  'cancer',
   'core',
   'eating',
   'education',
   'eyes',
+  'ethnic-group',
   'follow-up',
   'gender',
   'hair',
@@ -48,14 +50,21 @@ for(i in 1:length(datasets)) {
   ds <- ds %>% left_join(rd(datasets[i]))
 }
 
-ds %>% write_csv('output/check/all/data.csv') %>% unique()
+ds %>% write_csv('output/check/imputation/data.csv') %>% unique()
 
 variables <- do.call(bind_rows, lapply(datasets, function(ds) {
   va(ds)
 })) %>%
   unique()
 
-variables <- variables %>%
+variables <-
+  variables %>%
+  filter(
+    name %in% colnames(ds)
+  )
+
+variables <-
+  variables %>% 
   mutate(
     nas = sapply(variables$name, function(variable) {
       sum(is.na(ds[variable]))
@@ -68,5 +77,5 @@ variables <- variables %>%
     )
   )
 
-variables %>% write_csv('output/check/all/variables.csv')
-variables %>% write.xlsx2('output/check/all/variables.xlsx')
+variables %>% write_csv('output/check/imputation/variables.csv')
+variables %>% write.xlsx2('output/check/imputation/variables.xlsx')

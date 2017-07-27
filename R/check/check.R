@@ -37,6 +37,8 @@ source('R/check/check-core.R')
 source('R/check/check-alcohol.R')
 source('R/check/check-last-intake.R')
 source('R/check/check-hemoglobin.R')
+source('R/check/check-cancer.R')
+source('R/check/check-ethnic-group.R')
 
 source('R/check/check-all.R')
 source('R/check/check-imputation.R')

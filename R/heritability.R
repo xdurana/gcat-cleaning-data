@@ -1,4 +1,5 @@
 library(tidyverse)
+library(openxlsx)
 
 ids <- read_csv('inst/extdata/heritability/sample_name_GCAT_core.txt')
 all <- read_csv('output/check/imputation/imputed.csv')
@@ -13,6 +14,7 @@ ids_all <-
   ungroup()
 
 ids_all %>% write_csv('output/check/heritability/data.csv')
-variables %>% write_csv('output/check/heritability/variables.csv')
+ids_all %>% write.xlsx('output/check/heritability/data.xlsx')
 
-which(is.na(ids_all$age))
+variables %>% write_csv('output/check/heritability/variables.csv')
+variables %>% as.data.frame() %>% write.xlsx('output/check/heritability/variables.xlsx')
