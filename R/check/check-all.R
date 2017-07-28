@@ -25,6 +25,7 @@ datasets = c(
   'intake',
   'life',
   'offspring',
+  'phototype',
   'predimed',
   'psychology',
   'self_perceived_health',

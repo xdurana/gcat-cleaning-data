@@ -36,6 +36,10 @@ ds <- gcat %>%
     hair_loss_20_binary,
     hair_loss_30_binary,
     hair_loss_40_binary
+  ) %>%
+  mutate(
+    hair_color_phototype_score = ifelse(is.na(hair_color), NA, as.integer(as.character(revalue(hair_color %>% as.factor, c("1" = "16", "2" = "8", "3" = "4", "4" = "2", "5" = "0")))))
   )
+
 
 ds %>% write_csv('output/check/hair/data.csv')

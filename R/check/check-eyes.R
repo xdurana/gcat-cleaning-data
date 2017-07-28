@@ -13,6 +13,9 @@ ds <- gcat %>%
     entity_id,
     eye_color,
     eye_color_dark
+  ) %>%
+  mutate(
+    eye_color_phototype_score = ifelse(is.na(eye_color), NA, as.integer(as.character(revalue(eye_color %>% as.factor, c("1" = "12", "2" = "8", "3" = "4", "4" = "2", "5" = "0")))))
   )
 
 ds %>% write_csv('output/check/eyes/data.csv')

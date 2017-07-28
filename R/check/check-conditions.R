@@ -3,6 +3,7 @@ library(xlsx)
 library(stringi)
 library(limma)
 library(plyr)
+library(icd)
 
 directory_conditions <- 'output/conditions'
 
@@ -360,7 +361,10 @@ save <- function() {
       type
     )
   
-  icd9_code3 %>% write_csv('output/check/icd9_code3/variables.csv')  
+  icd9_code3 %>% write_csv('output/check/icd9_code3/variables_ca.csv')
+  
+  icd9_code3$description <- sapply(substring(icd9_code3$name, 12, 14), icd9ExplainShort)
+  icd9_code3 %>% write_csv('output/check/icd9_code3/variables.csv')
   
   save_ds(
     get_conditions_ds(file.path(directory_conditions, 'text/long.csv')) %>%

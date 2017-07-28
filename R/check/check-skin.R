@@ -28,6 +28,12 @@ ds <- gcat %>%
     skin_tanning_without_protection,
     freckling,
     freckling_binary
+  ) %>%
+  mutate(
+    skin_sensitivity_to_sun_phototype_score = ifelse(is.na(skin_sensitivity_to_sun), NA, as.integer(as.character(revalue(skin_sensitivity_to_sun %>% as.factor, c("1" = "0", "2" = "2", "3" = "4", "4" = "9", "5" = "12"))))),
+    skin_tanning_without_protection_phototype_score = ifelse(is.na(skin_tanning_without_protection), NA, as.integer(as.character(revalue(skin_tanning_without_protection %>% as.factor, c("1" = "8", "2" = "4", "3" = "2", "4" = "0"))))),
+    skin_color_phototype_score = ifelse(is.na(skin_color), NA, as.integer(as.character(revalue(skin_color %>% as.factor, c("1" = "16", "2" = "12", "3" = "8", "4" = "2", "5" = "0"))))),
+    freckling_phototype_score = ifelse(is.na(freckling), NA, as.integer(as.character(revalue(freckling %>% as.factor, c("1" = "0", "2" = "4", "3" = "6", "4" = "6", "5" = "8")))))
   )
 
 ds %>% write_csv('output/check/skin/data.csv')

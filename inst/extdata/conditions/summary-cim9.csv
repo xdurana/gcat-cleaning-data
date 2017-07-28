@@ -433,7 +433,7 @@ ANTIDEPRESIVOS,2,311,Trastorn depressiu no classificat a cap altre lloc,311,Tras
 ESTADO DEPRESIVO,2,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,05,Trastorns mentals
 DEPRESSIO-ANSIETAT,2,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,05,Trastorns mentals
 TENSIO ARTERIAL,2,401,Hipertensió essencial,401,Hipertensió essencial,07,Malalties de l’aparell circulatori
-ELICOBACTER PYLORI,2,4186,,418,,,
+ELICOBACTER PYLORI,2,04186,,041,,,
 CIRCULACIO VASCULAR,2,4599,Trastorn no especificat de l'aparell circulatori,459,Altres trastorns de l'aparell circulatori,07,Malalties de l’aparell circulatori
 INSUFICIENCIA CIRCULATORIA RETORN,2,4599,Trastorn no especificat de l'aparell circulatori,459,Altres trastorns de l'aparell circulatori,07,Malalties de l’aparell circulatori
 CIRCULACION SANGUINEA,2,4599,Trastorn no especificat de l'aparell circulatori,459,Altres trastorns de l'aparell circulatori,07,Malalties de l’aparell circulatori
@@ -843,9 +843,9 @@ MENINGITIS MENIGOCOCICA,1,360,Trastorns del globus ocular,360,Trastorns del glob
 RINOCONJUNTIVITIS,1,37214,Altres conjuntivitis al·lèrgiques cròniques,372,Trastorns de la conjuntiva,06,Malalties del sistema nerviós i els òrgans dels sentits
 COAGULOS EN LOS OJOS POR TENSION ALTA,1,401,Hipertensió essencial,401,Hipertensió essencial,07,Malalties de l’aparell circulatori
 LATENSION,1,401,Hipertensió essencial,401,Hipertensió essencial,07,Malalties de l’aparell circulatori
-GASTRITIS PER EL HELICOBACTER,1,4186,,418,,,
-HERNIA DE HIATO DESLIZANTE Y HELICOBACTER PILORY,1,4186,,418,,,
-HELICOBACTER PILORIS,1,4186,,418,,,
+GASTRITIS PER EL HELICOBACTER,1,04186,,041,,,
+HERNIA DE HIATO DESLIZANTE Y HELICOBACTER PILORY,1,04186,,041,,,
+HELICOBACTER PILORIS,1,04186,,041,,,
 VARIUS - TROMBOFLEBITIS,1,454,Venes varicoses de les extremitats inferiors,454,Venes varicoses de les extremitats inferiors,07,Malalties de l’aparell circulatori
 HEMOROIDES,1,455,Hemorroides,455,Hemorroides,07,Malalties de l’aparell circulatori
 CIRCULACION SANGRE,1,4599,Trastorn no especificat de l'aparell circulatori,459,Altres trastorns de l'aparell circulatori,07,Malalties de l’aparell circulatori

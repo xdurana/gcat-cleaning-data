@@ -21,6 +21,9 @@ ds <- ds %>%
     ethnic_group,
     ethnic_group_father,
     ethnic_group_mother
-  )
+  ) %>%
+  mutate(
+    ethnic_group_phototype_score = ifelse(is.na(ethnic_group) | ethnic_group == 7, NA, as.integer(as.character(revalue(ethnic_group %>% as.factor, c("1" = "1", "2" = "12", "3" = "8", "4" = "4", "5" = "4", "6" = "8")))))
+  )  
 
 ds %>% write_csv(sprintf('output/check/%s/data.csv', directory))
