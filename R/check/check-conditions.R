@@ -363,7 +363,7 @@ save <- function() {
   
   icd9_code3 %>% write_csv('output/check/icd9_code3/variables_ca.csv')
   
-  icd9_code3$description <- sapply(substring(icd9_code3$name, 12, 14), icd9ExplainShort)
+  icd9_code3$description <- sapply(substring(icd9_code3$name, 12, 14), icd_explain)
   icd9_code3 %>% write_csv('output/check/icd9_code3/variables.csv')
   
   save_ds(

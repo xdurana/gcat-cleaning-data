@@ -1,4 +1,5 @@
 library(tidyverse)
+library(plyr)
 
 ds <- gcat %>%
   select(

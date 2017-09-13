@@ -10,26 +10,30 @@ ds <- gcat %>%
     SALUD_MUJER_MENSTRUACION_PRIMERA_EDAD,
     SALUD_MUJER_MENSTRUACION_ULTIMA_EDAD,
     SALUD_MUJER_MEDICACION_ANTICONCEPTIVO,
-    SALUD_MUJER_MEDICACION_HORMONAS
+    SALUD_MUJER_MEDICACION_HORMONAS,
+    SALUD_MUJER_ESTADO_DE_SALUD_PERFIL
   ) %>%
   mutate(
     age_at_menarche = ifelse(SALUD_MUJER_MENSTRUACION_PRIMERA_EDAD > 25, NA, SALUD_MUJER_MENSTRUACION_PRIMERA_EDAD),
     age_at_menopause = SALUD_MUJER_MENSTRUACION_ULTIMA_EDAD,
     reproductive_life_span = SALUD_MUJER_MENSTRUACION_ULTIMA_EDAD - SALUD_MUJER_MENSTRUACION_PRIMERA_EDAD,
     oc_use = ifelse(SALUD_MUJER_MEDICACION_ANTICONCEPTIVO %in% c(1), 1, ifelse(SALUD_MUJER_MEDICACION_ANTICONCEPTIVO %in% c(2), 0, NA)),
-    hrt_use = ifelse(SALUD_MUJER_MEDICACION_HORMONAS %in% c(1,2,3), 1, ifelse(SALUD_MUJER_MEDICACION_HORMONAS %in% c(4), 0, NA))
+    hrt_use = ifelse(SALUD_MUJER_MEDICACION_HORMONAS %in% c(1,2,3), 1, ifelse(SALUD_MUJER_MEDICACION_HORMONAS %in% c(4), 0, NA)),
+    physical_autoperception_women = ifelse(SALUD_MUJER_ESTADO_DE_SALUD_PERFIL == 0, NA, SALUD_MUJER_ESTADO_DE_SALUD_PERFIL)
   ) %>%
   # Filter incoherent ages
   mutate(
     age_at_menarche = ifelse(reproductive_life_span > 0, age_at_menarche, NA),
     age_at_menopause = ifelse(reproductive_life_span > 0, age_at_menopause, NA),
-    reproductive_life_span = ifelse(reproductive_life_span > 0, reproductive_life_span, NA)
+    reproductive_life_span = ifelse(reproductive_life_span > 0, reproductive_life_span, NA),
+    physical_autoperception_women
   ) %>%
   select(
     entity_id,
     age_at_menarche,
     age_at_menopause,
     reproductive_life_span,
+    physical_autoperception_women,
     oc_use,
     hrt_use
   )
