@@ -1,6 +1,10 @@
+options(java.parameters = "-Xmx4096m")
+
 library(tidyverse)
+library(dplyr)
 library(stringdist)
 library(xlsx)
+library(plyr)
 
 get_ds_deporte <- function(deporte) {
   
@@ -189,23 +193,26 @@ traduir_esports <- function(ds) {
 
 ###
 
-diccionari <- read.xlsx2('inst/extdata/physical_activity/Diccionari_Generic_AF_2017-06-08.xlsx', sheetIndex = 1, stringsAsFactors = FALSE) %>%
+diccionari <- read.xlsx2('inst/extdata/physical_activity/Diccionari_Generic_AF_2017-09-14.xlsx', sheetIndex = 1, stringsAsFactors = FALSE) %>%
   unique()
 
 ds_libre <- do.call(rbind, lapply(colnames(gcat)[grepl('^LIBRE_[a-zA-Z]+$', colnames(gcat))], get_ds_deporte))
 
 ds_libre_diccionari <- ds_libre %>%
-  rename(AF.REPORTED = tipo) %>%
-  mutate(AF.REPORTED = gsub('LIBRE_', '', AF.REPORTED)) %>%
-  left_join(diccionari)
+  mutate(AF.REPORTED = gsub('LIBRE_', '', tipo)) %>%
+  left_join(diccionari) %>%
+  mutate(
+    original = AF.REPORTED,
+    value = AF.REPORTED
+  )
 
 ds_libre_diccionari %>%
   as.data.frame() %>%
-  write.xlsx2('output/check/physical_activity/activitat_fisica.xlsx', row.names = FALSE)
+  write.xlsx2('output/physical_activity/activitat_fisica.xlsx', row.names = FALSE)
 
 ds_trad <- get_ds_libre_generico() %>%
   traduir_esports() %>%
-  rename(
+  dplyr::rename(
     AF.REPORTED = trad
   ) %>%
   left_join(
@@ -213,11 +220,11 @@ ds_trad <- get_ds_libre_generico() %>%
   )
 
 ds_trad %>%
-  write_csv('output/check/physical_activity/corregides.csv', na = "")
+  write_csv('output/physical_activity/corregides.csv', na = "")
 
 ds_trad %>% 
   select(-value) %>%
-  write.xlsx2('output/check/physical_activity/corregides.xlsx', row.names = FALSE)
+  write.xlsx2('output/physical_activity/corregides.xlsx', row.names = FALSE)
 
 ds_notrad <- ds_trad %>%
   filter(
@@ -225,5 +232,61 @@ ds_notrad <- ds_trad %>%
   )
 
 table(ds_notrad$value) %>% as.data.frame() %>% arrange(Freq)
+
+# merge them
+
+ds_libre_diccionari %>%
+  rbind(ds_trad) %>%
+  select(
+    entity_id,
+    frecuencia,
+    meses,
+    horas,
+    minutos,
+    tiempo,
+    AF.REPORTED,
+    COMPEDIUM.PA,
+    NUMBER,
+    METS
+  ) %>%
+  filter(
+     METS != ''
+  ) %>%
+  as.data.frame() %>%
+  write.xlsx2('output/physical_activity/totes.xlsx', row.names = FALSE)
+
+ds_libre_diccionari_semana <- 
+  ds_libre_diccionari %>%
+  filter(
+    tiempo > 0 & METS > 0
+  ) %>%
+  mutate(
+    dias_semana = as.numeric(ifelse(frecuencia == 0, NA, revalue(frecuencia, c("0" = "0", "1" = "0.12", "2" = "0.23", "3" = "0.58", "4" = "1", "5" = "2.5", "6" = "4.5", "7" = "7"))))
+  ) %>%
+  mutate(
+    METS_semana = dias_semana * as.numeric(METS) * as.numeric(tiempo)/60
+  ) %>%
+  select(
+    entity_id,
+    meses,
+    dias_semana,
+    horas,
+    minutos,
+    tiempo,
+    COMPEDIUM.PA,
+    METS,
+    METS_semana
+  ) %>%
+  filter(
+    !is.na(METS_semana)
+  )
+
+ds_libre_diccionari_semana %>%
+  as.data.frame() %>%
+  write.xlsx2('output/physical_activity/mets_semana.xlsx', row.names = FALSE)
+
+ds_libre_diccionari %>%
+  as.data.frame() %>%
+  write.xlsx2('output/physical_activity/totes.xlsx', row.names = FALSE)
 
 ds_notrad %>% arrange(value) %>% View()

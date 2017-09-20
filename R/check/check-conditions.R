@@ -351,12 +351,16 @@ save <- function() {
     mutate(
       name = sprintf('icd9_code3_%s', Codi_3),
       category = 'Conditions',
+      area = 'Diseases',
+      subarea = '',
       description = Descr_codi_3,
       type = 'binary'
     ) %>%
     select(
       name,
       category,
+      area,
+      subarea,
       description,
       type
     )
