@@ -281,6 +281,13 @@ ds_libre_diccionari_semana <-
     !is.na(METS_semana)
   )
 
+#TODO control errors
+
+ds_libre_diccionari_semana %>%
+  filter(
+    minutos == 60 & horas != 0
+  )
+
 ds_libre_diccionari_semana %>%
   as.data.frame() %>%
   write.xlsx2('output/physical_activity/mets_semana.xlsx', row.names = FALSE)

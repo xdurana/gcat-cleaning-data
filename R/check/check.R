@@ -8,7 +8,6 @@ participants <- read_csv(file.path(export_dir, 'Participants/data.csv'))
 
 source('R/check/check-locations.R')
 source('R/check/check-locations-residencia.R')
-
 source('R/check/check-height.R')
 source('R/check/check-weight.R')
 source('R/check/check-bmi.R')
@@ -44,6 +43,3 @@ source('R/check/check-food.R')
 source('R/check/check-supplements.R')
 source('R/check/check-screening.R')
 source('R/check/check-family.R')
-
-source('R/check/check-all.R')
-source('R/check/check-imputation.R')

@@ -30,6 +30,7 @@ datasets = c(
   'offspring',
   'phototype',
   'predimed',
+  'predimed_detail',
   'psychology',
   'screening',
   'self_perceived_health',
@@ -56,7 +57,7 @@ for(i in 1:length(datasets)) {
   ds <- ds %>% left_join(rd(datasets[i]))
 }
 
-ds %>% write_csv('output/check/imputation/data.csv') %>% unique()
+ds %>% write_csv('output/datasets/gcat/data.csv') %>% unique()
 
 variables <- do.call(bind_rows, lapply(datasets, function(ds) {
   va(ds)
@@ -83,5 +84,5 @@ variables <-
     )
   )
 
-variables %>% write_csv('output/check/imputation/variables.csv')
-variables %>% write.xlsx2('output/check/imputation/variables.xlsx')
+variables %>% write_csv('output/datasets/gcat/variables.csv')
+variables %>% write.xlsx2('output/datasets/gcat/variables.xlsx')

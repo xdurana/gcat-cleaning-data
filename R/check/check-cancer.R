@@ -26,6 +26,12 @@ ds <- gcat %>%
   spread(
     CANCER,
     value
+  ) %>%
+  right_join(
+    gcat %>%
+      select(
+        entity_id
+      )
   )
 
 ds[is.na(ds)] <- 0

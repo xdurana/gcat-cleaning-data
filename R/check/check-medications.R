@@ -1,4 +1,5 @@
 library(tidyverse)
+library(stringdist)
 
 #' @title Get medications file
 #' @export
@@ -50,11 +51,23 @@ save_atc <- function() {
       value,
       count
     ) %>%
-    unique() %>%
+    unique()
+  
+  atc <- read.table('inst/extdata/medications/ATC.csv', sep = ',', header = TRUE)
+  
+  as.data.frame(table(medications$value)) %>%
+    arrange(desc(Freq)) %>%
+    mutate(id = gsub('atc_', '', Var1)) %>%
+    select(id, Freq) %>%
+    left_join(atc) %>%
+    select(id,
+           text,
+           Freq) %>%
+    write_csv('output/medications/summary.csv')
+  
+  medications <- medications %>%
     spread(value, count, fill = 0) %>%
     dplyr::rename(entity_id=id)
-  
-  as.data.frame(table(medications$value)) %>% arrange(desc(Freq)) %>% write_csv('output/medications/summary.csv')
   
   medications <- participants %>%
     dplyr::select(entity_id) %>%

@@ -188,6 +188,10 @@ mergeCIM9MC <- function() {
     )
   summary.cim9 <- merge(summary, summary.cim9, all.x = TRUE)
   summary.cim9 <- summary.cim9[with(summary.cim9, order(-Freq)),]
+  
+  nop <- summary.cim9[is.na(summary.cim9$Codi),]
+  sum(nop$Freq)
+  
   write_csv(summary.cim9, file.path(directory_conditions, 'summary-cim9-updated.csv'))
 }
 
@@ -433,10 +437,24 @@ correlation_matrix <- function(ds) {
   corrplot(res, type = "upper", order = "hclust", tl.col = "black", col=brewer.pal(n=8, name="RdBu"), tl.srt = 45)
 }
 
+describe_icd9 <- function() {
+  read_csv('output/check/icd9_code3/long.csv') %>%
+    mutate(codi = gsub('icd9_code3_', '', codi)) %>%
+    filter(!is.na(codi)) %>%
+    select(codi) %>%
+    count() %>%
+    arrange(desc(freq)) %>%
+    mutate(desc = sapply(as.character(codi), icd_explain)) %>%
+    as.data.frame() %>%
+    write_csv('output/conditions/icd9_3/summary.csv')
+}
+
+
 get_conditions()
 mergeCIM9MC()
 getSummary()
 save()
+describe_icd9()
 
 summary <- read_csv(file.path(directory_conditions, 'summary-cim9-updated.csv'))
 summary <- summary %>%

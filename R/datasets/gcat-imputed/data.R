@@ -11,10 +11,10 @@ bmi <- function(height, weight) {
   round(weight/(height/100)^2, 2)
 }
 
-all <- read_csv('output/check/imputation/data.csv')
+all <- read_csv('output/datasets/gcat/data.csv')
 age <- read_csv('output/check/age/errors.csv')
 gender <- read_csv('output/check/gender/errors.csv')
-variables <- read_csv('output/check/imputation/variables.csv')
+variables <- read_csv('output/datasets/gcat/variables.csv')
 
 all_impute <-
   all %>%
@@ -129,12 +129,12 @@ summary(data.imp)
 ds_impute_men <- complete(data.imp)
 
 # Inspecting the distribution of original and imputed data
-png(file.path('output/check/imputation', 'xyplot_men.png'), width = 800, height = 600)
+png(file.path('output/datasets/gcat-imputed', 'xyplot_men.png'), width = 800, height = 600)
 xyplot(data.imp, height ~ weight + hip + waist, pch=18, cex=1)
 dev.off()
 
 # The density of the imputed data for each imputed dataset
-png(file.path('output/check/imputation', 'density_men.png'), width = 800, height = 600)
+png(file.path('output/datasets/gcat-imputed', 'density_men.png'), width = 800, height = 600)
 densityplot(data.imp)
 dev.off()
 
@@ -147,12 +147,12 @@ summary(data.imp)
 ds_impute_women <- complete(data.imp)
 
 # Inspecting the distribution of original and imputed data
-png(file.path('output/check/imputation', 'xyplot_women.png'), width = 800, height = 600)
+png(file.path('output/datasets/gcat-imputed', 'xyplot_women.png'), width = 800, height = 600)
 xyplot(data.imp, height ~ weight + hip + waist, pch=18, cex=1)
 dev.off()
 
 # The density of the imputed data for each imputed dataset
-png(file.path('output/check/imputation', 'density_women.png'), width = 800, height = 600)
+png(file.path('output/datasets/gcat-imputed', 'density_women.png'), width = 800, height = 600)
 densityplot(data.imp)
 dev.off()
 
@@ -248,4 +248,4 @@ all <-
   ) %>%
   unique()
 
-all %>% write_csv('output/check/imputation/imputed.csv')
+all %>% write_csv('output/datasets/gcat-imputed/data.csv')

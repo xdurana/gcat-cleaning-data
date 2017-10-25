@@ -9,21 +9,21 @@ library(reporttools)
 source('R/summary-report-recruitment.R')
 
 export_dir <- '/home/labs/dnalab/share/lims/R/gcat-cohort/output/export'
-gcat <- read_csv(file.path(export_dir, 'QUESTIONARI/data.csv'))
+questionari <- read_csv(file.path(export_dir, 'QUESTIONARI/data.csv'))
 participants <- read_csv(file.path(export_dir, 'Participants/data.csv'))
 
-variables <- read_csv(file.path('output/check/heritability', 'variables.csv'))
-heritability <- read_csv(file.path('output/check/heritability', 'data.csv'))
+variables <- read_csv(file.path('output/datasets/gcat', 'variables.csv'))
+gcat <- read_csv(file.path('output/datasets/gcat', 'data.csv'))
 
 ## Continuous variables
 
 continuous_variables <- variables %>% filter(type == 'numeric') %>% select(name) %>% collect %>% .[['name']]
-continuous <- heritability %>% select(one_of(continuous_variables))
+continuous <- gcat %>% select(one_of(continuous_variables))
 
 desc <- describe(continuous, skew = FALSE)
 desc <- desc %>%
   transform(
-    missings = nrow(heritability) - n
+    missings = nrow(gcat) - n
   ) %>%
   select(
     -vars,
@@ -36,13 +36,13 @@ desc <- desc %>%
 variables <- variables %>%
   mutate(
     missings = sapply(variables$name, function(variable) {
-      sum(is.na(heritability[variable]))
+      sum(is.na(gcat[variable]))
     }),
     v0 = sapply(variables$name, function(variable) {
-      table(heritability[variable])[1]
+      table(gcat[variable])[1]
     }),
     v1 = sapply(variables$name, function(variable) {
-      table(heritability[variable])[2]
+      table(gcat[variable])[2]
     })
   ) %>%
   mutate(
@@ -66,16 +66,16 @@ binary <- variables %>%
 ## Categorical variables
 
 categorical_variables <- variables %>% filter(type == 'categorical') %>% select(name) %>% collect %>% .[['name']]
-categorical <- heritability %>% select(one_of(categorical_variables))
+categorical <- gcat %>% select(one_of(categorical_variables))
 
 ## Conditions
 
 conditions <- read_csv('output/conditions/summary.csv') %>%
   mutate(Descr_codi = substring(Descr_codi, 1, 80))
 
-## Describe variables not in heritability
+## Describe variables not in gcat
 
-ds_gcat <- gcat %>%
+ds_gcat <- questionari %>%
   select(
     entity_id,
     
@@ -167,7 +167,7 @@ ds_gcat <- gcat %>%
 
 ## Describe
 
-ds <- heritability %>%
+ds <- gcat %>%
   left_join(ds_gcat) %>%
   mutate(
     gender = revalue(gender %>% as.factor, c("0" = 'home', "1" = 'dona')),
