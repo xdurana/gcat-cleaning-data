@@ -39,7 +39,7 @@ ds <- gcat %>%
     night_shift = ifelse(
       (!is.na(LABORAL_1_HORARIO) & LABORAL_1_HORARIO == 4) |
       (!is.na(LABORAL_2_HORARIO) & LABORAL_2_HORARIO == 4) | 
-      (!is.na(LABORAL_2_HORARIO) & LABORAL_2_HORARIO == 4), 1, 0)
+      (!is.na(LABORAL_3_HORARIO) & LABORAL_3_HORARIO == 4), 1, 0)
   ) %>%
   mutate(
     sleep_duration = get_up_time_decimal - sleep_time_decimal,

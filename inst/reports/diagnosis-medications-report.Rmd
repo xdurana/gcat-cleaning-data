@@ -2,28 +2,50 @@
 title: "Medications and conditions association analysis"
 output:
   pdf_document: default
+classoption: landscape
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 A total of 17.924 GCAT participants were asked for their diagnosed conditions and their medication use. The participants could select their diagnosed conditions from a closed list of 27 frequent diseases or on a free text input if they couldn’t find them on the list. A total of 26.966 conditions were reported, and 23.855 were manually codified as ICD-9 diagnosis codes. The remaining 3.111 didn’t correspond to an unambiguous diagnosis and were discarded from the analysis. Medication use was also reported from a closed list of the most usual medications and in a free text input. A total of 18.333 medications were reported from the closed list and 3.147 were reported in the free text input. To correct the errors from the free text input, string similarity with the Levenshtein distance metric from the closed list of medications was applied with a conservative threshold to avoid misclassification and 925 medications were corrected. A total of 19.247 medications were transformed into Anatomical Therapeutic Chemical (ATC) codes.
 
 An association analysis between medications and conditions was performed to assess the quality of the autoreported data. A wider level of specificity than the ICD-9 and the ATC codes was defined to group similar diagnosis and medications respectively. The ICD-9 codes were condensed into a common three-digit code. The 2nd level of the ATC codes, or therapeutic subgroup, was used. The odds ratio (OR) was calculated for every combination of medications and diagnosis, and the combinations with an OR greater than 2 were reported.
 
-```{r results="asis", echo=FALSE}
+
+
+
+```{r, results="asis", echo=FALSE, message=FALSE}
 
 library(xtable)
 library(tidyverse)
 
-or <- read_csv('/home/labs/dnalab/share/lims/R/health-forecast/output/odds-ratio/or.csv') %>%
-  arrange(
-    desc(or)
+or <- read_csv('/home/labs/dnalab/share/lims/R/gcat-cleaning-data/output/datasets/gcat-heritability/odds-ratio.csv') %>%
+  filter(
+    or > 10
   ) %>%
+  arrange(desc(or)) %>%
+  mutate(medication = gsub("\\s*\\([^\\)]+\\)","",as.character(medication))) %>%
+  mutate(diagnosis = gsub("\\s*\\([^\\)]+\\)","",as.character(diagnosis))) %>%
   as.data.frame() %>%
-  head(10)
+  rename(
+    count = diagnosis_count,
+    interaction = interaction_count
+  ) %>%
+  select(
+    diagnosis_code,
+    diagnosis,
+    medication_code,
+    medication,
+    or,
+    count,
+    interaction
+  ) %>%
+  head(50)
 
-xtable(or)
+options(xtable.comment = FALSE)
+
+xt <- xtable(or, tabular.environment = "longtable")
+names(xt) <- c('ICD9','Diagnosis','ATC', 'Medication', 'OR', 'Count', 'Interaction')
+print(xt, include.rownames=FALSE, floating=FALSE, size="\\fontsize{8pt}{10pt}\\selectfont")
 ```
+
+![Supplementary Figure 1](/home/labs/dnalab/share/lims/R/gcat-cleaning-data/output/datasets/gcat-heritability/Supplementary Figure 1 - heatmap.png)
 

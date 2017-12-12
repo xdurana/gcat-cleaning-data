@@ -249,3 +249,4 @@ all <-
   unique()
 
 all %>% write_csv('output/datasets/gcat-imputed/data.csv')
+variables %>% write_csv('output/datasets/gcat-imputed/variables.csv')

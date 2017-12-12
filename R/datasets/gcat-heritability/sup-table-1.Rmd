@@ -1,0 +1,12 @@
+---
+output: pdf_document
+classoption: landscape
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r conditions, results="asis", echo=FALSE}
+print(xtable(phens, tabular.environment = "longtable", caption = "Lorem ipsum dolor"), include.rownames=FALSE, floating=FALSE)
+```

@@ -1,0 +1,18 @@
+---
+output: pdf_document
+classoption: landscape
+header-includes:
+  - \usepackage{longtable}
+---
+\fontsize{07}{08}
+\selectfont
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r conditions, results="asis", echo=FALSE}
+xt <- xtable(or %>% head(30), tabular.environment = "longtable", caption = "Odds ratios of main self-reported drugs and diagnosis associations")
+names(xt) <- c('ICD9','Diagnosis','ATC', 'Medication', 'OR')
+print(xt, include.rownames=FALSE)
+```

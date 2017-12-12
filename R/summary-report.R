@@ -192,8 +192,8 @@ ds <- gcat %>%
     smoking_100 = revalue(FUMAR_100 %>% as.factor, c("1" = "sí", "2" = "no", "0" = NA)),
     smoking_now = revalue(FUMAR_ACTUALIDAD %>% as.factor, c("1" = "sí", "2" = "no", "0" = NA)),
     smoking_intensity = revalue(smoking_intensity %>% as.factor, c("1" = "never", "2" = "current, occasionally", "3" = "current, unknown", "4" = "current, <= 15 cig/day", "5" = "current,16-25 cig/day", "6" = "current, 26+ cig/day", "7" = "former, unknown", "8" = "former, quit <= 10 yrs", "9" = "Former,quit 11-20 yrs", "10" = "Former,quit 20+ yrs", "0" = NA)),
-    smoking_habit = revalue(smoking_habit %>% as.factor, c("1" = "never", "2" = "ex-smoker", "3" = "smoker", "0" = NA)),
-    alcohol_use = revalue(ALCOHOL_ACTUAL %>% as.factor, c("1"="Mai o menys d'un cop al mes", "2"="1 cop al mes","3"="2 o 3 cops al mes","4=1 cop a la setmana","5"="2 o 3 cops a la setmana", "6"="De 4 a 6 cops a la setmana", "7"="1 cop al dia", "8"="2 cops o més al dia", "0" = NA)),
+    smoking_habit = revalue(smoking_habit %>% as.factor, c("1" = "current smoker", "2" = "former smoker", "3" = "never smoker", "0" = NA)),
+    alcohol_use = revalue(ALCOHOL_ACTUAL %>% as.factor, c("1"="Mai o menys d'un cop al mes", "2"="1 cop al mes","3"="2 o 3 cops al mes","4"="1 cop a la setmana","5"="2 o 3 cops a la setmana", "6"="De 4 a 6 cops a la setmana", "7"="1 cop al dia", "8"="2 cops o més al dia", "0" = NA)),
     alcohol_meals = revalue(ALCOHOL_ACTUAL_COMIDA %>% as.factor, c("1" = "sí", "2" = "no", "0" = NA)),
     cook_with_oil = revalue(PREDIMED_ACEITE_GRASA %>% as.factor, c("1" = "sí", "2" = "no", "0" = NA)),
     health_status = revalue(ESTADO_DE_SALUD %>% as.factor, c("1" = "molt bo", "2" = "bo", "3" = "regular", "4" = "dolent", "5" = "molt dolent", "0" = NA)),
@@ -241,6 +241,11 @@ ds <- gcat %>%
     whr_who = revalue(whr_who %>% as.factor, c("1" = "normal weight", "2" = "overweight", "3" = "obesity")),
     bmi_who = revalue(whr_who %>% as.factor, c("underweight" = "underweight", "normal weight" = "normal weight", "overweight" = "overweight", "obesity" = "obesity")),
     bmi_deep = revalue(whr_who %>% as.factor, c("Mild thinness" = "mild thinness", "Moderate thinness" = "moderate thinness", "Normal range" = "normal range", "Pre-obese" = "pre-obese", "Obese class I" = "obese class I", "Obese class II" = "obese class II"))
+  )
+
+ds <- ds %>%
+  mutate_if(
+    is.factor, funs(ifelse(is.na(.), "missing", as.character(.)))
   )
 
 ds <- ds %>%
