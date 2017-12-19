@@ -1,3 +1,6 @@
+library(tidyverse)
+library(icd)
+
 long <- read_csv('output/check/icd9_code3/long.csv')
 heritability <- read_csv('output/datasets/heritability/data.csv') %>%
   select(entity_id, gender) %>%
@@ -72,3 +75,12 @@ binomi_1 <- tuberculosi[tuberculosi$entity_id %in% mood$entity_id,]
 binomi_2 <- tuberculosi[tuberculosi$entity_id %in% neoplasms$entity_id,]
 
 table(heritability$codi)
+
+
+tuber <- heritability %>%
+  filter(entity_id %in% tuberculosi$entity_id) %>%
+  mutate(codi = gsub('icd9_code3_', '', codi)) %>%
+  mutate(desc = sapply(as.character(codi), icd_explain))
+
+tuber %>%
+  write_csv('output/tuberculosis.csv')
