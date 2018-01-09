@@ -6,6 +6,13 @@ heritability <- read_csv('output/datasets/heritability/data.csv') %>%
   select(entity_id, gender) %>%
   left_join(long)
 
+tuber <- heritability %>%
+  mutate(codi = gsub('icd9_code3_', '', codi))
+
+
+
+
+
 icd10 <-  
   heritability %>%
   filter(

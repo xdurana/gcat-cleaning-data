@@ -6,7 +6,7 @@ ds <- gcat %>%
     INGRESOS
   ) %>%
   mutate(
-    income = ifelse(ESTUDIOS == 0, NA, ESTUDIOS)
+    income = ifelse(INGRESOS == 0, NA, INGRESOS)
   ) %>%
   select(
     entity_id,

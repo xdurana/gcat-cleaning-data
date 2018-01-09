@@ -29,6 +29,7 @@ datasets = c(
   'men-health',
   'offspring',
   'phototype',
+  'participants',
   'predimed',
   'predimed_detail',
   'psychology',
