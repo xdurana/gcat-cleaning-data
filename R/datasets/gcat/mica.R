@@ -167,3 +167,8 @@ data_boolean <- data %>%
 data_boolean %>% write.xlsx('output/datasets/gcat/GCAT-bool.xlsx')
 
 data_opal %>% write_csv('output/datasets/gcat/opal.csv', na = '')
+
+a <- split(data_opal, (seq(nrow(data_opal))-1) %/% 2000)
+lapply(1:length(a), function(chunk) {
+  a[[chunk]] %>% write_csv(sprintf('output/datasets/gcat/opal_%s.csv', chunk), na = '') 
+})

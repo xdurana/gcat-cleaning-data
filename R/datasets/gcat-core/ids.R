@@ -1,14 +1,14 @@
 library(tidyverse)
 library(xlsx)
 
-ids_all <- read_csv('output/check/heritability/data.csv')
+ids_all <- read_csv('output/datasets/heritability/data.csv')
 participants <- read_csv('output/check/participants/data.csv')
 
 hf_data <- ids_all %>%
   left_join(participants) %>%
   rownames_to_column() %>%
   mutate(
-    id = sprintf("HF%.4d", as.numeric(rowname)),
+    id = sprintf("GR%.4d", as.numeric(rowname)),
     gender = ifelse(gender == 1, 'male', 'female')
   ) %>%
   select(
@@ -20,5 +20,5 @@ hf_data <- ids_all %>%
     age
   )
 
-hf_data %>% write_csv('output/projects/hf/ids.csv')
+hf_data %>% write_csv('output/datasets/hf/ids.csv')
 hf_data %>% as.data.frame %>% write.xlsx2('output/projects/hf/ids.xlsx', row.names = FALSE)

@@ -1,0 +1,2830 @@
+Text,Freq,Codi,Descr_codi,Codi_3,Descr_codi_3,Gran_grup_classif,Descr_gran_grup_clasif
+HIPERCOLESTEROLEMIA,2829,2720,Hipercolesterolèmia pura,272,Trastorns del metabolisme dels lípids,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+ALERGIA,2761,9953,Al·lèrgia no especificada,995,Determinades reaccions adverses no classificades a cap altre lloc,17,Lesions i intoxicacions
+HTA,2451,401,Hipertensió essencial,401,Hipertensió essencial,7,Malalties de l’aparell circulatori
+MIGRANA,1438,346,Migranya,346,Migranya,6,Malalties del sistema nerviós i els òrgans dels sentits
+RINITIS,1263,4720,Rinitis crònica,472,Faringitis i rinofaringitis cròniques,8,Malalties de l’aparell respiratori
+DEPRESION,951,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+ASMA,876,493,Asma,493,Asma,8,Malalties de l’aparell respiratori
+ECZEMA,781,692,Dermatitis de contacte i altres èczemes,692,Dermatitis de contacte i altres èczemes,12,Malalties de la pell i el teixit subcutani
+HELICOBACTER,743,4186,Infecció per Helicobacter pylori [H. pylori] en afeccions classificades en un altre lloc i de localització no especificada,41,Infeccions bacterianes en afeccions classificades en un altre lloc i de localització no especificada,1,Malalties infeccioses i parasitàries
+POLIPOS,648,5690,Pòlip anal i rectal,569,Altres trastorns d'intestí,9,Malalties de l’aparell digestiu
+PSORIASIS,614,696,Psoriasi i trastorns semblants,696,Psoriasi i trastorns semblants,12,Malalties de la pell i el teixit subcutani
+DIABETES,559,250,Diabetis mellitus,250,Diabetis mellitus,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+OSTEOPOROSIS,524,7330,Osteoporosi,733,Altres trastorns de l'os i el cartílag,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ARTRITIS,489,714,Artritis reumatoide i altres poliartropaties inflamatòries,714,Artritis reumatoide i altres poliartropaties inflamatòries,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+CANCER,366,1991,Altres neoplàsies malignes de localització no especificada,199,Neoplàsia maligna de localització no especificada,2,Neoplàsies
+COLESTEROL,246,2720,Hipercolesterolèmia pura,272,Trastorns del metabolisme dels lípids,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPOTIROIDISME,222,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+TIROIDES,212,2469,Trastorn no especificat de la tiroide,246,Altres trastorns de la tiroide,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+ANSIETAT,173,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+DOLOR,173,338,Dolor no classificat a cap altre lloc,338,Dolor no classificat a cap altre lloc,6,Malalties del sistema nerviós i els òrgans dels sentits
+ANSIEDAD,169,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+HIPOTIROIDISMO,163,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+GENETICA_HEREDITARIA,150,V83,Portador de malaltia hereditària,V83,Portador de malaltia hereditària,,
+DORMIR,148,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+ARTROSIS,145,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+FIBROMIALGIA,131,7291,Miàlgia i miositis no especificades,729,Altres trastorns dels teixits tous,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+DEPRESSIO,89,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+ANEMIA,85,2859,Anèmia no especificada,285,Altres anèmies i anèmies no especificades,4,Malalties de la sang i els òrgans hematopoètics
+PROSTATA,84,6029,Trastorn no especificat de la pròstata,602,Altres trastorns de la pròstata,10,Malalties de l’aparell genitourinari
+MAL DE CAP,82,339,Altres síndromes amb cefalàlgia,339,Altres síndromes amb cefalàlgia,6,Malalties del sistema nerviós i els òrgans dels sentits
+HERNIA DE HIATO,82,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+GLAUCOMA,78,3659,Glaucoma no especificat,365,Glaucoma,6,Malalties del sistema nerviós i els òrgans dels sentits
+EPOC,75,496,Obstrucció crònica de les vies respiratòries no classificada a cap altre lloc,496,Obstrucció crònica de les vies respiratòries no classificada a cap altre lloc,8,Malalties de l’aparell respiratori
+HERNIA DISCAL,65,7229,Altres trastorns discals i trastorns discals no especificats,722,Trastorns del disc intervertebral,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+INSOMNI,63,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+DOLOR DE CABEZA,57,339,Altres síndromes amb cefalàlgia,339,Altres síndromes amb cefalàlgia,6,Malalties del sistema nerviós i els òrgans dels sentits
+DEPRESIO,56,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+COLITIS,48,558,"Altres gastroenteritis i colitis no infeccioses, i gastroenteritis i colitis no infeccioses no especificades",558,"Altres gastroenteritis i colitis no infeccioses, i gastroenteritis i colitis no infeccioses no especificades",9,Malalties de l’aparell digestiu
+ACIDO URICO,46,2749,Gota no especificada,274,Gota,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+ICTUS,45,4149,Cardiopatia isquèmica crònica no especificada,414,Altres formes de cardiopatia isquèmica crònica,7,Malalties de l’aparell circulatori
+ESTOMAGO,42,5369,Trastorn funcional no especificat de l'estómac,536,Trastorns de la funció de l'estómac,9,Malalties de l’aparell digestiu
+INSOMNIO,40,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+MENOPAUSIA,37,627,Trastorns menopàusics i postmenopàusics,627,Trastorns menopàusics i postmenopàusics,10,Malalties de l’aparell genitourinari
+ACID URIC,36,274,Gota,274,Gota,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+TENSION,36,401,Hipertensió essencial,401,Hipertensió essencial,7,Malalties de l’aparell circulatori
+ANTICONCEPTIU,35,,,,,,
+INFARTO,34,41090,"Infart de miocardi agut de localització no especificada, episodi no especificat",410,Infart de miocardi agut,7,Malalties de l’aparell circulatori
+PER DORMIR,33,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+ANGINA,32,41090,"Infart de miocardi agut de localització no especificada, episodi no especificat",410,Infart de miocardi agut,7,Malalties de l’aparell circulatori
+PARA DORMIR,31,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+ESTOMAC,31,5369,Trastorn funcional no especificat de l'estómac,536,Trastorns de la funció de l'estómac,9,Malalties de l’aparell digestiu
+HERNIA HIATO,30,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+ANGOIXA,26,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+HEPATITIS,26,57140,Hepatitis crònica no especificada,571,Malaltia hepàtica crònica i cirrosi,9,Malalties de l’aparell digestiu
+LUPUS,26,7100,Lupus eritematós sistèmic,710,Malalties difuses del teixit connectiu,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+LUMBALGIA,26,7242,Lumbago,724,Altres trastorns de l'esquena i trastorns de l'esquena no especificats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+HIPERTENSION,23,401,Hipertensió essencial,401,Hipertensió essencial,7,Malalties de l’aparell circulatori
+PROTECTOR,23,,,,,,
+ARTROSI,22,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ENDOMETRIOSIS,21,6179,Endometriosi de localització no especificada,617,Endometriosi,10,Malalties de l’aparell genitourinari
+NERVIOS,21,79921,Nerviosisme,799,Altres causes desconegudes i mal definides de morbiditat i mortalitat,16,"Símptomes, signes i afeccions mal definides"
+HIPERTIROIDISMO,20,2423,Goll nodular tòxic no especificat,242,Tirotoxicosi amb goll o sense,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+OSTEOPENIA,20,7339,Altres trastorns i trastorns no especificats de l'os i el cartílag,733,Altres trastorns de l'os i el cartílag,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+MENOPAUSA,20,627,Trastorns menopàusics i postmenopàusics,627,Trastorns menopàusics i postmenopàusics,10,Malalties de l’aparell genitourinari
+HIPERTIROIDISME,19,2423,Goll nodular tòxic no especificat,242,Tirotoxicosi amb goll o sense,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+DOLORES,19,,,,,,
+ESTRES,18,3089,Reacció aguda a l'estrès no especificada,308,Reacció aguda a l'estrès,5,Trastorns mentals
+PROTECTOR ESTOMAGO,18,,,,,,
+CROHN,17,5559,Enteritis regional de localització no especificada,555,Enteritis regional,9,Malalties de l’aparell digestiu
+BRONQUITIS,16,466,Bronquitis i bronquiolitis agudes,466,Bronquitis i bronquiolitis agudes,8,Malalties de l’aparell respiratori
+GASTRITIS,16,5355,Gastritis i gastroduodenitis no especificades,535,Gastritis i duodenitis,9,Malalties de l’aparell digestiu
+DOLOR MUSCULAR,16,7291,Miàlgia i miositis no especificades,729,Altres trastorns dels teixits tous,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+VARIUS,15,454,Venes varicoses de les extremitats inferiors,454,Venes varicoses de les extremitats inferiors,7,Malalties de l’aparell circulatori
+CIRCULACIO,15,4599,Trastorn no especificat de l'aparell circulatori,459,Altres trastorns de l'aparell circulatori,7,Malalties de l’aparell circulatori
+RESTRENYIMENT,15,5640,Restrenyiment,564,Trastorns digestius funcionals no classificats a cap altre lloc,9,Malalties de l’aparell digestiu
+CELIAQUIA,15,5790,Malaltia celíaca,579,Malabsorció intestinal,9,Malalties de l’aparell digestiu
+CALCIO,14,27540,Trastorn no especificat del metabolisme del calci,275,Trastorns del metabolisme mineral,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+ESQUIZOFRENIA,14,295,Trastorns esquizofrènics,295,Trastorns esquizofrènics,5,Trastorns mentals
+EPILEPSIA,14,345,Epilèpsia i atacs recurrents,345,Epilèpsia i atacs recurrents,6,Malalties del sistema nerviós i els òrgans dels sentits
+CIRCULACION,14,4599,Trastorn no especificat de l'aparell circulatori,459,Altres trastorns de l'aparell circulatori,7,Malalties de l’aparell circulatori
+COLON IRRITABLE,14,5641,Síndrome de l'intestí irritable,564,Trastorns digestius funcionals no classificats a cap altre lloc,9,Malalties de l’aparell digestiu
+PROTECTOR ESTOMAC,14,,,,,,
+HIPERTENSIO,13,401,Hipertensió essencial,401,Hipertensió essencial,7,Malalties de l’aparell circulatori
+REFLUJO,13,53081,Reflux esofàgic,530,Malalties d'esòfag,9,Malalties de l’aparell digestiu
+PROTECTOR ESTOMACAL,13,,,,,,
+RELAJANTE MUSCULAR,12,7291,Miàlgia i miositis no especificades,729,Altres trastorns dels teixits tous,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+VITAMINA D,11,2689,Carència de vitamina D no especificada,268,Carència de vitamina D,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPERPLASIA BENIGNA DE PROSTATA,11,6000,Hipertròfia (benigna) de la pròstata,600,Hiperplàsia prostàtica,10,Malalties de l’aparell genitourinari
+DOLOR ARTICULAR,11,7194,Dolor articular,719,Altres trastorns articulars i trastorns articulars no especificats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+DOLOR DE ESPALDA,11,7245,Dorsàlgia no especificada,724,Altres trastorns de l'esquena i trastorns de l'esquena no especificats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+HUESOS,11,73390,Trastorn no especificat de l'os i el cartílag,733,Altres trastorns de l'os i el cartílag,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+VERTIGOS,11,7804,Vertigen i mareig,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+DEPRESION LEVE,10,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+CEFALEA,10,339,Altres síndromes amb cefalàlgia,339,Altres síndromes amb cefalàlgia,6,Malalties del sistema nerviós i els òrgans dels sentits
+MIGRANYA,10,346,Migranya,346,Migranya,6,Malalties del sistema nerviós i els òrgans dels sentits
+PERICARDITIS,10,42090,Pericarditis aguda no especificada,420,Pericarditis aguda,7,Malalties de l’aparell circulatori
+ARRITMIA,10,4279,Arítmia cardíaca no especificada,427,Arítmia cardíaca,7,Malalties de l’aparell circulatori
+VARICES,10,454,Venes varicoses de les extremitats inferiors,454,Venes varicoses de les extremitats inferiors,7,Malalties de l’aparell circulatori
+HERNIA DE IATO,10,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+PROSTATITIS,10,6019,Prostatitis no especificada,601,Malalties inflamatòries de la pròstata,10,Malalties de l’aparell genitourinari
+TENDINITIS,10,72690,Entesitis de localització no especificada,726,Entesitis perifèriques i síndromes relacionades,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+OSTEOPOROSI,10,7330,Osteoporosi,733,Altres trastorns de l'os i el cartílag,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+INCONTINENCIA,10,78830,Incontinència urinària no especificada,788,Símptomes que afecten l'aparell urinari,16,"Símptomes, signes i afeccions mal definides"
+ARRITMIES,10,4279,Arítmia cardíaca no especificada,427,Arítmia cardíaca,7,Malalties de l’aparell circulatori
+DEFICIT VITAMINA D,10,2689,Carència de vitamina D no especificada,268,Carència de vitamina D,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+PROTECTOR GASTRIC,10,,,,,,
+TENSION OCULAR,10,36504,Hipertensió ocular,365,Glaucoma,6,Malalties del sistema nerviós i els òrgans dels sentits
+TUBERCULOSIS,9,119,Tuberculosi pulmonar no especificada,11,Tuberculosi pulmonar,1,Malalties infeccioses i parasitàries
+VITAMINAS,9,2692,Carència vitamínica no especificada,269,Altres carències nutricionals,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+GOTA,9,2749,Gota no especificada,274,Gota,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+POLIPOS NASALES,9,4719,Pòlip nasal no especificat,471,Pòlips nasals,8,Malalties de l’aparell respiratori
+NEUMONIA,9,4809,Pneumònia vírica no especificada,480,Pneumònia vírica,8,Malalties de l’aparell respiratori
+ESOFAGITIS,9,53010,Esofagitis no especificada,530,Malalties d'esòfag,9,Malalties de l’aparell digestiu
+ALOPECIA,9,70400,Alopècia no especificada,704,Malalties dels cabells i els fol·licles pilosos,12,Malalties de la pell i el teixit subcutani
+DOLOR LUMBAR,9,7242,Lumbago,724,Altres trastorns de l'esquena i trastorns de l'esquena no especificats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+MALESTAR GENERAL,9,7807,Malestar i fatiga,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+NERVIS,9,79921,Nerviosisme,799,Altres causes desconegudes i mal definides de morbiditat i mortalitat,16,"Símptomes, signes i afeccions mal definides"
+ANTICONCEPTIUS,9,,,,,,
+COR,9,411,Altres formes agudes i subagudes de cardiopatia isquèmica,411,Altres formes agudes i subagudes de cardiopatia isquèmica,7,Malalties de l’aparell circulatori
+DOLORS,9,,,,,,
+ESTAT D'ANIM,9,2969,Altres trastorns de l'estat d'ànim episòdics i trastorns de l'estat d'ànim episòdics no especificats,296,Trastorns de l'estat d'ànim episòdics,5,Trastorns mentals
+ANEMIA FERROPENICA,8,2809,Anèmia per dèficit de ferro no especificada,280,Anèmies per dèficit de ferro,4,Malalties de la sang i els òrgans hematopoètics
+DISTIMIA,8,3004,Trastorn distímic,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+TENSION ALTA,8,401,Hipertensió essencial,401,Hipertensió essencial,7,Malalties de l’aparell circulatori
+TENSION ARTERIAL,8,401,Hipertensió essencial,401,Hipertensió essencial,7,Malalties de l’aparell circulatori
+DISMENORREA,8,6253,Dismenorrea,625,Dolor i altres símptomes associats amb els òrgans genitals femenins,10,Malalties de l’aparell genitourinari
+ARTROSIS DEGENERATIVA,8,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+DOLOR ESPALDA,8,7245,Dorsàlgia no especificada,724,Altres trastorns de l'esquena i trastorns de l'esquena no especificats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+CIATICA,8,7243,Ciàtica,724,Altres trastorns de l'esquena i trastorns de l'esquena no especificats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+OSSOS,8,73390,Trastorn no especificat de l'os i el cartílag,733,Altres trastorns de l'os i el cartílag,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ANTICONCEPTIVOS,8,,,,,,
+DOLOR CABEZA,8,339,Altres síndromes amb cefalàlgia,339,Altres síndromes amb cefalàlgia,6,Malalties del sistema nerviós i els òrgans dels sentits
+PROTECCIO ESTOMAC,8,,,,,,
+REFLUXE,8,53081,Reflux esofàgic,530,Malalties d'esòfag,9,Malalties de l’aparell digestiu
+REFREDAT,8,460,Rinofaringitis aguda [refredat comú],460,Rinofaringitis aguda [refredat comú],8,Malalties de l’aparell respiratori
+RELAJANTE,8,,,,,,
+VERTIGEN,8,7804,Vertigen i mareig,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+MIOMA,7,2189,"Liomioma uterí, localització no especificada",218,Liomioma uterí,2,Neoplàsies
+TRIGLICERIDOS,7,2721,Hipergliceridèmia pura,272,Trastorns del metabolisme dels lípids,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+TRASTORN BIPOLAR,7,29680,Trastorn bipolar no especificat,296,Trastorns de l'estat d'ànim episòdics,5,Trastorns mentals
+ANSIOLITIC,7,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANTIDEPRESIVO,7,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+REFLUJO GASTRICO,7,53081,Reflux esofàgic,530,Malalties d'esòfag,9,Malalties de l’aparell digestiu
+GASTRITIS CRONICA,7,5355,Gastritis i gastroduodenitis no especificades,535,Gastritis i duodenitis,9,Malalties de l’aparell digestiu
+HERNIA D'HIATUS,7,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+HERNIA DE HIATUS,7,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+DOLOR MENSTRUAL,7,6253,Dismenorrea,625,Dolor i altres símptomes associats amb els òrgans genitals femenins,10,Malalties de l’aparell genitourinari
+FATIGA CRONICA,7,78071,Síndrome de fatiga crònica,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+TAQUICARDIA,7,7850,Taquicàrdia no especificada,785,Símptomes que afecten l'aparell cardiovascular,16,"Símptomes, signes i afeccions mal definides"
+CAIGUDA CABELL,7,,,,,,
+COLIC NEFRITIC,7,,,,,,
+FALTA DE VITAMINA D,7,2689,Carència de vitamina D no especificada,268,Carència de vitamina D,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+GENOLL,7,,,,,,
+PRESSIO OCULAR,7,36504,Hipertensió ocular,365,Glaucoma,6,Malalties del sistema nerviós i els òrgans dels sentits
+PREVENCIO,7,,,,,,
+PROTECTOR DE ESTOMAGO,7,,,,,,
+RETENCION DE LIQUIDOS,6,2766,Sobrecàrrega de líquids,276,Trastorns de l'equilibri hidroelectrolític i acidobàsic,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+TOC,6,3003,Trastorns obsessivocompulsius,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+DEPRESSIO LLEU,6,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+ANTIDEPRESIU,6,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+TDAH,6,31401,Trastorn per dèficit d'atenció amb hiperactivitat,314,Síndrome hipercinètica de la infància,5,Trastorns mentals
+MENINGITIS,6,322,Meningitis de causa no especificada,322,Meningitis de causa no especificada,6,Malalties del sistema nerviós i els òrgans dels sentits
+TENSIO,6,401,Hipertensió essencial,401,Hipertensió essencial,7,Malalties de l’aparell circulatori
+HEMORROIDES,6,455,Hemorroides,455,Hemorroides,7,Malalties de l’aparell circulatori
+RESFRIADO,6,460,Rinofaringitis aguda [refredat comú],460,Rinofaringitis aguda [refredat comú],8,Malalties de l’aparell respiratori
+ACIDEZ,6,53081,Reflux esofàgic,530,Malalties d'esòfag,9,Malalties de l’aparell digestiu
+PANCREATITIS,6,5770,Pancreatitis aguda,577,Malalties de pàncrees,9,Malalties de l’aparell digestiu
+LITIASIS RENAL,6,5920,Càlcul renal,592,Càlcul renal i ureteral,10,Malalties de l’aparell genitourinari
+ROSACEA,6,6953,Rosàcia,695,Afeccions eritematoses,12,Malalties de la pell i el teixit subcutani
+HEPATITIS A,6,701,Altres afeccions hipertròfiques i atròfiques de la pell,701,Altres afeccions hipertròfiques i atròfiques de la pell,12,Malalties de la pell i el teixit subcutani
+VITILIGO,6,70901,Vitiligen,709,Altres trastorns de la pell i el teixit subcutani,12,Malalties de la pell i el teixit subcutani
+VERTIGO,6,7804,Vertigen i mareig,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+ACIDESA,6,,,,,,
+ANTICONCEPTIVO,6,,,,,,
+CALCULS RENALS,6,5920,Càlcul renal,592,Càlcul renal i ureteral,10,Malalties de l’aparell genitourinari
+EMBARAS,6,,,,,,
+ENCOSTIPAT,6,,,,,,
+FASCITIS PLANTAR,6,,,,,,
+REDUCCIO ESTOMAC,6,,,,,,
+REFLUXE GASTRIC,6,,,,,,
+SUCRE,6,,,,,,
+SUENO,6,,,,,,
+MENOPAUSIA PRECOZ,5,25631,Menopausa prematura,256,Disfunció ovàrica,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+OBESIDAD,5,278,"Sobrepès, obesitat i altres hiperalimentacions",278,"Sobrepès, obesitat i altres hiperalimentacions",3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+CEFALEA TENSIONAL,5,30781,Cefalàlgia tensional,307,Símptomes o síndromes especials no classificats a cap altre lloc,5,Trastorns mentals
+DEPRESIO LLEU,5,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+ESTRENYIMENT,5,5640,Restrenyiment,564,Trastorns digestius funcionals no classificats a cap altre lloc,9,Malalties de l’aparell digestiu
+HIGADO GRASO,5,5719,Hepatopatia crònica no especificada sense menció d'alcohol,571,Malaltia hepàtica crònica i cirrosi,9,Malalties de l’aparell digestiu
+LIQUEN PLANO,5,6970,Liquen pla,697,Liquen,12,Malalties de la pell i el teixit subcutani
+HERNIA CERVICAL,5,722,Trastorns del disc intervertebral,722,Trastorns del disc intervertebral,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+CERVICALGIA,5,7231,Cervicàlgia,723,Altres trastorns de la regió cervical,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+MALESTAR,5,7807,Malestar i fatiga,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+DIURETICO,5,78820,Retenció urinària no especificada,788,Símptomes que afecten l'aparell urinari,16,"Símptomes, signes i afeccions mal definides"
+ARDORES,5,,,,,,
+CALCI,5,,,,,,
+DEPRESION Y ANSIEDAD,5,,,,,,
+DIGESTIO,5,,,,,,
+DIVERTICULITIS,5,,,,,,
+DOLOR ESQUENA,5,,,,,,
+ESPALDA,5,,,,,,
+ESTAT ANIMIC,5,2969,Altres trastorns de l'estat d'ànim episòdics i trastorns de l'estat d'ànim episòdics no especificats,296,Trastorns de l'estat d'ànim episòdics,5,Trastorns mentals
+ESTOMAG,5,,,,,,
+FALTA DE FERRO,5,,,,,,
+FALTA VITAMINA D,5,2689,Carència de vitamina D no especificada,268,Carència de vitamina D,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+FERRO,5,,,,,,
+HERPES ZOSTER,5,,,,,,
+HIERRO,5,,,,,,
+HORMONAL,5,,,,,,
+IMSOMNI,5,,,,,,
+MENSTRUACIO,5,,,,,,
+PARA EL DOLOR,5,,,,,,
+PROTECTOR D'ESTOMAC,5,,,,,,
+PROTECTOR GASTRICO,5,,,,,,
+REGLA,5,,,,,,
+TUBERCULOSI,5,,,,,,
+TIROIDITIS DE HASHIMOTO,4,2452,Tiroïditis limfocítica crònica,245,Tiroïditis,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+TIROIDITIS,4,245,Tiroïditis,245,Tiroïditis,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+ESTADO DE ANIMO,4,2969,Altres trastorns de l'estat d'ànim episòdics i trastorns de l'estat d'ànim episòdics no especificats,296,Trastorns de l'estat d'ànim episòdics,5,Trastorns mentals
+PSIQUIATRA (TOC),4,3003,Trastorns obsessivocompulsius,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANTIDEPRESSIU,4,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+DEPRESION - ANSIEDAD,4,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+MIELITIS,4,323,"Encefalitis, mielitis i encefalomielitis",323,"Encefalitis, mielitis i encefalomielitis",6,Malalties del sistema nerviós i els òrgans dels sentits
+CONJUNTIVITIS,4,372,Trastorns de la conjuntiva,372,Trastorns de la conjuntiva,6,Malalties del sistema nerviós i els òrgans dels sentits
+TENSIO ALTA,4,401,Hipertensió essencial,401,Hipertensió essencial,7,Malalties de l’aparell circulatori
+CORAZON,4,4118,Altres formes agudes i subagudes de cardiopatia isquèmica,411,Altres formes agudes i subagudes de cardiopatia isquèmica,7,Malalties de l’aparell circulatori
+CORAZON,4,411,Altres formes agudes i subagudes de cardiopatia isquèmica,411,Altres formes agudes i subagudes de cardiopatia isquèmica,7,Malalties de l’aparell circulatori
+CORAZON,4,41189,Altres formes agudes i subagudes de cardiopatia isquèmica,411,Altres formes agudes i subagudes de cardiopatia isquèmica,7,Malalties de l’aparell circulatori
+SINUSITIS,4,4739,Sinusitis (crònica) no especificada,473,Sinusitis crònica,8,Malalties de l’aparell respiratori
+ARDOR DE ESTOMAGO,4,5369,Trastorn funcional no especificat de l'estómac,536,Trastorns de la funció de l'estómac,9,Malalties de l’aparell digestiu
+DISPEPSIA,4,5368,Dispèpsia i altres trastorns especificats de la funció de l'estómac,536,Trastorns de la funció de l'estómac,9,Malalties de l’aparell digestiu
+APENDICITIS,4,5409,Apendicitis aguda sense menció de peritonitis,540,Apendicitis aguda,9,Malalties de l’aparell digestiu
+HERNIA INGUINAL,4,550,Hèrnia inguinal,550,Hèrnia inguinal,9,Malalties de l’aparell digestiu
+HERNIA HIATUS,4,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+HIPERPLASIA PROSTATA,4,600,Hiperplàsia prostàtica,600,Hiperplàsia prostàtica,10,Malalties de l’aparell genitourinari
+CARTILAGOS,4,7180,Trastorn del cartílag articular,718,Altres desarranjaments articulars,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+CEFALEAS,4,7231,Cervicàlgia,723,Altres trastorns de la regió cervical,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+DOLORES MUSCULARES,4,7291,Miàlgia i miositis no especificades,729,Altres trastorns dels teixits tous,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+DOLOR DE HUESOS,4,7339,Altres trastorns i trastorns no especificats de l'os i el cartílag,733,Altres trastorns de l'os i el cartílag,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+OSTOPENIA,4,73390,Trastorn no especificat de l'os i el cartílag,733,Altres trastorns de l'os i el cartílag,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+APNEA,4,78603,Apnea,786,Símptomes que afecten l'aparell respiratori i altres símptomes toràcics,16,"Símptomes, signes i afeccions mal definides"
+TOS,4,7862,Tos,786,Símptomes que afecten l'aparell respiratori i altres símptomes toràcics,16,"Símptomes, signes i afeccions mal definides"
+ANTIINFLAMATORI,4,,,,,,
+ANTIINFLAMATORIS,4,,,,,,
+ARTICULACIONES,4,,,,,,
+ARTICULACIONS,4,,,,,,
+BAIXA VITAMINA D,4,2689,Carència de vitamina D no especificada,268,Carència de vitamina D,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+BIPOLAR,4,,,,,,
+BULIMIA,4,,,,,,
+CONDROMALACIA ROTULIANA,4,,,,,,
+CONTRACTURES,4,,,,,,
+DEJAR DE FUMAR,4,,,,,,
+DESCALCIFICACIO,4,,,,,,
+DOLOR D'ESQUENA,4,,,,,,
+DOLOR HUESOS,4,,,,,,
+HERPES,4,,,,,,
+IMSOMNIO,4,,,,,,
+INFLAMACIO,4,,,,,,
+LUMBAGO,4,,,,,,
+MAL D'ESQUENA,4,,,,,,
+MANCA VITAMINA D,4,2689,Carència de vitamina D no especificada,268,Carència de vitamina D,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+MONONUCLEOSI,4,,,,,,
+POLIPS NASALS,4,,,,,,
+PROSTATITIS CRONICA,4,,,,,,
+PROTECTOR ESTOMAG,4,,,,,,
+RELAXANT MUSCULAR,4,7291,Miàlgia i miositis no especificades,729,Altres trastorns dels teixits tous,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+RETENCIO DE LIQUIDS,4,,,,,,
+RETENCIO LIQUIDS,4,,,,,,
+SEXUAL,4,,,,,,
+SINDROME DE FATIGA CRONICA,4,,,,,,
+TRIGLICERIDS,4,,,,,,
+ULCERA,4,,,,,,
+HIPOTIROIDES,3,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+TIROIDE,3,2469,Trastorn no especificat de la tiroide,246,Altres trastorns de la tiroide,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+TIROIDISME,3,2469,Trastorn no especificat de la tiroide,246,Altres trastorns de la tiroide,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPERCOLESTEROLEMIA FAMILIAR,3,2720,Hipercolesterolèmia pura,272,Trastorns del metabolisme dels lípids,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+FALTA DE HIERRO,3,2750,Trastorns del metabolisme del ferro,275,Trastorns del metabolisme mineral,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+ANSIEDAD GENERALIZADA,3,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+TRASTORN ANSIETAT,3,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+PARA LA ANSIEDAD,3,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+DEPRESSIO REACTIVA,3,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+DEPRESSIO MENOR,3,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+PIERNAS INQUIETAS,3,33394,Síndrome de les cames inquietes (SCI),333,Altres malalties extrapiramidals i trastorns de moviment anormal,6,Malalties del sistema nerviós i els òrgans dels sentits
+ANALGESICO,3,338,Dolor no classificat a cap altre lloc,338,Dolor no classificat a cap altre lloc,6,Malalties del sistema nerviós i els òrgans dels sentits
+PRESION OCULAR,3,36504,Hipertensió ocular,365,Glaucoma,6,Malalties del sistema nerviós i els òrgans dels sentits
+HIPERTENSION ARTERIAL,3,401,Hipertensió essencial,401,Hipertensió essencial,7,Malalties de l’aparell circulatori
+ESOFAGUITIS,3,53010,Esofagitis no especificada,530,Malalties d'esòfag,9,Malalties de l’aparell digestiu
+REFLUJOS,3,53081,Reflux esofàgic,530,Malalties d'esòfag,9,Malalties de l’aparell digestiu
+REFLUX GASTRIC,3,53081,Reflux esofàgic,530,Malalties d'esòfag,9,Malalties de l’aparell digestiu
+REFLUX,3,53081,Reflux esofàgic,530,Malalties d'esòfag,9,Malalties de l’aparell digestiu
+HERNIA HIAT,3,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+HERNIA DE IATUS,3,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+HERNIA DE YATO,3,5533,Hèrnia diafragmàtica sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+ESTRENIMIENTO,3,5640,Restrenyiment,564,Trastorns digestius funcionals no classificats a cap altre lloc,9,Malalties de l’aparell digestiu
+FETGE GRAS,3,5719,Hepatopatia crònica no especificada sense menció d'alcohol,571,Malaltia hepàtica crònica i cirrosi,9,Malalties de l’aparell digestiu
+CALCULOS RENALES,3,5920,Càlcul renal,592,Càlcul renal i ureteral,10,Malalties de l’aparell genitourinari
+COLICO NEFRITICO,3,5929,Càlcul urinari no especificat,592,Càlcul renal i ureteral,10,Malalties de l’aparell genitourinari
+CISTITIS,3,599,Altres trastorns de la uretra i el tracte urinari,599,Altres trastorns de la uretra i el tracte urinari,10,Malalties de l’aparell genitourinari
+HIPERPLASIA BENIGNA,3,600,Hiperplàsia prostàtica,600,Hiperplàsia prostàtica,10,Malalties de l’aparell genitourinari
+HBP,3,6000,Hipertròfia (benigna) de la pròstata,600,Hiperplàsia prostàtica,10,Malalties de l’aparell genitourinari
+HIPERPLASIA BENIGNA PROSTATA,3,6000,Hipertròfia (benigna) de la pròstata,600,Hiperplàsia prostàtica,10,Malalties de l’aparell genitourinari
+DERMATITIS SEBORREICA,3,6901,Dermatitis seborreica,690,Dermatosi eritematoescatosa,12,Malalties de la pell i el teixit subcutani
+DERMATITIS ATOPICA,3,6918,Altres dermatitis atòpiques i afeccions relacionades,691,Dermatitis atòpica i afeccions relacionades,12,Malalties de la pell i el teixit subcutani
+ACNE ROSACEA,3,6953,Rosàcia,695,Afeccions eritematoses,12,Malalties de la pell i el teixit subcutani
+ARTROSI GENOLL,3,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ARTROSIS RODILLA,3,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ESPONDILITIS ANQUILOSANT,3,7200,Espondilitis anquilosant,720,Espondilitis anquilosant i altres espondilopaties inflamatòries,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+HERNIAS DISCALES,3,7229,Altres trastorns discals i trastorns discals no especificats,722,Trastorns del disc intervertebral,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+HERNIA DISCAL CERVICAL,3,7229,Altres trastorns discals i trastorns discals no especificats,722,Trastorns del disc intervertebral,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+CERVICALS,3,7231,Cervicàlgia,723,Altres trastorns de la regió cervical,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+DOLOR CERVICAL,3,7231,Cervicàlgia,723,Altres trastorns de la regió cervical,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+CERVICALES,3,7231,Cervicàlgia,723,Altres trastorns de la regió cervical,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ESQUENA,3,7245,Dorsàlgia no especificada,724,Altres trastorns de l'esquena i trastorns de l'esquena no especificats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+MAL DE ESQUENA,3,7245,Dorsàlgia no especificada,724,Altres trastorns de l'esquena i trastorns de l'esquena no especificats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+FIBROMALGIA,3,7291,Miàlgia i miositis no especificades,729,Altres trastorns dels teixits tous,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ESCOLIOSI,3,737,Curvatura de columna vertebral,737,Curvatura de columna vertebral,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ESCOLIOSIS,3,737,Curvatura de columna vertebral,737,Curvatura de columna vertebral,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+PER A DORMIR,3,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+CANSAMENT,3,7807,Malestar i fatiga,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+APNEA DE LA SON,3,78603,Apnea,786,Símptomes que afecten l'aparell respiratori i altres símptomes toràcics,16,"Símptomes, signes i afeccions mal definides"
+AZUCAR,3,7902,Glucosa anormal,790,Resultats anormals no específics en anàlisi de sang,16,"Símptomes, signes i afeccions mal definides"
+HIPERURICEMIA,3,7906,Altres anormalitats en la composició química de la sang,790,Resultats anormals no específics en anàlisi de sang,16,"Símptomes, signes i afeccions mal definides"
+FRACTURA COSTELLA,3,8070,Fractura tancada de costella -es,807,"Fractura de costella, estern, laringe i tràquea",17,Lesions i intoxicacions
+ALCOHOLISMO,3,,,,,,
+ANSIETAT I DEPRESSIO,3,,,,,,
+ANTI-INFLAMATORI,3,,,,,,
+ANTIINFLAMATORIO,3,,,,,,
+ANTIINFLAMATORIOS,3,,,,,,
+APNEA DEL SUENO,3,,,,,,
+ARITMIA,3,4279,Arítmia cardíaca no especificada,427,Arítmia cardíaca,7,Malalties de l’aparell circulatori
+ARRITMIAS,3,4279,Arítmia cardíaca no especificada,427,Arítmia cardíaca,7,Malalties de l’aparell circulatori
+ATROSIS,3,,,,,,
+BACTERIA ESTOMACAL,3,,,,,,
+BIPOLARIDAD,3,,,,,,
+CAMES INQUIETES,3,,,,,,
+CREMOR D'ESTOMAC,3,5369,Trastorn funcional no especificat de l'estómac,536,Trastorns de la funció de l'estómac,9,Malalties de l’aparell digestiu
+CREMOR ESTOMAC,3,5369,Trastorn funcional no especificat de l'estómac,536,Trastorns de la funció de l'estómac,9,Malalties de l’aparell digestiu
+DEPRESION MENOR,3,,,,,,
+DERMOGRAFISME,3,,,,,,
+DOLOR CADERA,3,,,,,,
+DOLOR CRONIC,3,,,,,,
+DOLORS MUSCULARS,3,,,,,,
+ENDOMETRIOSI,3,,,,,,
+ESCLEROSIS MULTIPLE,3,,,,,,
+ESOFAGO DE BARRET,3,,,,,,
+ESPALDA / CLINICA DOLOR,3,,,,,,
+FALTA FERRO,3,,,,,,
+FERRO BAIX,3,,,,,,
+FERROPENIA,3,,,,,,
+HERNIA,3,,,,,,
+HIPERTENSIO OCULAR,3,36504,Hipertensió ocular,365,Glaucoma,6,Malalties del sistema nerviós i els òrgans dels sentits
+IMSONIO,3,,,,,,
+INCONTINENCIA URINARIA,3,,,,,,
+INFECCIO D'ORINA,3,,,,,,
+INFECCION ORINA,3,,,,,,
+INTERVENCION QUIRURGICA REDUCCION DE ESTOMAGO,3,,,,,,
+LARINGE IRRITABLE,3,,,,,,
+LUMBALGIA CRONICA,3,,,,,,
+MAL ESQUENA,3,,,,,,
+MALS DE CAP,3,,,,,,
+MUSCULAR,3,,,,,,
+NERVIO CIATICO,3,,,,,,
+NEURALGIA,3,,,,,,
+NODULOS TIROIDES,3,,,,,,
+NO MOTILITAT INTESTINAL,3,,,,,,
+ORINA,3,,,,,,
+PALPITACIONES,3,,,,,,
+PARA LOS HUESOS,3,,,,,,
+PARQUISON,3,,,,,,
+PEDRES VESICULA,3,,,,,,
+PER QUEDAR-ME EMBARASSADA,3,,,,,,
+PICORS,3,,,,,,
+PIEDRA EN EL RINON,3,,,,,,
+PIELONEFRITIS,3,,,,,,
+PLEURITIS TUBERCULOSA,3,,,,,,
+PNEUMONIA,3,,,,,,
+POLIOMIELITIS,3,,,,,,
+PRESIO,3,,,,,,
+PRESION ARTERIAL,3,,,,,,
+PROBLEMES CERVICALS,3,,,,,,
+PROLACTINA,3,,,,,,
+PROTECTOR D'ESTOMAG,3,,,,,,
+PROTEINURIA,3,,,,,,
+PSIQUIATRIC,3,,,,,,
+RADICULOPATIA,3,,,,,,
+REDUCCIO D'ESTOMAC,3,,,,,,
+RETENCION LIQUIDOS,3,,,,,,
+REUMATISME PALINDROMIC,3,,,,,,
+SANG,3,,,,,,
+SEQUEDAT OCULAR,3,,,,,,
+SINDROME DE MENIERE,3,,,,,,
+SINDROME DE SJOGREN,3,,,,,,
+TDA,3,,,,,,
+TDH,3,,,,,,
+TENSIO OCULAR,3,36504,Hipertensió ocular,365,Glaucoma,6,Malalties del sistema nerviós i els òrgans dels sentits
+TIROIDECTOMIA TOTAL,3,,,,,,
+TLP,3,,,,,,
+TRANQUILIZANTE,3,,,,,,
+ULCERA DE ESTOMAGO,3,,,,,,
+VEJIGA HIPERACTIVA,3,,,,,,
+VITAMINA,3,,,,,,
+VITAMINES,3,,,,,,
+MIOMAS UTERINOS,2,2189,"Liomioma uterí, localització no especificada",218,Liomioma uterí,2,Neoplàsies
+MIOMAS,2,2189,"Liomioma uterí, localització no especificada",218,Liomioma uterí,2,Neoplàsies
+HPOTIROIDISME,2,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HOPOTIROIDISME,2,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPOTIRODISME,2,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPOTIRODISMO,2,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPOTIROISDISMO,2,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPOTIROIDISMO HASHIMOTO,2,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+TIROIDITIS AUTOINMUNE,2,245,Tiroïditis,245,Tiroïditis,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+TIROIDISMO,2,2469,Trastorn no especificat de la tiroide,246,Altres trastorns de la tiroide,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+DIABETIS,2,250,Diabetis mellitus,250,Diabetis mellitus,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+DIABETES GESTACIONAL,2,250,Diabetis mellitus,250,Diabetis mellitus,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPERPARATIROIDISME,2,252,Trastorns de la glàndula paratiroide,252,Trastorns de la glàndula paratiroide,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+COLESTEROL ALTO,2,2720,Hipercolesterolèmia pura,272,Trastorns del metabolisme dels lípids,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+COLESTEROLEMIA,2,2720,Hipercolesterolèmia pura,272,Trastorns del metabolisme dels lípids,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+OBESITAT,2,278,"Sobrepès, obesitat i altres hiperalimentacions",278,"Sobrepès, obesitat i altres hiperalimentacions",3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+ANEMIA FERRO,2,2809,Anèmia per dèficit de ferro no especificada,280,Anèmies per dèficit de ferro,4,Malalties de la sang i els òrgans hematopoètics
+TRANSTORNO BIPOLAR,2,29680,Trastorn bipolar no especificat,296,Trastorns de l'estat d'ànim episòdics,5,Trastorns mentals
+ESTADO ANIMICO,2,2969,Altres trastorns de l'estat d'ànim episòdics i trastorns de l'estat d'ànim episòdics no especificats,296,Trastorns de l'estat d'ànim episòdics,5,Trastorns mentals
+ANSIATAT,2,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSIEDAD LESION MEDULAR,2,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+CRISI ANSIETAT,2,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSIEDAD Y DEPRESION,2,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSIOLITICOS,2,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSIETAT PUNTUAL,2,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+TRASTORNS ANSIETAT,2,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ESTAT DEPRESSIU,2,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+DEPRESIO REACTIVA,2,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+ANSIEDAD Y DEPRESION,2,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+ANTIDEPRESIVOS,2,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+ESTADO DEPRESIVO,2,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+DEPRESSIO-ANSIETAT,2,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+TENSIO ARTERIAL,2,401,Hipertensió essencial,401,Hipertensió essencial,7,Malalties de l’aparell circulatori
+ELICOBACTER PYLORI,2,4186,,418,,,
+CIRCULACIO VASCULAR,2,4599,Trastorn no especificat de l'aparell circulatori,459,Altres trastorns de l'aparell circulatori,7,Malalties de l’aparell circulatori
+INSUFICIENCIA CIRCULATORIA RETORN,2,4599,Trastorn no especificat de l'aparell circulatori,459,Altres trastorns de l'aparell circulatori,7,Malalties de l’aparell circulatori
+CIRCULACION SANGUINEA,2,4599,Trastorn no especificat de l'aparell circulatori,459,Altres trastorns de l'aparell circulatori,7,Malalties de l’aparell circulatori
+INSUFICIENCIA CIRCULATORIA,2,4599,Trastorn no especificat de l'aparell circulatori,459,Altres trastorns de l'aparell circulatori,7,Malalties de l’aparell circulatori
+MALA CIRCULACION,2,4599,Trastorn no especificat de l'aparell circulatori,459,Altres trastorns de l'aparell circulatori,7,Malalties de l’aparell circulatori
+BRONQUITIS ASMATICA,2,493,Asma,493,Asma,8,Malalties de l’aparell respiratori
+REFLUXE GASTROESOFAGIC,2,53081,Reflux esofàgic,530,Malalties d'esòfag,9,Malalties de l’aparell digestiu
+REFLUX ESTOMACAL,2,53081,Reflux esofàgic,530,Malalties d'esòfag,9,Malalties de l’aparell digestiu
+ARDOR ESTOMAGO,2,5369,Trastorn funcional no especificat de l'estómac,536,Trastorns de la funció de l'estómac,9,Malalties de l’aparell digestiu
+ARDOR,2,5369,Trastorn funcional no especificat de l'estómac,536,Trastorns de la funció de l'estómac,9,Malalties de l’aparell digestiu
+DIGESTION,2,5369,Trastorn funcional no especificat de l'estómac,536,Trastorns de la funció de l'estómac,9,Malalties de l’aparell digestiu
+ARDORES ESTOMACALES,2,5369,Trastorn funcional no especificat de l'estómac,536,Trastorns de la funció de l'estómac,9,Malalties de l’aparell digestiu
+HERNIA D'HIAT,2,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+HERNIA IATO,2,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+ERNIA DE HIATO,2,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+HERNIA DE HIAT,2,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+EMBARAZO,2,650,Part normal,650,Part normal,11,"Complicacions de l’embaràs, el part i el puerperi"
+ARTROSIS DE CADERA,2,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ARTROSIS CERVICAL,2,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+DOLOR DE RODILLA,2,71946,Dolor articular de cama,719,Altres trastorns articulars i trastorns articulars no especificats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ESPONDILITIS ANQUILOSANTE,2,7200,Espondilitis anquilosant,720,Espondilitis anquilosant i altres espondilopaties inflamatòries,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+DOLORES DE ESPALDA,2,7245,Dorsàlgia no especificada,724,Altres trastorns de l'esquena i trastorns de l'esquena no especificats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+DOLORES ESPALDA,2,7245,Dorsàlgia no especificada,724,Altres trastorns de l'esquena i trastorns de l'esquena no especificats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+CONTRACTURA MUSCULAR,2,72885,Espasme muscular,728,"Trastorns del múscul, el lligament i la fàscia",13,Malalties del sistema musculoesquelètic i el teixit connectiu
+CONTRACTURAS,2,72885,Espasme muscular,728,"Trastorns del múscul, el lligament i la fàscia",13,Malalties del sistema musculoesquelètic i el teixit connectiu
+CONTRACTURA,2,72885,Espasme muscular,728,"Trastorns del múscul, el lligament i la fàscia",13,Malalties del sistema musculoesquelètic i el teixit connectiu
+FIBROMIALGIA - FATIGA,2,7291,Miàlgia i miositis no especificades,729,Altres trastorns dels teixits tous,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+FIBROMIALGIA Y FATIGA CRONICA,2,7291,Miàlgia i miositis no especificades,729,Altres trastorns dels teixits tous,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+OSSOS I ARTICULACIONS,2,73390,Trastorn no especificat de l'os i el cartílag,733,Altres trastorns de l'os i el cartílag,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+OSOS,2,73390,Trastorn no especificat de l'os i el cartílag,733,Altres trastorns de l'os i el cartílag,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ESCOLIOSIS LUMBAR,2,737,Curvatura de columna vertebral,737,Curvatura de columna vertebral,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+DIFICULTAT PER DORMIR,2,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+RETENCION DE ORINA,2,78820,Retenció urinària no especificada,788,Símptomes que afecten l'aparell urinari,16,"Símptomes, signes i afeccions mal definides"
+ORINAR,2,78820,Retenció urinària no especificada,788,Símptomes que afecten l'aparell urinari,16,"Símptomes, signes i afeccions mal definides"
+ALERGIES,2,9953,Al·lèrgia no especificada,995,Determinades reaccions adverses no classificades a cap altre lloc,17,Lesions i intoxicacions
+DOLOR DE CABEZA Y MALESTAR,2,339,Altres síndromes amb cefalàlgia,339,Altres síndromes amb cefalàlgia,6,Malalties del sistema nerviós i els òrgans dels sentits
+ENDOMETROSIS,2,,,,,,
+ESTOMEG,2,,,,,,
+FALTA DE AIRE / ASFIXIA,2,,,,,,
+FERRITINA,2,,,,,,
+FOBIA SOCIAL,2,,,,,,
+FONGS PEUS,2,,,,,,
+FRIBROMIALGIA,2,,,,,,
+GASES,2,,,,,,
+GASOS,2,,,,,,
+INSOMMI,2,,,,,,
+LIQUEN PLA,2,,,,,,
+LUMBALGIA I CERVICALGIA,2,,,,,,
+MAL DE COLL,2,,,,,,
+MAL D'ESTOMAC,2,5369,Trastorn funcional no especificat de l'estómac,536,Trastorns de la funció de l'estómac,9,Malalties de l’aparell digestiu
+MALT DE CAP,2,,,,,,
+MANCA DE FERRO,2,,,,,,
+MENSTRUACION,2,,,,,,
+MIOCARDIOPATIA HIPERTROFICA,2,,,,,,
+NODULOS,2,,,,,,
+OJOS,2,,,,,,
+PARA LOS NERVIOS,2,79921,Nerviosisme,799,Altres causes desconegudes i mal definides de morbiditat i mortalitat,16,"Símptomes, signes i afeccions mal definides"
+PRESIO ARTERIAL,2,,,,,,
+PRESSIO,2,,,,,,
+PROTATA,2,,,,,,
+REFORC,2,,,,,,
+REGLAS ABUNDANTES,2,,,,,,
+REGLES ABUNDANTS,2,,,,,,
+REGULAR LA REGLA,2,,,,,,
+RELAJAR,2,,,,,,
+REUMA A LA SANG,2,,,,,,
+SINDROME SJOGREN,2,,,,,,
+STRESS,2,,,,,,
+SUCRE EN SANG,2,,,,,,
+TABAC,2,,,,,,
+TENDONS,2,,,,,,
+TERAPIA HORMONAL SUSTITUTIVA,2,,,,,,
+TIFUS,2,,,,,,
+VERTIGENS,2,7804,Vertigen i mareig,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+VIH,2,,,,,,
+VIRUS PAPILOMA,2,,,,,,
+ACALASIA,2,,,,,,
+ACIDESA D'ESTOMAC,2,,,,,,
+ACIDEZ ESTOMAGO,2,,,,,,
+ACNE,2,,,,,,
+ACUFENS,2,,,,,,
+ADELGAZAR,2,,,,,,
+AGORAFOBIA,2,,,,,,
+ALOPECIA AREATA,2,,,,,,
+CIRURGIA BARIATRICA,2,,,,,,
+COL?LOCACIO STENT,2,,,,,,
+COMPLEMENT ALIMENTICI,2,,,,,,
+CONSTIPAT,2,,,,,,
+CONTROLARLA,2,,,,,,
+CONTROL GLOUCOMA,2,,,,,,
+DECAIMENT,2,,,,,,
+DEFICIT D'ABSORCIO,2,,,,,,
+DEPRESIO/ANSIETAT.,2,,,,,,
+DESCANSAR,2,,,,,,
+DIGESTIVO,2,,,,,,
+DISTROFIA DISTAL REFLEJA,2,,,,,,
+DOLOR ARTICULACIONS,2,,,,,,
+DOLOR BRAZO,2,,,,,,
+DOLOR CERVICALS - TINC HERNIA,2,,,,,,
+DOLOR DE CABEZA/ESPALDA,2,,,,,,
+DOLOR NEUROPATIC,2,,,,,,
+DOLOR OSSOS,2,,,,,,
+DOLORS D'ESQUENA,2,,,,,,
+ERITEMA NODOSO,2,,,,,,
+ESTAT NERVIOS,2,79921,Nerviosisme,799,Altres causes desconegudes i mal definides de morbiditat i mortalitat,16,"Símptomes, signes i afeccions mal definides"
+ESTRES/ANSIETAT,2,,,,,,
+FATIGA,2,,,,,,
+FIBRILACION AURICULAR,2,,,,,,
+GENERACIO DE CARTILAC,2,,,,,,
+GOLL MULTINODULAR,2,,,,,,
+POLIPS ENDOMETRI,2,,,,,,
+POLIPS VESICULA,2,,,,,,
+POR CIRUJIA,2,,,,,,
+PRECAUCION,2,,,,,,
+PRESCRIPCIO MEDICA,2,,,,,,
+PRESIO OCULAR ALTA,2,36504,Hipertensió ocular,365,Glaucoma,6,Malalties del sistema nerviós i els òrgans dels sentits
+PREVENCION,2,,,,,,
+PROBLEMAS DIGESTIVOS,2,,,,,,
+PROBLEMAS EN LAS CERVICALES,2,,,,,,
+PROTECCION ESTOMAGO,2,,,,,,
+PROTECCION GASTRICA,2,,,,,,
+PSICOSIS,2,,,,,,
+QUERATITIS,2,,,,,,
+RELAJACION,2,,,,,,
+RELAJACION MUSCULAR,2,,,,,,
+RESPIRACION,2,,,,,,
+RINON,2,,,,,,
+RISC DE DEPRESSIO,2,,,,,,
+RONYO,2,,,,,,
+SINDROME SECO,2,,,,,,
+SOBREPES,2,,,,,,
+SOFOCOS,2,,,,,,
+SON,2,,,,,,
+SUPLEMENTS VITAMINICS,2,,,,,,
+TABAQUISME,2,,,,,,
+TBC,2,,,,,,
+TRANQUILITZANT,2,,,,,,
+TRAUMATISMES VARIS,2,,,,,,
+TRIGLICERITS,2,,,,,,
+TROMBOFLEBITIS,2,,,,,,
+TUBERCULOSIS PULMONAR,2,,,,,,
+ULCUS DUODENAL,2,,,,,,
+URTICARIA VASCULAR,2,,,,,,
+VARICOCELE,2,,,,,,
+AL.LERGIA,2,,,,,,
+ANTIBABY,2,,,,,,
+ANTICONCEPTIVAS,2,,,,,,
+BUDELL IRRITABLE,2,,,,,,
+CAIGUDA DE CABELL,2,,,,,,
+CLORESTEROL,2,,,,,,
+COLICOS NEFRITICOS,2,,,,,,
+COLOM,2,,,,,,
+COSTIPAT,2,,,,,,
+CRISI D'ANGOIXA,2,,,,,,
+DEFICIT VITAMINES,2,,,,,,
+DEIXAR DE FUMAR,2,,,,,,
+DEPRESSION,2,,,,,,
+DERMATOLOGICA,2,,,,,,
+DIETA,2,,,,,,
+DISCOPATIA DEGENERATIVA,2,,,,,,
+DISFAGIA,2,,,,,,
+DISFUNCION ERECTIL,2,,,,,,
+DISTONIA,2,,,,,,
+DIVERCULITIS,2,,,,,,
+DIVERTICULOS,2,,,,,,
+DOLOR MUSCULATURA,2,,,,,,
+DOLOR POR ROTURA,2,,,,,,
+DOLORS VARIS,2,,,,,,
+EDEMAS,2,,,,,,
+EMBOLIA ARTERIAL CAMA DRETA,2,,,,,,
+GRIP,2,,,,,,
+HERNIAS,2,,,,,,
+HERNIES DISCALS,2,,,,,,
+HERPES LABIAL,2,,,,,,
+HIPERMENORREA,2,,,,,,
+HIPERTENSION OCULAR,2,36504,Hipertensió ocular,365,Glaucoma,6,Malalties del sistema nerviós i els òrgans dels sentits
+HIPERTROFIA PROSTATA,2,,,,,,
+PEDRES AL RONYO,2,,,,,,
+PEL FERRO,2,,,,,,
+PERICARDITIS AGUDA,2,,,,,,
+PIEL,2,,,,,,
+PILDORA ANTICONCEPTIVA,2,,,,,,
+PLAQUETOPENIA,2,,,,,,
+PNEUMOTORAX,2,,,,,,
+TINITUS,2,,,,,,
+TINNITUS,2,,,,,,
+TIROIDECTOMIA,2,,,,,,
+TRANSTORN BIPOLAR,2,,,,,,
+TRANSTORNO DEL SUENO,2,,,,,,
+TRASTORN ADAPTATIU,2,,,,,,
+TREMOLOR A LES MANS,2,,,,,,
+URTICARIA,2,,,,,,
+URTICARIA CRONICA,2,,,,,,
+VARICELA,2,,,,,,
+ALZHEIMER,2,,,,,,
+AMIGDALITIS,2,,,,,,
+ANGINA DE PIT,2,,,,,,
+ANGINAS,2,,,,,,
+ANGINES,2,,,,,,
+ANIMO,2,,,,,,
+ANSIEDAD/DEPRESION,2,,,,,,
+"ANSIEDAD, ESTRES, FALTA DE SUENO",2,,,,,,
+ANSIETAT/DEPRESSIO,2,,,,,,
+ANTIACIDO,2,,,,,,
+ANTICONCEPCION,2,,,,,,
+ANTICONCEPTIVA,2,,,,,,
+ARRITMIA AURICULAR,2,4279,Arítmia cardíaca no especificada,427,Arítmia cardíaca,7,Malalties de l’aparell circulatori
+ATM,2,,,,,,
+BAIXA DE FERRO,2,,,,,,
+BIPOLARITAT,2,,,,,,
+BRONQUIOS,2,,,,,,
+BRUCELOSIS,2,,,,,,
+CAIDA CABELLO,2,,,,,,
+CARENCIA VITAMINA D,2,2689,Carència de vitamina D no especificada,268,Carència de vitamina D,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+CATARATAS,2,,,,,,
+CEFALALGIA OCASIONAL,2,,,,,,
+HERNIA ESTOMAC,2,,,,,,
+HERNIA HIATAL,2,,,,,,
+HIPERPLASIA DE PROSTATA,2,,,,,,
+HORMONAS,2,,,,,,
+INFECCIO ORINA,2,,,,,,
+INFLAMACION DE LA PROSTATA,2,,,,,,
+LAXANT,2,,,,,,
+LO MISMO,2,,,,,,
+LUMBAGIA,2,,,,,,
+LUXACION NERVIO CUBITAL,2,,,,,,
+MANCA DE CALCI,2,,,,,,
+MAREOS,2,,,,,,
+MENIERE,2,,,,,,
+MENINGIOMA,2,,,,,,
+MENISCO,2,,,,,,
+MENOPAUSA PRECOC,2,,,,,,
+METRORRAGIA,2,,,,,,
+MIGRANAS,2,,,,,,
+MONONUCLEOSI INFECCIOSA,2,,,,,,
+"MUCOSES VIES ALTES ""ATOPIQUES""",2,,,,,,
+MUCOSITAT,2,,,,,,
+NARCOLEPSIA,2,,,,,,
+NINGUNA,2,,,,,,
+OCULAR,2,,,,,,
+ORAL,2,,,,,,
+PAGET,2,,,,,,
+PARATIDOIDES,2,,,,,,
+PELL,2,,,,,,
+PICORES,2,,,,,,
+PLEURITIS,2,,,,,,
+DEPRESSIO REACTIVA MALALTIA FAMILIAR,2,,,,,,
+MIOMAS UTER,1,2189,"Liomioma uterí, localització no especificada",218,Liomioma uterí,2,Neoplàsies
+UTER MIOMATOS,1,2189,"Liomioma uterí, localització no especificada",218,Liomioma uterí,2,Neoplàsies
+HIPERTIROIDISMA,1,2423,Goll nodular tòxic no especificat,242,Tirotoxicosi amb goll o sense,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPERTIROIDISMO SUBAGUDO,1,2423,Goll nodular tòxic no especificat,242,Tirotoxicosi amb goll o sense,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPERTIRODISME I HIPOTIROIDISME,1,2423,Goll nodular tòxic no especificat,242,Tirotoxicosi amb goll o sense,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPERTIROIRISME,1,2423,Goll nodular tòxic no especificat,242,Tirotoxicosi amb goll o sense,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPERTIROIDISMOS,1,2423,Goll nodular tòxic no especificat,242,Tirotoxicosi amb goll o sense,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+MALALTIA DE GRAVES,1,2423,Goll nodular tòxic no especificat,242,Tirotoxicosi amb goll o sense,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+GRAVES BASEDOW,1,242,Tirotoxicosi amb goll o sense,242,Tirotoxicosi amb goll o sense,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+GRAVES BASSEDOF HIPERTIROIDISMO,1,242,Tirotoxicosi amb goll o sense,242,Tirotoxicosi amb goll o sense,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPERTIROIDISME/HIPOTIROIDISME,1,2423,Goll nodular tòxic no especificat,242,Tirotoxicosi amb goll o sense,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+MALALTIA DE GRAVES-BASEDOW (HIPERTIROIDISME),1,2423,Goll nodular tòxic no especificat,242,Tirotoxicosi amb goll o sense,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPERTIROIDES,1,2423,Goll nodular tòxic no especificat,242,Tirotoxicosi amb goll o sense,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+"HIPERTIROIDISME,ACTUALMENT HIPOTIROIDISME",1,2423,Goll nodular tòxic no especificat,242,Tirotoxicosi amb goll o sense,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+IPOTIROIDISMO,1,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPOTIROIDISME I EXTRAXISTOLES SUPRAVENTRICULARS,1,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPOTIROISDISME,1,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPOTIROIDISMO COMPENSADO.,1,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+PEDRES VESICULA/VARICES/HIPOTIROIDISMO,1,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPOTIROIDISMO PRIMARIO SUBCLINICO,1,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPOTIROIDISME HASHIMOTO,1,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPOTIROIDISME DE MASHIMOTO,1,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPOTIROIDISME  SUBCLINIC,1,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPOTIROIDISME AUTOOINMUNE,1,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPOTIROISME,1,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPOTIROISIMO,1,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPOTIROIDISMO LEVE,1,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPOTIROHIDISMO,1,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPOTIRODIAME,1,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPOTIROIDEA,1,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPOTIROIDISMO DE HASHAMOTO,1,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPOTIROIDISMO Y MENOPAUSIA,1,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPOTITOIDISME SUBCLINIC,1,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPOTIRODISIMO,1,2449,Hipotiroïdisme no especificat,244,Hipotiroïdisme adquirit,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPERTIRODISME I HIPOTIROIDISME,1,2469,Trastorn no especificat de la tiroide,246,Altres trastorns de la tiroide,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+COLESTEROL Y TIROIDES,1,2469,Trastorn no especificat de la tiroide,246,Altres trastorns de la tiroide,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+EXTIRPAR TIROIDES,1,2469,Trastorn no especificat de la tiroide,246,Altres trastorns de la tiroide,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+"HIPERTIROIDISME,ACTUALMENT HIPOTIROIDISME",1,2469,Trastorn no especificat de la tiroide,246,Altres trastorns de la tiroide,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPERTIROIDISME/HIPOTIROIDISME,1,2469,Trastorn no especificat de la tiroide,246,Altres trastorns de la tiroide,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+NEUROPATIA DIABETICA,1,250,Diabetis mellitus,250,Diabetis mellitus,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPERPARATIROIDISME PRIMARI,1,252,Trastorns de la glàndula paratiroide,252,Trastorns de la glàndula paratiroide,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPERPARATIROIDISMO SECUNDARIO,1,252,Trastorns de la glàndula paratiroide,252,Trastorns de la glàndula paratiroide,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+COLESTEREOL,1,2720,Hipercolesterolèmia pura,272,Trastorns del metabolisme dels lípids,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+COLESTEROL Y TIROIDES,1,2720,Hipercolesterolèmia pura,272,Trastorns del metabolisme dels lípids,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+"TIROIDES, COLESTEROL",1,2720,Hipercolesterolèmia pura,272,Trastorns del metabolisme dels lípids,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+"TIROIDISMO, COLESTEROL, ERNIA DISCAL",1,2720,Hipercolesterolèmia pura,272,Trastorns del metabolisme dels lípids,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+COLESTESROL,1,2720,Hipercolesterolèmia pura,272,Trastorns del metabolisme dels lípids,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+COLESTEROL PER SOBRE EL LLINDAR,1,2720,Hipercolesterolèmia pura,272,Trastorns del metabolisme dels lípids,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+COL.LESTEROL,1,2720,Hipercolesterolèmia pura,272,Trastorns del metabolisme dels lípids,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+COLESTEROL ALT,1,2720,Hipercolesterolèmia pura,272,Trastorns del metabolisme dels lípids,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+COLECTEROL,1,2720,Hipercolesterolèmia pura,272,Trastorns del metabolisme dels lípids,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+COLESTREROL,1,2720,Hipercolesterolèmia pura,272,Trastorns del metabolisme dels lípids,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+COLESTEOL,1,2720,Hipercolesterolèmia pura,272,Trastorns del metabolisme dels lípids,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+COLESTERIOL,1,2720,Hipercolesterolèmia pura,272,Trastorns del metabolisme dels lípids,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+REGULAR COLESTEROL,1,2720,Hipercolesterolèmia pura,272,Trastorns del metabolisme dels lípids,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+HIPERCOLESTEROLEMIA FAMILIAR HEREDITARIA,1,2720,Hipercolesterolèmia pura,272,Trastorns del metabolisme dels lípids,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+COLESTEROL I GOTA,1,2720,Hipercolesterolèmia pura,272,Trastorns del metabolisme dels lípids,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+TIROIDES Y COLESTEROL,1,2720,Hipercolesterolèmia pura,272,Trastorns del metabolisme dels lípids,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+COLESTERL,1,2720,Hipercolesterolèmia pura,272,Trastorns del metabolisme dels lípids,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+COLESTEROL/TRIGLICERITS,1,2721,Hipergliceridèmia pura,272,Trastorns del metabolisme dels lípids,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+ATACS DE GOTA,1,274,Gota,274,Gota,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+REUMA/GOTA,1,2749,Gota no especificada,274,Gota,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+COLESTEROL I GOTA,1,274,Gota,274,Gota,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+AC.URIC,1,274,Gota,274,Gota,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+ACID URIC ELEVAT,1,274,Gota,274,Gota,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+ACIDOM URICO,1,274,Gota,274,Gota,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+REUMA/GOTA,1,274,Gota,274,Gota,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+ACIDO URIC,1,274,Gota,274,Gota,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+ACID URIC EN SANG,1,274,Gota,274,Gota,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+OBESIDAD MORBIDA,1,27801,Obesitat mòrbida,278,"Sobrepès, obesitat i altres hiperalimentacions",3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+ANEMIA HIERRO,1,2809,Anèmia per dèficit de ferro no especificada,280,Anèmies per dèficit de ferro,4,Malalties de la sang i els òrgans hematopoètics
+ANEMIA FERROPENICA LLEU,1,2809,Anèmia per dèficit de ferro no especificada,280,Anèmies per dèficit de ferro,4,Malalties de la sang i els òrgans hematopoètics
+"POLIPS UTERINS, ANEMIA",1,2859,Anèmia no especificada,285,Altres anèmies i anèmies no especificades,4,Malalties de la sang i els òrgans hematopoètics
+ANEMIA LLEU,1,2859,Anèmia no especificada,285,Altres anèmies i anèmies no especificades,4,Malalties de la sang i els òrgans hematopoètics
+ESTAT ANIM,1,2969,Altres trastorns de l'estat d'ànim episòdics i trastorns de l'estat d'ànim episòdics no especificats,296,Trastorns de l'estat d'ànim episòdics,5,Trastorns mentals
+ESTAT D'ANIMS.,1,2969,Altres trastorns de l'estat d'ànim episòdics i trastorns de l'estat d'ànim episòdics no especificats,296,Trastorns de l'estat d'ànim episòdics,5,Trastorns mentals
+ANSIEDAD DEPRSION,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANGUSTIA DE BASE,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSIEDAD LABORAL,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+"ANSIEDAD, NO DORMIR",1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSIETAT ALIMENTARIA,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSIEDAD DE COMER,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSIETAT / NEGUIT,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSIOSA,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSIEDAD DORMIR,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSIETAT-IINSOMNI...,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+"ANSIETAT,",1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSIOLITIC I ANTIDEPRESSIU,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSIEDAD BULIMIA,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+"ANSIEDAD, DEPRESION",1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+TRASTORNO OBSESIVO COMPULSIVO,1,3003,Trastorns obsessivocompulsius,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+TRANSTORN OBSSESSIU,1,3003,Trastorns obsessivocompulsius,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+TRANSTORN OBSESSIU-COMPULSIU,1,3003,Trastorns obsessivocompulsius,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+TRANSTORN OBSESIU COMPULSSIU (TOC),1,3003,Trastorns obsessivocompulsius,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+BAJAR LA ANSIEDAD,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSIEDAD / FOBIA A CONDUCIR,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+INSOMNI PER ANSIETAT,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANCIOLITICO,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSIETAT DEPRESSIVA,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSIEDAD MIENTRAS DUERMO,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSIEDAD Y CRISIS DE PANICO,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSEIETAT,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSEITAT,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSIETAT I ANGOIXA,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+CONTRACTURAS/ANSIEDAD,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSIEDAD Y RABIA,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSIETAT/ANGUSTIA,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSIETAT/NERVIS,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSIOLITICS,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSIETAT I DESPRESSIO,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANGUSTIA,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSIOLITIC I ANTIDEPRESSIU LLEU,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+"ANSIEDAD , INSOMNIO ,LUMBALGIA ,CONTRACTURAS DORSALES",1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+ANSIETAT GENERALITZADA,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+DOLOR MUSCULAR / ANSIETAT,1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+"ANSIOLITIC, PER DORMIR MILLOR",1,30000,Estat d'ansietat no especificat,300,"Trastorns d'ansietat, dissociatiu i somatomorf",5,Trastorns mentals
+CEFALEAS TENSIONALES,1,30781,Cefalàlgia tensional,307,Símptomes o síndromes especials no classificats a cap altre lloc,5,Trastorns mentals
+ESTRES/DEPRESSIO,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+DEPRECION,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+"DE QUAN EN QUAN HE PATIT ALGUN TRNATORN DEPRESIU NO GREU, O ANSIETAT",1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+ANSIOLITIC I ANTIDEPRESSIU,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+ANSIOLITIC I ANTIDEPRESSIU LLEU,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+UNA MICA DEPRESSIVA/ANSIETAT,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+ANTIDSEPRESSIU,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+DEPRSION,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+ANSIETAT I DESPRESSIO,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+ESTATS DEPRESSIUS,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+"ANSIEDAD, DEPRESION",1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+DEPRESION POR ANSIEDAD,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+ANTI-DEPRESIVOS,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+ANTI DEPRESIVOS,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+DEPRESIO LLEUGERA,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+UN POCO DEPRESION,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+ESTAT DEPRESIU,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+DOLOR Y DEPRESION,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+ANTIDREPRESIU,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+ANTIDEPRESIUS,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+"DEPRESION,DOLOR",1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+"FIBROMIALGIA, TRASTORNO ANSIOSO DEPRESIVO, ARTROSIS , DEFICIT VIT D",1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+MENSTRUACION Y DEPRESION,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+DEPRESSIO LLEU/STRESS,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+DEPRE,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+SINDROME DEPRESIVO,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+MENOPAUSA DEPRESSIVA,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+ANSIETAT DEPRESSIVA,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+TRANSTORN ANSIOS-DEPRESSIU,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+DEPRESION NERVIOSA,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+DEPRESION LABORAL,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+TRANSTORN ANSIOS DEPRESSIU,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+PREVENCION DE DEPRESION,1,311,Trastorn depressiu no classificat a cap altre lloc,311,Trastorn depressiu no classificat a cap altre lloc,5,Trastorns mentals
+MENIGITIS,1,322,Meningitis de causa no especificada,322,Meningitis de causa no especificada,6,Malalties del sistema nerviós i els òrgans dels sentits
+CEFALEAS I MAL DE CAPS,1,339,Altres síndromes amb cefalàlgia,339,Altres síndromes amb cefalàlgia,6,Malalties del sistema nerviós i els òrgans dels sentits
+PEL MAL DE CAP,1,339,Altres síndromes amb cefalàlgia,339,Altres síndromes amb cefalàlgia,6,Malalties del sistema nerviós i els òrgans dels sentits
+PELS MALTS DE CAP,1,339,Altres síndromes amb cefalàlgia,339,Altres síndromes amb cefalàlgia,6,Malalties del sistema nerviós i els òrgans dels sentits
+MAL DE CAP O MIGRANYA,1,346,Migranya,346,Migranya,6,Malalties del sistema nerviós i els òrgans dels sentits
+MIGRANYES,1,346,Migranya,346,Migranya,6,Malalties del sistema nerviós i els òrgans dels sentits
+MIGRANYA OCASIONAL,1,346,Migranya,346,Migranya,6,Malalties del sistema nerviós i els òrgans dels sentits
+MENINGITIS MENINGOCOCCICA,1,360,Trastorns del globus ocular,360,Trastorns del globus ocular,6,Malalties del sistema nerviós i els òrgans dels sentits
+MENINGITIS MENIGOCOCICA,1,360,Trastorns del globus ocular,360,Trastorns del globus ocular,6,Malalties del sistema nerviós i els òrgans dels sentits
+RINOCONJUNTIVITIS,1,37214,Altres conjuntivitis al·lèrgiques cròniques,372,Trastorns de la conjuntiva,6,Malalties del sistema nerviós i els òrgans dels sentits
+COAGULOS EN LOS OJOS POR TENSION ALTA,1,401,Hipertensió essencial,401,Hipertensió essencial,7,Malalties de l’aparell circulatori
+LATENSION,1,401,Hipertensió essencial,401,Hipertensió essencial,7,Malalties de l’aparell circulatori
+GASTRITIS PER EL HELICOBACTER,1,4186,,41,,,
+HERNIA DE HIATO DESLIZANTE Y HELICOBACTER PILORY,1,4186,,41,,,
+HELICOBACTER PILORIS,1,4186,,41,,,
+VARIUS - TROMBOFLEBITIS,1,454,Venes varicoses de les extremitats inferiors,454,Venes varicoses de les extremitats inferiors,7,Malalties de l’aparell circulatori
+HEMOROIDES,1,455,Hemorroides,455,Hemorroides,7,Malalties de l’aparell circulatori
+CIRCULACION SANGRE,1,4599,Trastorn no especificat de l'aparell circulatori,459,Altres trastorns de l'aparell circulatori,7,Malalties de l’aparell circulatori
+CIRCULACIN SANGUINEAPLETAL,1,4599,Trastorn no especificat de l'aparell circulatori,459,Altres trastorns de l'aparell circulatori,7,Malalties de l’aparell circulatori
+MALA CIRCULACIO A LES CAMES,1,4599,Trastorn no especificat de l'aparell circulatori,459,Altres trastorns de l'aparell circulatori,7,Malalties de l’aparell circulatori
+CIRCULACIO SANG,1,4599,Trastorn no especificat de l'aparell circulatori,459,Altres trastorns de l'aparell circulatori,7,Malalties de l’aparell circulatori
+"MALA CIRCUL.LACIO, FALTA DE MEMORIA",1,4599,Trastorn no especificat de l'aparell circulatori,459,Altres trastorns de l'aparell circulatori,7,Malalties de l’aparell circulatori
+CIRCULA,1,4599,Trastorn no especificat de l'aparell circulatori,459,Altres trastorns de l'aparell circulatori,7,Malalties de l’aparell circulatori
+CIRCULACIO SANGUINEA,1,4599,Trastorn no especificat de l'aparell circulatori,459,Altres trastorns de l'aparell circulatori,7,Malalties de l’aparell circulatori
+PROBLEMES CIRCULATORIS,1,4599,Trastorn no especificat de l'aparell circulatori,459,Altres trastorns de l'aparell circulatori,7,Malalties de l’aparell circulatori
+CIRCULACION ARTERIAL,1,4599,Trastorn no especificat de l'aparell circulatori,459,Altres trastorns de l'aparell circulatori,7,Malalties de l’aparell circulatori
+CIRCULACION LENTA DE LAS ARTERIAS,1,4599,Trastorn no especificat de l'aparell circulatori,459,Altres trastorns de l'aparell circulatori,7,Malalties de l’aparell circulatori
+CIRCULATORIO,1,4599,Trastorn no especificat de l'aparell circulatori,459,Altres trastorns de l'aparell circulatori,7,Malalties de l’aparell circulatori
+RINITIS MEDICAMENTOSA,1,4720,Rinitis crònica,472,Faringitis i rinofaringitis cròniques,8,Malalties de l’aparell respiratori
+"RINITIS, CONTRACTURES",1,4720,Rinitis crònica,472,Faringitis i rinofaringitis cròniques,8,Malalties de l’aparell respiratori
+ESOFAGITIS GRAU 2,1,53010,Esofagitis no especificada,530,Malalties d'esòfag,9,Malalties de l’aparell digestiu
+ESOFAGUITIS PER REFLUXE,1,53011,Esofagitis per reflux,530,Malalties d'esòfag,9,Malalties de l’aparell digestiu
+REFLUXE ESTOMAC,1,53081,Reflux esofàgic,530,Malalties d'esòfag,9,Malalties de l’aparell digestiu
+REFLUXE D'ESTOMAC,1,53081,Reflux esofàgic,530,Malalties d'esòfag,9,Malalties de l’aparell digestiu
+REFLUJO GASTROESOFAGICO,1,53081,Reflux esofàgic,530,Malalties d'esòfag,9,Malalties de l’aparell digestiu
+REFLUX GASTROESOFAGIC,1,53081,Reflux esofàgic,530,Malalties d'esòfag,9,Malalties de l’aparell digestiu
+PROBLEMAS DIGESTIVOS REFLUJO,1,53081,Reflux esofàgic,530,Malalties d'esòfag,9,Malalties de l’aparell digestiu
+EL REFLUJO,1,53081,Reflux esofàgic,530,Malalties d'esòfag,9,Malalties de l’aparell digestiu
+REFLUJO DEL ESTOMAGO,1,53081,Reflux esofàgic,530,Malalties d'esòfag,9,Malalties de l’aparell digestiu
+REFLUJO ESTOMACAL,1,53081,Reflux esofàgic,530,Malalties d'esòfag,9,Malalties de l’aparell digestiu
+REFLUJO GASTROEXOFAGICO,1,53081,Reflux esofàgic,530,Malalties d'esòfag,9,Malalties de l’aparell digestiu
+HERNIA DE HIATO Y GASTRITIS CRONICA,1,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+HERNIA DE HIATO.,1,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+GASTRITIS/ HERNIA HIATO EN ESTUDI,1,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+HERNIA DE IAT,1,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+ERNIA DE IAT,1,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+HERNIA DE HIATO CON REFLUJO,1,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+HERNIA D'IATO,1,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+"ESTOMAGO, HERNIA DE HIATO",1,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+ERNIA IATO,1,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+HENIA DE HIATO,1,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+HERNIA DE L'HIATO,1,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+HERNIA D'HIATUS I REFLUXE,1,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+HERNIA DE LLATO,1,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+ERNIA DE DIATO,1,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+HERNIA DE HIATO DESLIZANTE Y HELICOBACTER PILORY,1,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+HERNIA D?HIATUS,1,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+HERNIA DE HIAT - LARINGITIS PER REFLUXE,1,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+HERNIA D'IATUS,1,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+HERNIA DE HIATO Y ULCERAS ESTOMAGO Y POLIPOS EN LA GARGANTA,1,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+ESOFAGO DE BARRETT Y HERNIA DE HIATO,1,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,553,Altres hèrnies de cavitat abdominal sense menció d'obstrucció o gangrena,9,Malalties de l’aparell digestiu
+ESTRENIMIENTO CRONICA,1,5640,Restrenyiment,564,Trastorns digestius funcionals no classificats a cap altre lloc,9,Malalties de l’aparell digestiu
+PROBLEMES D'ESTRENIMENT,1,5640,Restrenyiment,564,Trastorns digestius funcionals no classificats a cap altre lloc,9,Malalties de l’aparell digestiu
+RESTRENIMENT,1,5640,Restrenyiment,564,Trastorns digestius funcionals no classificats a cap altre lloc,9,Malalties de l’aparell digestiu
+POLIPO EN COLON,1,5690,Pòlip anal i rectal,569,Altres trastorns d'intestí,9,Malalties de l’aparell digestiu
+PANCREATITIS GREU,1,5770,Pancreatitis aguda,577,Malalties de pàncrees,9,Malalties de l’aparell digestiu
+PANGREATITIS,1,5770,Pancreatitis aguda,577,Malalties de pàncrees,9,Malalties de l’aparell digestiu
+CISTITS,1,599,Altres trastorns de la uretra i el tracte urinari,599,Altres trastorns de la uretra i el tracte urinari,10,Malalties de l’aparell genitourinari
+PREVENCIO CISTITIS,1,599,Altres trastorns de la uretra i el tracte urinari,599,Altres trastorns de la uretra i el tracte urinari,10,Malalties de l’aparell genitourinari
+HIPERPLASTIA BENIGNA PROSTATA,1,6000,Hipertròfia (benigna) de la pròstata,600,Hiperplàsia prostàtica,10,Malalties de l’aparell genitourinari
+HIPERPLASTIA BENIGNA DE PROSTATA,1,6000,Hipertròfia (benigna) de la pròstata,600,Hiperplàsia prostàtica,10,Malalties de l’aparell genitourinari
+HIPERPLASIA PROSTATICA BENIGNA,1,6000,Hipertròfia (benigna) de la pròstata,600,Hiperplàsia prostàtica,10,Malalties de l’aparell genitourinari
+HIPERPLASIA BENIGNA DE PROSTATA GRAU III,1,6000,Hipertròfia (benigna) de la pròstata,600,Hiperplàsia prostàtica,10,Malalties de l’aparell genitourinari
+HIPERPLASIA PROSTATICA,1,600,Hiperplàsia prostàtica,600,Hiperplàsia prostàtica,10,Malalties de l’aparell genitourinari
+HIPERPLASIA DE PROSTATA CON BIOPSIA DE CELULAS MALIGNAS,1,600,Hiperplàsia prostàtica,600,Hiperplàsia prostàtica,10,Malalties de l’aparell genitourinari
+DERMATITIS,1,6918,Altres dermatitis atòpiques i afeccions relacionades,691,Dermatitis atòpica i afeccions relacionades,12,Malalties de la pell i el teixit subcutani
+ECZEMES,1,692,Dermatitis de contacte i altres èczemes,692,Dermatitis de contacte i altres èczemes,12,Malalties de la pell i el teixit subcutani
+DERMATITIS ROSACEA,1,6953,Rosàcia,695,Afeccions eritematoses,12,Malalties de la pell i el teixit subcutani
+SORIASIS,1,696,Psoriasi i trastorns semblants,696,Psoriasi i trastorns semblants,12,Malalties de la pell i el teixit subcutani
+LIQUEN,1,697,Liquen,697,Liquen,12,Malalties de la pell i el teixit subcutani
+RIZOARTRISIS,1,714,Artritis reumatoide i altres poliartropaties inflamatòries,714,Artritis reumatoide i altres poliartropaties inflamatòries,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+RIZOARTROSI,1,714,Artritis reumatoide i altres poliartropaties inflamatòries,714,Artritis reumatoide i altres poliartropaties inflamatòries,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+POLIARTRITIS,1,714,Artritis reumatoide i altres poliartropaties inflamatòries,714,Artritis reumatoide i altres poliartropaties inflamatòries,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ARTRITIS REUMATOIDE,1,714,Artritis reumatoide i altres poliartropaties inflamatòries,714,Artritis reumatoide i altres poliartropaties inflamatòries,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+RIZOARTROSIS MA ESQUERRA,1,714,Artritis reumatoide i altres poliartropaties inflamatòries,714,Artritis reumatoide i altres poliartropaties inflamatòries,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ARTROSIS LIGERA VENA CUELLO,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+"ARTROSI A GENOLLS I CADERA, I LLEUGERA ESCOLIOSI",1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+GONARTROSI,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ARTROSI DELS GENOLLS,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+DOLOR ARTROSIS,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+FIBROMIALGIA I ARTROSI,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+CALCIFICACIONES Y  ARTROSIS,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+"FIBROMIALGIA, TRASTORNO ANSIOSO DEPRESIVO, ARTROSIS , DEFICIT VIT D",1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ARTROSIS LEVE,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+"ARTROSIS,CERVICALGIA",1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+SEVERA ARTROSIS DEGENERATIVA VERTEBRAL,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ARTROSIS FIBROMILGIA COLON IRRITALBLE GASTRITIS,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ARTROSIS DE RODILLA,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+FIBROMIALGIA - ARTROSIS,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ARTROSIS CERVICAL Y HERNIA DISCAL,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ARTROSI MALUC DRET,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+"ASTROSCOPIA GENOLL, POLIPS NASALS I CORECCIO TABIC,PROTUBERANCIA CERVICAL CATARACTA ARTROSIS ESPOLON PLANTAR",1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ARTROSI DE MALUC,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ARTROSIS COLUMNA,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ARTROSIS LUNBAR CEVICAR,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ARTROSI LUMBAR,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+GONOSTROSIS,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ARTROSIS GENOLL,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ARTROSIS Y DOLORS ARTICULARS,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ARTROSIS COLUMNA / PINZAMIENTOS ESPALDA,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ARTROSIS EROSIVA,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ARTROSISI RODILLA,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ARTROSIS ROTULIANA,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+DOLOR      ARTROSIS,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ARTROSIS GENOLL DRET,1,715,Artrosi i trastorns relacionats,715,Artrosi i trastorns relacionats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+REUMA ESPONDILITIS ANQUILOSANT.,1,7200,Espondilitis anquilosant,720,Espondilitis anquilosant i altres espondilopaties inflamatòries,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+ESPONDIOLITIS ANQUILOSANTE,1,7200,Espondilitis anquilosant,720,Espondilitis anquilosant i altres espondilopaties inflamatòries,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+DOLOR DERIVAT DE L'HERNIA DISCAL,1,7229,Altres trastorns discals i trastorns discals no especificats,722,Trastorns del disc intervertebral,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+DOLOR ESPATLLA,1,7245,Dorsàlgia no especificada,724,Altres trastorns de l'esquena i trastorns de l'esquena no especificats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+DOLOR ESPAL,1,7245,Dorsàlgia no especificada,724,Altres trastorns de l'esquena i trastorns de l'esquena no especificats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+DOLOR ESPADA,1,7245,Dorsàlgia no especificada,724,Altres trastorns de l'esquena i trastorns de l'esquena no especificats,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+RELAJANTE MUSCULAR PARA ALIVIAR  CONTRACTURAS MUSCULARES,1,72885,Espasme muscular,728,"Trastorns del múscul, el lligament i la fàscia",13,Malalties del sistema musculoesquelètic i el teixit connectiu
+PER CONTRACTURA,1,72885,Espasme muscular,728,"Trastorns del múscul, el lligament i la fàscia",13,Malalties del sistema musculoesquelètic i el teixit connectiu
+OSTEOSPOROSI,1,7330,Osteoporosi,733,Altres trastorns de l'os i el cartílag,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+PER PREVENIR OSTEOPOROSIS,1,7330,Osteoporosi,733,Altres trastorns de l'os i el cartílag,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+OSSOS I MUSCULS,1,73390,Trastorn no especificat de l'os i el cartílag,733,Altres trastorns de l'os i el cartílag,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+OSTEOSPOROSIS,1,7330,Osteoporosi,733,Altres trastorns de l'os i el cartílag,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+PREVENCION OSTEOPOROSIS,1,7330,Osteoporosi,733,Altres trastorns de l'os i el cartílag,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+EVITAR OSTEOPOROSIS,1,7330,Osteoporosi,733,Altres trastorns de l'os i el cartílag,13,Malalties del sistema musculoesquelètic i el teixit connectiu
+PER PODER DORMIR,1,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+PODER DORMIR,1,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+PARA PODER DORMIR,1,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+DIFICULTAD DORMIR,1,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+NO PODER DORMIR NIT,1,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+TRANQUILIZANTE - DORMIR,1,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+PASTILLAS PARA DORMIR,1,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+"PER DORMIR, OCASIONALMENT",1,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+DIFICULTAT PER ADORMIR-ME,1,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+ANSIEDAD DORMIR,1,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+A VEGADAS PER DORMI,1,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+"DORMIR, DESCANSAR",1,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+CONTRACTURA Y DORMIR,1,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+PER  DORMIR,1,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+"ANSIEDAD, NO DORMIR",1,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+"RELAJANTE, DORMIS",1,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+DORMIR Y CONTRACTURA,1,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+DIFICULTAT PER A DORMIR I NERVIS,1,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+"ANSIOLITIC, PER DORMIR MILLOR",1,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+OCASIONALMENT 1/2 ORFIDAL PER DORMIR,1,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+DORMO MALAMENT,1,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+PER ANAR A DORMIR,1,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+DIFICULTAT DORMIR-ANSIETAT,1,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+PER AJUDAR A DORMIR,1,78050,Trastorn del son no especificat,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+APNEES,1,78603,Apnea,786,Símptomes que afecten l'aparell respiratori i altres símptomes toràcics,16,"Símptomes, signes i afeccions mal definides"
+APNEA DEL SON,1,78603,Apnea,786,Símptomes que afecten l'aparell respiratori i altres símptomes toràcics,16,"Símptomes, signes i afeccions mal definides"
+APNEES DE LA SON,1,78603,Apnea,786,Símptomes que afecten l'aparell respiratori i altres símptomes toràcics,16,"Símptomes, signes i afeccions mal definides"
+APNEES AL SON,1,78603,Apnea,786,Símptomes que afecten l'aparell respiratori i altres símptomes toràcics,16,"Símptomes, signes i afeccions mal definides"
+APNEA SEVERA,1,78603,Apnea,786,Símptomes que afecten l'aparell respiratori i altres símptomes toràcics,16,"Símptomes, signes i afeccions mal definides"
+APNEAS DE SON,1,78603,Apnea,786,Símptomes que afecten l'aparell respiratori i altres símptomes toràcics,16,"Símptomes, signes i afeccions mal definides"
+APNEAS DEL SON,1,78603,Apnea,786,Símptomes que afecten l'aparell respiratori i altres símptomes toràcics,16,"Símptomes, signes i afeccions mal definides"
+DIURETIC,1,78820,Retenció urinària no especificada,788,Símptomes que afecten l'aparell urinari,16,"Símptomes, signes i afeccions mal definides"
+ALERGIA AL POLEN,1,9953,Al·lèrgia no especificada,995,Determinades reaccions adverses no classificades a cap altre lloc,17,Lesions i intoxicacions
+ALERGIA PELO CONEJO,1,9953,Al·lèrgia no especificada,995,Determinades reaccions adverses no classificades a cap altre lloc,17,Lesions i intoxicacions
+ALERGIA CUTANEA,1,9953,Al·lèrgia no especificada,995,Determinades reaccions adverses no classificades a cap altre lloc,17,Lesions i intoxicacions
+ALERGIAS,1,9953,Al·lèrgia no especificada,995,Determinades reaccions adverses no classificades a cap altre lloc,17,Lesions i intoxicacions
+ALERGIA POLEN,1,9953,Al·lèrgia no especificada,995,Determinades reaccions adverses no classificades a cap altre lloc,17,Lesions i intoxicacions
+CONJUNTIBITIS ALERGICA,1,9953,Al·lèrgia no especificada,995,Determinades reaccions adverses no classificades a cap altre lloc,17,Lesions i intoxicacions
+ALTERACIO MUCOSA ESOFAC,1,,,,,,
+ALTERACIONS FETGE (TRANSAMINASAS),1,,,,,,
+ANALGESICO / ANTIINFLAMATORIO,1,,,,,,
+ANELL ESOFAGIC,1,,,,,,
+ARITMIAS,1,,,,,,
+BACTERIA EN EL ESTOMAGO,1,,,,,,
+BAIXA DE FERRO DURANT LA MESTRUACIO,1,,,,,,
+BAIXA EN FERRO,1,,,,,,
+BAIX NIVELL,1,,,,,,
+BAJA DE MORAL,1,,,,,,
+BAJA VITAMINA D,1,2689,Carència de vitamina D no especificada,268,Carència de vitamina D,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+BARICOCELE,1,,,,,,
+BARRETT,1,,,,,,
+BEN ESTAR GENERAL,1,,,,,,
+BIPORALIDAD,1,,,,,,
+BLOQUEO DE RAMA IZQUIERDA,1,,,,,,
+DOLOR DE OIDOS,1,,,,,,
+BRONQUITIS LLEU,1,,,,,,
+DOLOR EN GENERAL,1,,,,,,
+BUFETA,1,,,,,,
+DOLORES GENERALES,1,,,,,,
+DOLORES LUMBARES,1,,,,,,
+DOLORES MENSTRUALES,1,,,,,,
+BY PASS GASTRIC,1,,,,,,
+CABELL,1,,,,,,
+CABELLO,1,,,,,,
+CACHI- RICHI,1,,,,,,
+CAIDA DE CABELLO,1,,,,,,
+CAIGUDA DELS CABELLS,1,,,,,,
+CALCUL BILIAR,1,,,,,,
+CANDIDES A L'INTESTI,1,,,,,,
+DOLOR MUSCULAR/ LESIONES,1,,,,,,
+CANDIDIASIS VAGINAL,1,,,,,,
+CANDIDIASI VAGINAL,1,,,,,,
+CAP I ABDOMEN,1,,,,,,
+CARCINOMA BASOCEL.LULAR,1,,,,,,
+DOLOR REGLA,1,,,,,,
+CARCINOMA ESCAMOS,1,,,,,,
+CARTILAG,1,,,,,,
+CARTILEG GENOLL,1,,,,,,
+CASPA EN CABEZA,1,,,,,,
+CATARACTES,1,,,,,,
+CCONTROL GLAUCOMA,1,,,,,,
+CEFALEA EN RAIM,1,,,,,,
+CEFALEA OCASIONAL I MENSTRUACIO,1,,,,,,
+HIPOACUSIA,1,,,,,,
+EM CALMA L'ANSIETAT,1,,,,,,
+CELIAC,1,,,,,,
+"CELIAQUIA , COLITIS CRONICA",1,,,,,,
+"CERVICALES, CONTRACTURAS",1,,,,,,
+CIA,1,,,,,,
+CIATALGIA,1,,,,,,
+CIATIACA Y LUMBALGIA,1,,,,,,
+CIFOPLASTIA,1,,,,,,
+ENFISEMA PULMONAR LLEU,1,,,,,,
+ENFORTIR TEIXIT NERVIOS,1,,,,,,
+EPI,1,,,,,,
+CIRROSI BILIAR PRIMARIA,1,,,,,,
+CIRROSIS FETGE,1,,,,,,
+"CISTITIS CRONICA, AL.LERGIA ALS ACARS I AL NIQUEL, ITUS DE REPETICIO.",1,,,,,,
+CISTITIS POSTCOITAL,1,,,,,,
+COLESCISTITS,1,,,,,,
+ESCOLISIS LUMBAR,1,,,,,,
+ESFINTER,1,,,,,,
+ESGUINCE RETINA OJO DERECHO,1,,,,,,
+ESOFAG EN CASCANUECES,1,,,,,,
+ESOFAGITIS EOSINOFILA,1,,,,,,
+ACROMEGALIA,1,,,,,,
+ACUFENOS,1,,,,,,
+ESOFAGO DE BARRETT BAJO,1,,,,,,
+ADENOMA BENIGNE DE PROSTATA,1,,,,,,
+AGROR D'ESTOMAC,1,,,,,,
+AIXAFAMENT VERTEBRA,1,,,,,,
+ALCOHOL,1,,,,,,
+INFECCIO BUCAL,1,,,,,,
+AL?ERGIA,1,,,,,,
+COLOESTEROL,1,,,,,,
+COLOM DESCOLGADO,1,,,,,,
+ESTAR ACTIVA Y ANIMADA,1,,,,,,
+COLON IRRITABLE/GASTRITIS CRONICA/ANGIODISPLASIA MULTIPLE COLON/HERNIA HIATO,1,,,,,,
+COLPITIS ATOPICA,1,,,,,,
+ALGUN MENJAR PESAT,1,,,,,,
+COMPLEMENTAR ARTILOG,1,,,,,,
+CONCENTRACIO,1,,,,,,
+ALOPECIA AREATA UNIVERSAL,1,,,,,,
+ALOPECIA AREATICA,1,,,,,,
+ALOPESIA,1,,,,,,
+ALPARA ARTRADESIS CERVICO,1,,,,,,
+ALTERACIO DE LA SON,1,,,,,,
+ALTERACIO DE REPOLARITZACIO CARDIACA NO VALORADA COM A PATOLOGICA (ARRITMIES).,1,,,,,,
+ALTERACIO EMOCIONAL,1,,,,,,
+CONDROCALCINOSI,1,,,,,,
+CONDROCALCINOSIS,1,,,,,,
+CONDROPATIA,1,,,,,,
+ALTERACIONS SON,1,,,,,,
+ALVEOLITIS,1,,,,,,
+AMAUROSIS,1,,,,,,
+AMBLIOPIA ULL ESQUERRE,1,,,,,,
+AMIGALITIES (OPERADA),1,,,,,,
+ANGIOPATIA AMILOIDE,1,,,,,,
+ANGOIXA - DEPRESSIO,1,,,,,,
+ANGOIXA I ATACS DE PANIC,1,,,,,,
+CONTROL,1,,,,,,
+CONTROL HORMONAL,1,,,,,,
+ANIM,1,,,,,,
+ANIMARME,1,,,,,,
+CONTROL PRESSIO OCULAR,1,36504,Hipertensió ocular,365,Glaucoma,6,Malalties del sistema nerviós i els òrgans dels sentits
+ANOREXIA/BULIMIA,1,,,,,,
+ANOREXIA NERVIOSA,1,,,,,,
+ANOSMIA / TINITUS,1,,,,,,
+DEFICIT DE VIT D,1,,,,,,
+DEFICIT FERRO,1,,,,,,
+DEFICIT PROTEINA C EN SANG,1,,,,,,
+DEFICIT VITAMINA,1,,,,,,
+DEFICIT VITAMINA B12,1,,,,,,
+DEFICIT  VITAMINA D,1,2689,Carència de vitamina D no especificada,268,Carència de vitamina D,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+FIBRILACIO AURICULAR,1,,,,,,
+DEFORMACIO DELS PEUS,1,,,,,,
+DEGENERACION MACULAR EXUDATIVA OJO IZ.,1,,,,,,
+DEIXAR FUMAR,1,,,,,,
+DEPESSIO,1,,,,,,
+FIBROMIALGIA FATIGA CRONICA,1,,,,,,
+LUMBALGIES,1,,,,,,
+DEPRESIO-ANSIETAT,1,,,,,,
+DEPRESIO I PEL TRANSTORN DEL SON,1,,,,,,
+LUMBOCIATALGIA CRONICA,1,,,,,,
+POLIPS I MIOMES A LA MATRIU,1,,,,,,
+ANTIACIDS,1,,,,,,
+ANTIAGREGANTES,1,,,,,,
+ANTIBABIES,1,,,,,,
+DEPRESION YMIGRANAS,1,,,,,,
+"DEPRESSIO,ANSIETAT",1,,,,,,
+"DEPRESSIO, ANSIETAT",1,,,,,,
+ANTICOAGULANTE,1,,,,,,
+ANTICONCEPCIO,1,,,,,,
+DEPRESSIO (MENOR),1,,,,,,
+ANTIFLAMATORI,1,,,,,,
+ANTIFLAMATORIO,1,,,,,,
+ANTIHISTAMINICO,1,,,,,,
+ANTI INFLAMATORIO,1,,,,,,
+APNEA SUENO,1,,,,,,
+DESVIACIO ESQUENA,1,,,,,,
+ARRITMIA CONGENITA,1,4279,Arítmia cardíaca no especificada,427,Arítmia cardíaca,7,Malalties de l’aparell circulatori
+ARRITMIA (WPW),1,4279,Arítmia cardíaca no especificada,427,Arítmia cardíaca,7,Malalties de l’aparell circulatori
+ARRITMIES DEL COR,1,4279,Arítmia cardíaca no especificada,427,Arítmia cardíaca,7,Malalties de l’aparell circulatori
+ARTEREOESCLEROSI,1,,,,,,
+ARTICULACION,1,,,,,,
+ARTROSIS+FIBROMIALGIA,1,,,,,,
+DISPLASIA EN ECTOPIA CERVICAL METAPLASICA,1,,,,,,
+HEMOCROMATOSIS,1,,,,,,
+DOLOR AL MALUC,1,,,,,,
+ATROSI,1,,,,,,
+BORNQUITIS,1,,,,,,
+BRCA2,1,,,,,,
+BRUCEL?LOSIS,1,,,,,,
+BUFETA ORINARIA,1,,,,,,
+BUFETA URINARIA HIPERACTIVA,1,,,,,,
+BULIMIA NERVIOSA,1,,,,,,
+CANDIDES INTESTINALS,1,,,,,,
+CARCINOMA BASOCELULAR SUPERFICIAL,1,,,,,,
+CERVICALGIAS,1,,,,,,
+1,1,,,,,,
+ABSORCIO LIPIDS,1,,,,,,
+ACCES RENAL,1,,,,,,
+ACELERACION CARDIACA,1,,,,,,
+ACELERAR DIGESTION,1,,,,,,
+ACIDESA ESTOMAC,1,,,,,,
+ACIDES D'ESTOMAC,1,,,,,,
+ACIDEZ/ARDORES,1,,,,,,
+"ACIDEZ, BACTERIA PILORI",1,,,,,,
+ACIDEZ DEL ESTOMAGO,1,,,,,,
+ACIDEZ D'ESTOMAC,1,,,,,,
+"ACIDEZ POR REFUJO, POR UNA HERNIA DE HIATO",1,,,,,,
+ACID FOLIC,1,,,,,,
+ACIDO FOLICO,1,,,,,,
+ACIDOS GASTRICOS,1,,,,,,
+ACIDO UDICO,1,,,,,,
+"ADENOMA DE PARATIOIDES ,",1,,,,,,
+ALEREGIA COLINERGICA,1,,,,,,
+COLOM IRRITABLE,1,,,,,,
+AL-LERGIA,1,,,,,,
+"AL NO PODER MENJAR DE TOT, NECESSITO SUPLEMENTS DE MULTIVITAMINICS",1,,,,,,
+ALTERACIO HIPOFISIS,1,,,,,,
+DOLOR ALS GENOLLS,1,,,,,,
+DOLOR ANAL,1,,,,,,
+HEPATITIS NO CRONICA,1,,,,,,
+DOLOR ARTICULAR I EDEMA DE REINKE,1,,,,,,
+CONTRACTURA ESPALDA,1,,,,,,
+ANIMICA,1,,,,,,
+CREMORS,1,,,,,,
+CUESTION HORMONAL,1,,,,,,
+CURATIVO,1,,,,,,
+DDEGENERACOO MACULAR,1,,,,,,
+DEFICIT COGNITIVO LEVE. ATROFIA DE HIPOCAMPO,1,,,,,,
+ANSIETAT/AGORAFOBIA,1,,,,,,
+DEFICIT DE CALC I DE VITAMINA D,1,2689,Carència de vitamina D no especificada,268,Carència de vitamina D,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+ANSIETAT AMB PANIC,1,,,,,,
+ANSIETAT-DEPRESSIO,1,,,,,,
+ANSIETAT/DEPRESSIO MENOR,1,,,,,,
+"DEFICIT VITAMINA "" D""",1,,,,,,
+"FIBROMIALGIA, FATIGA CRONICA",1,,,,,,
+ANSIOLITICO,1,,,,,,
+DEPRESION / ANSIEDAD,1,,,,,,
+MACRO ADENOMA HIPOFISARI,1,,,,,,
+ANTIBIOTIC,1,,,,,,
+ANTICARDIOLIPINA,1,,,,,,
+ANTICOAGULANT,1,,,,,,
+ANTICONCEPTIVES,1,,,,,,
+DERMATITIS NEUROLOGICA,1,,,,,,
+ANTI-EPSTEIN BARR VCA(IGG),1,,,,,,
+ANTIESTAMINICO,1,,,,,,
+DESANIM,1,,,,,,
+DESANIMO,1,,,,,,
+ANTIFLAMATORIS,1,,,,,,
+DESCRIT AMB LA PREGUNTA ANTERIOR,1,,,,,,
+DESGAST ARTICULAR,1,,,,,,
+ANTIMFLAMATORIO,1,,,,,,
+ANTINCONCEPTIU,1,,,,,,
+ANTINFLAMATORIA,1,,,,,,
+ANTIOXIDANTE,1,,,,,,
+ANTITUBERCULOSIS,1,,,,,,
+DESGAT DELS DISCOS DE LA COLUMNA VERTEBRAL,1,,,,,,
+APNEAS RESPIRATORIA,1,,,,,,
+DESPRES D?UNA OPERACIO DE FA MES DE 8 ANYS,1,,,,,,
+DESPRESION,1,,,,,,
+GANGRENA DE FOURNIER,1,,,,,,
+DEVIRTICULITIS,1,,,,,,
+ARDOR D'ESTOMAG,1,,,,,,
+ARDORES EN EL ESOFAGO,1,,,,,,
+HERNIDA DISCAL LUMBAR,1,,,,,,
+GASTRORESISTENTES,1,,,,,,
+ARRITMIA CORAZON,1,4279,Arítmia cardíaca no especificada,427,Arítmia cardíaca,7,Malalties de l’aparell circulatori
+ARRITMIA EXTRASISTOLE,1,4279,Arítmia cardíaca no especificada,427,Arítmia cardíaca,7,Malalties de l’aparell circulatori
+ARRITMIA PEROXISTICA AURICOLOVENTRICULAR,1,4279,Arítmia cardíaca no especificada,427,Arítmia cardíaca,7,Malalties de l’aparell circulatori
+ARRITMIA-TAQUICARDIA,1,4279,Arítmia cardíaca no especificada,427,Arítmia cardíaca,7,Malalties de l’aparell circulatori
+DIFICULTAT X DORMIR,1,,,,,,
+DIGESTION LENTA,1,,,,,,
+DIGESTIONS PESADES,1,,,,,,
+DIGESTIU,1,,,,,,
+DIJESTIONES LENTAS,1,,,,,,
+ARTRODESIS LUMBAR,1,,,,,,
+DISCOPATIA,1,,,,,,
+"ARTROSI GENOLL, MALUC I CANELL",1,,,,,,
+DISECCION CAROTIDA,1,,,,,,
+DISFUNCION ARECTIL,1,,,,,,
+DISFUNCION ERECTIL LEVE,1,,,,,,
+DISFUNCIO RENAL,1,,,,,,
+DISLIPEMIA,1,,,,,,
+DISMINUCIO PSIQUICA,1,,,,,,
+DISPLASIA ARRITMOGENICA,1,,,,,,
+DISPLASIA CERVICAL,1,,,,,,
+HEMATOMACROSI,1,,,,,,
+MICROHEMATURIA,1,,,,,,
+DIVERTICULIS,1,,,,,,
+DIVERTICULITIS AGUDA,1,,,,,,
+DIVERTICULO TRAQUEA,1,,,,,,
+DOL,1,,,,,,
+DOLER ALS PEUS I TENDO AQUILES,1,,,,,,
+DOLOR ABDOMINAL,1,,,,,,
+ATAC AL RONYO,1,,,,,,
+"HEPATITIS A, HERPES ULL",1,,,,,,
+ATEROMA 15%,1,,,,,,
+ATROFIA VULVAR,1,,,,,,
+DOLOR PIERNAS,1,,,,,,
+CARCINOMABASOCELULAR ESCAPULAR,1,,,,,,
+HIPERTENSIO A L'ESFORC,1,,,,,,
+DOLOR RODILLA,1,,,,,,
+CAROTIDA,1,,,,,,
+CAROTIDA DTA. 50%OBST,1,,,,,,
+CAROTIDAS,1,,,,,,
+BARRO BILIAR,1,,,,,,
+DOLORS EN GENERAL,1,,,,,,
+CARTILAGO,1,,,,,,
+CARTILAGO DE RODILLA,1,,,,,,
+CARTILAGS,1,,,,,,
+DOLOR DE PANXA DURANT OVULACIO,1,,,,,,
+DOMIR I MAL DE CAP,1,,,,,,
+CATARACTA UE,1,,,,,,
+REGLES DOLOROSES,1,,,,,,
+CATARRO,1,,,,,,
+CATETERISMO/RITMO CARDIACO,1,,,,,,
+DREPRESSIO,1,,,,,,
+BURXISME,1,,,,,,
+HIPERUREMIA,1,,,,,,
+EDEMA DE REIKEN,1,,,,,,
+EJACULACIO PRECOC,1,,,,,,
+OSTOSCLEROSIS,1,,,,,,
+", HIPOACUSIA",1,,,,,,
+CAIDA DEL CABELLO,1,,,,,,
+EM VAIG TRENCAR EL BRAC,1,,,,,,
+CALC PELS OSSOS,1,,,,,,
+ENCEFALITIS (PERDUA DE MEMORIA),1,,,,,,
+CALMA EL DOLOR,1,,,,,,
+ENDIOMETROSI,1,,,,,,
+ENDOCARDITIS,1,,,,,,
+CANDIDIASI,1,,,,,,
+CIATICA Y LUMBALGIA,1,,,,,,
+ENFERMEDAD CELIACA,1,,,,,,
+CIN III,1,,,,,,
+ENFERMEDAD DE PAYES,1,,,,,,
+ENFERMEDAD REFLUJO GASTRICO,1,,,,,,
+ENFISEMA,1,,,,,,
+PAPILOMA,1,,,,,,
+PAPILOMA HUMANO,1,,,,,,
+ENGOIXA,1,,,,,,
+PARA DISMINUIR LAS REGLAS,1,,,,,,
+CAVERNOMA CEREBRAL,1,,,,,,
+EPIGASTRALGIA,1,,,,,,
+EPILEPSIA LEVE,1,,,,,,
+CEFALEA OCASIONAL,1,,,,,,
+EPISODIOS REPETIDOS DE CISTITIS E INFECCIONES VAGINALES POR HONGOS,1,,,,,,
+EPITELI A L'ESOFAG,1,,,,,,
+CITOMEGALOVIRUS,1,,,,,,
+CLACULOS RENALES,1,,,,,,
+ERECCIO,1,,,,,,
+ERITROPOIESI FERROPENICA,1,,,,,,
+ENCOSTIPATS O DOLORS MENSTRUALS,1,,,,,,
+POLIPOS MATRIZ,1,,,,,,
+COLAGENO  MAGNESIO,1,,,,,,
+HIPOTIROIDISMO POR TIROIDECTOMIA CASI TOTAL,1,,,,,,
+ERNIAS DISCALES CERVICALES,1,,,,,,
+EROSIONES EN MUCOSA DEL ESTOMAGO,1,,,,,,
+PARA TRATARLA,1,,,,,,
+ESCLERODERMIA LOCALITZADA A LA PELL,1,,,,,,
+ESCLERODERMIA(MORFEA),1,,,,,,
+ESCLEROSI MULTIPLE,1,,,,,,
+HIPOVITAMINOSIS D,1,,,,,,
+HIPOXIAS CEREBRALES,1,,,,,,
+1 PASTILLA,1,,,,,,
+2 HERNIAS DISCALS,1,,,,,,
+ABNEAS,1,,,,,,
+COAGULACIO,1,,,,,,
+PARA NO DESPERTAR ANTES DE HORA,1,,,,,,
+COLAGENO,1,,,,,,
+ACIATICA,1,,,,,,
+COLANGITIS ESCLEROSANT PRIMARIA,1,,,,,,
+COLCE DE TENISTE,1,,,,,,
+COLECISTOMIA,1,,,,,,
+ERUPCIO CUTANEA,1,,,,,,
+COLIC HEPATIC,1,,,,,,
+ESCLEROSIS MULTILPLE,1,,,,,,
+ESCOLEOSI,1,,,,,,
+COLITIS LINFOCITICA,1,,,,,,
+COL?LESTEROL,1,,,,,,
+PER AUGMENTAR EL CALCI,1,,,,,,
+COLOBOMA CORIORRETINIANO,1,,,,,,
+ESTABILIZADOR ANIMIC,1,,,,,,
+ESTALVIADOR EXCRETA CALCI,1,,,,,,
+INFECCION,1,,,,,,
+ESTASISTOLIA,1,,,,,,
+INFECCION CUTANEA,1,,,,,,
+ESOFAGUITIS CRONICA,1,,,,,,
+ADENOMA HIPOFISIS,1,,,,,,
+ADENOMA PROSTATIC,1,,,,,,
+ADENOSIS,1,,,,,,
+AFTAS BUCALES RECIDIVANTES,1,,,,,,
+AGAROFOBIA,1,,,,,,
+AGRANDAMIENTO BENIGNO DE PROSTATA,1,,,,,,
+COMPRESSIO LUMBAR,1,,,,,,
+ESTENOSIS CANAL LUMBAR,1,,,,,,
+CONCILIACIO DEL SON,1,,,,,,
+CONCILIAR EL SON,1,,,,,,
+CONCILIAR EL SUENO,1,,,,,,
+CONDICIO DEPRESIVA DE TIPUS HEREDITARI,1,,,,,,
+CONDILOMA CUELLO UTERO,1,,,,,,
+CONDILOMAS,1,,,,,,
+CONDRIOPATIA,1,,,,,,
+ESTRASISTOLES,1,,,,,,
+ESTRAVISME,1,,,,,,
+ESTRECHAMIENTO CAROTIDA,1,,,,,,
+AL?LEGIA,1,,,,,,
+COMPLEMENTO VITAMINAS,1,,,,,,
+AL.LERGIA AL POLEN,1,,,,,,
+AL?LERGIA ESTACIONAL,1,,,,,,
+AL?LERGIA LLEU,1,,,,,,
+AL?LOPECIA,1,,,,,,
+ALMORRANAS,1,,,,,,
+ESTRES MENTAL,1,,,,,,
+CONSTIPADO,1,,,,,,
+ESTRES POSTTRAUMATICO,1,,,,,,
+ESTRES/REPOSO,1,,,,,,
+ESTRES/TINITUS,1,,,,,,
+EUTIROX,1,,,,,,
+EVIAR OSTEOPOROSIS,1,,,,,,
+PER PEDRES AL RONYO,1,,,,,,
+EVITAR CONTRACTURAS MUSCULARES,1,,,,,,
+ANEURISMA CELEBRAL,1,,,,,,
+ANEURISME DEL TIA+IM MODERADA+CARDIOPATIA CONGENITA,1,,,,,,
+ANGINES I AMIGDALITIS,1,,,,,,
+ANGIOEDEMA,1,,,,,,
+CONTRACTURES MUSCULARS,1,,,,,,
+CONTRARRESTAR CORTISONA,1,,,,,,
+EXTIRPACIO TIROIDES,1,,,,,,
+AMNEA,1,,,,,,
+AMNEA DE LA SON,1,,,,,,
+AMNESIA TRANSITORIA,1,,,,,,
+ANALGESIC,1,,,,,,
+CONSTRENYIMENT,1,,,,,,
+CONTENCION URINARIA,1,,,,,,
+CONTRACTURA CERVICAL,1,,,,,,
+CONTRACTURA-DOLOR MUSCULAR,1,,,,,,
+CONTRACTURA DORSAL Y LUMBALGIA,1,,,,,,
+EVITAR CALCULS NEFRITICS,1,,,,,,
+FALTA DE CALC,1,,,,,,
+FALTA DE CALCI,1,,,,,,
+FALTA DE CALCIO,1,,,,,,
+LAXANTES,1,,,,,,
+FALTA DE HEMOGLOBINA,1,,,,,,
+FALTA DE MEMORIA,1,,,,,,
+FALTA DE SUENO,1,,,,,,
+LESION PRENEOPLASICA,1,,,,,,
+LESIONS DISCS VERTEBRALS,1,,,,,,
+FALTA VITAMIDA D,1,,,,,,
+LEUCEMIA LIMFOCITICA CRONICA DE CEL?LULES B,1,,,,,,
+COROIDITIS SERPEGINOSA- TUBERCULOSIS OCULAR,1,,,,,,
+CORT,1,411,Altres formes agudes i subagudes de cardiopatia isquèmica,411,Altres formes agudes i subagudes de cardiopatia isquèmica,7,Malalties de l’aparell circulatori
+CREMOR D'ESTOMAG,1,,,,,,
+CREMOR DIGESTIU,1,,,,,,
+CREMOR ESTOMAG,1,,,,,,
+FALTA DE FERRITINA,1,,,,,,
+CRISIS COMICIALS D'ABSENCIA,1,,,,,,
+CRISIS D'ANSIETAT,1,,,,,,
+CRONIC,1,,,,,,
+FALTA DE VITAMINAS,1,,,,,,
+FALTA SOL,1,,,,,,
+D0RMIR,1,,,,,,
+FALTA VITAMINA,1,,,,,,
+DECAIMENT EMOCIONAL,1,,,,,,
+DEFICIENCIA MITRAL LEVE,1,,,,,,
+ANSIEDAD Y ATAQUES DE PANICO,1,,,,,,
+DEFICIT B12,1,,,,,,
+FASTITIS PLANTAR,1,,,,,,
+DEFICIT DE CALC,1,,,,,,
+FAVISMO,1,,,,,,
+DEFICIT DE FERRO,1,,,,,,
+DEFICIT DE PROTEINA S LLIURE INHIBIDORA,1,,,,,,
+FIBROMIALGIA/FATIGA,1,,,,,,
+"FIBROMIALGIA , FATIGA CRONICA",1,,,,,,
+LUMBALGIA O MAL DE CAP,1,,,,,,
+POLIPS,1,,,,,,
+FIBROMIALGIA/FATIGA CRONICA SEVERA,1,,,,,,
+FIBROMIALGIA/ HIPO-TIRIODISMO,1,,,,,,
+LUMBARGUIA CRONICA,1,,,,,,
+POLIPS I MIOMES,1,,,,,,
+TENGO FIBOLMIALGIA,1,,,,,,
+ANTALGIN,1,,,,,,
+FIBROMIARJIA Y  CERVICALGIA,1,,,,,,
+ANTIAGREGANTE,1,,,,,,
+FIEBRE REUMATICA,1,,,,,,
+DEPRESION Y DOLORES DE CABEZA,1,,,,,,
+FIFRIOMIALGIA,1,,,,,,
+FIFROMA UTERO,1,,,,,,
+FIJAR CALCIO,1,,,,,,
+DEPRESSIO I BULIMIA,1,,,,,,
+DEPRESSIO (LLEU),1,,,,,,
+ANTICONCEPTIU HORMONAL,1,,,,,,
+FIXADA LA C5-C6,1,,,,,,
+ANTI-CONCEPTIVO,1,,,,,,
+FLORA BACTERIANA,1,,,,,,
+DEPURAR,1,,,,,,
+ANTICUERPOS ANTITIROIDEOS ALTOS,1,,,,,,
+FLUJO ESTOMACAL,1,,,,,,
+ANTICONCEPTIVO ORAL,1,,,,,,
+ANTICOPTCEPTIUS,1,,,,,,
+FLUTER Y EXTRA SISTOLE SUBAVENTRICLAR,1,,,,,,
+DERMATITIS ASOCIADA AL HERPES SIMPLE,1,,,,,,
+FOCO IRRITATIVO,1,,,,,,
+DESAJUSTE HORMONAL,1,,,,,,
+ANTIESTAMINICS,1,,,,,,
+FONCS,1,,,,,,
+FONCS AL PENIS,1,,,,,,
+DESCANCAR I DEPRESIO,1,,,,,,
+FONGS,1,,,,,,
+FONGS AL DIT DEL PEU,1,,,,,,
+ANTIINFLAMTORI,1,,,,,,
+DESGASTE CADERA,1,,,,,,
+DESGASTE CARTILAGO RODILLAS,1,,,,,,
+DESGASTE DE BERTEBRAS COLUMNA LUMBAR,1,,,,,,
+DESGASTE MENISCO,1,,,,,,
+ANTITREMOLORS,1,,,,,,
+DESGAST MUSCUL MA,1,,,,,,
+FRACTURA DE SOBRECARREGASEGON MTTARSIA PEU DRET,1,,,,,,
+DESMOIDE CERVICAL,1,,,,,,
+APNEAS DEL SUENO,1,,,,,,
+DESPRENDIMENT RETINA UE,1,,,,,,
+DESPRENIMENT DE CORNEA,1,,,,,,
+DESPRES DE FER MOLT EXERCICI,1,,,,,,
+GALINDO,1,,,,,,
+GALTERES,1,,,,,,
+MALFORMACIO CAP DEL FEMUR,1,,,,,,
+GARGANTA,1,,,,,,
+AQNGOIXA,1,,,,,,
+ARDOR D'ESTOMAC,1,,,,,,
+DIAZEPAN,1,,,,,,
+ARDORES DE ESTOMAGO,1,,,,,,
+DICOPATIA DEGENERATIVA,1,,,,,,
+DIES ALTERNATIUS,1,,,,,,
+ARNEA DEL SUENO,1,,,,,,
+MANGUITO ROTADOR,1,,,,,,
+GAUCOMA,1,,,,,,
+GENERAL,1,,,,,,
+ARRITMIA FA,1,4279,Arítmia cardíaca no especificada,427,Arítmia cardíaca,7,Malalties de l’aparell circulatori
+DIFICULTAT RESPIRATORIA NIT,1,,,,,,
+DIFICULTAT URINARIA,1,,,,,,
+GLANGLIOS,1,,,,,,
+GLAUCOMA BILATERAL,1,,,,,,
+GLEUCOMA,1,,,,,,
+GLOMERULONEFRITIS/ TRASPALANTE RENAL,1,,,,,,
+ARTOSIS (DESGASTE CARTILAGO RODILLAS),1,,,,,,
+GLUCOSA,1,,,,,,
+ARTRITIS REUMATOIDE PALINDROMICA,1,,,,,,
+DILUIR LS SANGREPLAVP,1,,,,,,
+DIPOSIT DEL FERRO UNA MICA BUIT,1,,,,,,
+MENOPAUISA,1,627,Trastorns menopàusics i postmenopàusics,627,Trastorns menopàusics i postmenopàusics,10,Malalties de l’aparell genitourinari
+DISCOPATIA L4-L5,1,,,,,,
+DISCOPATIA VERTEBRES,1,,,,,,
+MENOPAUSA PREMATURA,1,,,,,,
+GREIXOS,1,,,,,,
+GRIPE,1,,,,,,
+"GRIP, REFREDAT",1,,,,,,
+GUILLEM BARRE,1,,,,,,
+HASHIMOTO,1,,,,,,
+ARTROSIS DEGENERATIBA GENERALIZADA,1,,,,,,
+DISPLASIA,1,,,,,,
+HEMANGIOMA CAVERNOS AL FETGE,1,,,,,,
+HEMANGIOMA HEPATIC,1,,,,,,
+MIASTEMIA,1,,,,,,
+DISPLASIA LLEU COLL UTER,1,,,,,,
+DISPLASIA SEVERA CUELLO UTERO,1,,,,,,
+PROSTATITIS  CRONICA,1,,,,,,
+HEMOGLOBINA BAJA,1,,,,,,
+MICROPILACTINOMA,1,,,,,,
+HEMORRAGIA SUBARACNOIDEA,1,,,,,,
+HEMOSIDEREMIA,1,,,,,,
+HEMPRROIDE,1,,,,,,
+ASPIRINA,1,,,,,,
+HEPATITIAS A,1,,,,,,
+DOLOR A LES MANS,1,,,,,,
+MIOCARDIOPATIA HIPERTOFICA CONGENITA,1,,,,,,
+HEPATITIS INFANTIL,1,,,,,,
+MIOMA INTRAUTERI,1,,,,,,
+HERNIA CERVICALES Y ESPALDA,1,,,,,,
+PARA CONCILIAR SUENO,1,,,,,,
+AUMENT DE HEMATIES,1,,,,,,
+DOLOR ARTICULAR/ TENDINITIS,1,,,,,,
+MIOPATIA,1,,,,,,
+AYUDA DEPRESION,1,,,,,,
+DOLOR CABEZA-MALESTAR GENERAL,1,,,,,,
+DOLOR CABEZA O CERVICALES,1,,,,,,
+DOLOR CABEZA Y PIES,1,,,,,,
+BAIX NIVEL DE FERRO,1,,,,,,
+DOLOR CERVICAL I LUMBAR,1,,,,,,
+BAIX NIVELL DE CALC,1,,,,,,
+BAJA DE ACIDO FOLICO,1,,,,,,
+DOLOR CODO,1,,,,,,
+DOLOR CRONICO,1,,,,,,
+DOLORDE CABEZA,1,339,Altres síndromes amb cefalàlgia,339,Altres síndromes amb cefalàlgia,6,Malalties del sistema nerviós i els òrgans dels sentits
+"DOLOR DE CABEZA, ARTICULACIONES",1,,,,,,
+DOLOR DE CABEZA ESPORADICO,1,,,,,,
+DOLOR DE CABEZA O MUSCULAR,1,,,,,,
+BECET,1,,,,,,
+DOLOR DE CABEZA O RODILLA,1,,,,,,
+BERTEBRES LUMBARS,1,,,,,,
+BETA-BLOQUEJANT,1,,,,,,
+BIEN ESTAR,1,,,,,,
+BILIRRUBINA ALTA,1,,,,,,
+BIPOLARIDAD LEVE,1,,,,,,
+DOLOR DE HERNIA DISCAL,1,,,,,,
+BLEFAROESPASME ULL,1,,,,,,
+BLOQUEIG BRANCA ESQUERRA,1,,,,,,
+DOLOR DENTAL,1,,,,,,
+HERNIA DISCALM Y CERVICAL,1,,,,,,
+HERNIA DISCALS,1,,,,,,
+BROMQUITIS CRONICA POR FUMAR,1,,,,,,
+BRONCOESTASIS,1,,,,,,
+BRONQUIECTASIA,1,,,,,,
+BRONQUITIS ACTUAL,1,,,,,,
+BRONQUITIS ASMATICA CRONICA,1,,,,,,
+DOLOR EN EL HOMBRO,1,,,,,,
+HERNIA NO COMPRESIVA. LUMBOCIATICAS DE REPETICION,1,,,,,,
+BRUXISMO,1,,,,,,
+DOLORES CERVICALES Y DE ESPALDA,1,,,,,,
+BUFETA HIPERACTIVA,1,,,,,,
+"HERNIAS,EVENTRACIONES",1,,,,,,
+HERNIA UMBILICAL,1,,,,,,
+HERNIES DISCALS/CIATICA,1,,,,,,
+DOLORES MUSCULARES OCASIONALES,1,,,,,,
+NEUROFIBROMA CIATICO DE SCHWANNOMA,1,,,,,,
+NEUROFIBROMATOSIS GRADO UNO,1,,,,,,
+BULIMIA NERVIOSA/ALIMNETACIO COMPULSIVA,1,,,,,,
+DOLORES  MUSCULARES,1,,,,,,
+BUSQUEDA DE EMBARAZO,1,,,,,,
+HERPES CORNEAL,1,,,,,,
+HERPES VAGINAL,1,,,,,,
+CABELL I UNGLES,1,,,,,,
+HERPEX ZOSTER,1,,,,,,
+CABEZA,1,339,Altres síndromes amb cefalàlgia,339,Altres síndromes amb cefalàlgia,6,Malalties del sistema nerviós i els òrgans dels sentits
+DOLORES Y NERVIOS,1,,,,,,
+"DOLOR, FATIGA",1,,,,,,
+DOLOR GASTRICO,1,,,,,,
+CAIDA DE PELO,1,,,,,,
+DOLOR GENERAL ESPORADICO,1,,,,,,
+CALAMBRES MUSCULARES,1,,,,,,
+CALC,1,,,,,,
+CALCI DESCOMPENSAT,1,,,,,,
+DOLOR I FATIGA,1,,,,,,
+CALCIFICACION HOMBRO,1,,,,,,
+DOLOR LEVE,1,,,,,,
+CALCUL AL RONYO,1,5920,Càlcul renal,592,Càlcul renal i ureteral,10,Malalties de l’aparell genitourinari
+DOLOR LUMBAR / CIATICA,1,,,,,,
+CALCULO CORALIFORME,1,,,,,,
+CALCULO RENAL,1,5920,Càlcul renal,592,Càlcul renal i ureteral,10,Malalties de l’aparell genitourinari
+CALCULOS EN EL RINON,1,5920,Càlcul renal,592,Càlcul renal i ureteral,10,Malalties de l’aparell genitourinari
+"DOLOR MENSTRUAL, MAL DE CAP",1,,,,,,
+CALMANTE,1,,,,,,
+CAMAS INQUIETAS,1,,,,,,
+CAMES INQUIETES/SINDROME POST-POLIO,1,,,,,,
+CANDIASIS BUCAL,1,,,,,,
+HIPERPLAXIA PROSTATICA,1,,,,,,
+HIPERPROLACTILEMIA,1,,,,,,
+DOLOR MUSCULARS,1,,,,,,
+DOLOR NEURALGIC (CERVICALS),1,,,,,,
+DOLOR ARTICULACIONES,1,,,,,,
+ATROSIS EN LA CADERA,1,,,,,,
+AUSENCIES,1,,,,,,
+CARCINOMA BASOCEL?LULAR,1,,,,,,
+OLOR DE ESPALDA,1,,,,,,
+HIPERTENSIO PULMONAR,1,,,,,,
+DOLOR RODILLAS,1,,,,,,
+DOLORS ARTICULARS,1,,,,,,
+DOLORS DE CABEZA,1,339,Altres síndromes amb cefalàlgia,339,Altres síndromes amb cefalàlgia,6,Malalties del sistema nerviós i els òrgans dels sentits
+DOLORS D'OSSOS,1,,,,,,
+OPERACION DE LA MAMA,1,,,,,,
+CARRASPERA CRONICA,1,,,,,,
+DOLOR VERTEBRAL I HERNIES OPERADES,1,,,,,,
+OPERADA D'OBESITAT MORDIBA,1,,,,,,
+OPERAT NEURINOMA A L'ESQUENA ZONA LUMBAR,1,,,,,,
+ORINO MUCHO ULTIMAMENTE,1,,,,,,
+DOLR ARTICULAR,1,,,,,,
+INTOL?LERANCIA ALIMENTARIES,1,,,,,,
+HIPERTRIGLICEMIA,1,,,,,,
+HIPERTROFIA BENIGNA DE PROSTATA,1,,,,,,
+HIPERTROFIA PROSTATICA,1,,,,,,
+HIPERTROIDISME,1,,,,,,
+REGULAR ACIDO URICO,1,,,,,,
+DULO DE ESQUENA,1,,,,,,
+HIPO,1,,,,,,
+REGULAR INTESTINS,1,,,,,,
+OTITIS,1,,,,,,
+HIPOACUSIA BILATERAL SEVERA,1,,,,,,
+HIPOACUSIA NEUROSENSORIAL,1,,,,,,
+EMORRAGIA MENSTRUACIO,1,,,,,,
+HIPOACUSIA SEVERA,1,,,,,,
+CERT MALESTAR D'ESTOMAC,1,,,,,,
+HIPOTENSIO,1,,,,,,
+HIPOPARATIROIDISMO,1,,,,,,
+HIPOTERIODISME,1,,,,,,
+ENDOMETRIOSSIS,1,,,,,,
+ENDOMETRI,1,,,,,,
+ENFERMEDAD DEL BESO. MUNONUCLEOSIS,1,,,,,,
+HIPOTIRIODISME,1,,,,,,
+HIPOTIRIODISMES,1,,,,,,
+HIPOTIRIORISME,1,,,,,,
+RENYO,1,,,,,,
+RESFRIADOS,1,460,Rinofaringitis aguda [refredat comú],460,Rinofaringitis aguda [refredat comú],8,Malalties de l’aparell respiratori
+PNUEMONIA,1,,,,,,
+RETENCIO DE LIQUITS,1,,,,,,
+HIPO TIROIDISME,1,,,,,,
+PARA EL DOLOR CRONICO,1,,,,,,
+EPICONDILITIS,1,,,,,,
+HIPOTIROIDISME DE HASHIMOTO,1,,,,,,
+PARA LA ESPALDA,1,,,,,,
+EPILONEFRITIS,1,,,,,,
+EPOP,1,,,,,,
+EQUILIBRAR TENSION,1,,,,,,
+PARALISI FACIAL DRETA,1,,,,,,
+POLIPOSIS NASAL,1,,,,,,
+PROTECTOR ESTOMEC,1,,,,,,
+TEMBLOR MANOS,1,,,,,,
+FIBROMA-ISTERECTOMIA,1,,,,,,
+PARA  RECUPERARME,1,,,,,,
+PARA REFORZAR LOS HUESOS,1,,,,,,
+PARA TIROIDES,1,,,,,,
+HERNIA DISCAL C5-C6,1,,,,,,
+PASTILLAS ANTICONCEPTIVAS,1,,,,,,
+POLIPS BUFETA FEL,1,,,,,,
+PATOLOGIA PSICOLOGICA,1,,,,,,
+"HERNIA DISCAL, ESPONDILITIS",1,,,,,,
+PEDRES VESICULA BILIAR,1,,,,,,
+FIBROMIALGUIA,1,,,,,,
+PEL CABELL,1,,,,,,
+HIRSUTISMO,1,,,,,,
+HISTERECTOMIA,1,,,,,,
+HONGO,1,,,,,,
+CLUCOSA,1,,,,,,
+HONGOS,1,,,,,,
+HONGOS UNAS,1,,,,,,
+ESOFAGITIS/GASOS,1,,,,,,
+HONGOS UNAS PIES,1,,,,,,
+HORMIGUEO EN LA PARTE DERECHA DE LA CARA,1,,,,,,
+HPB,1,,,,,,
+HYPOTIROIDES,1,,,,,,
+COLIALISTICTOMIA,1,,,,,,
+ESCLEROSI MULTIPLE PROGRESSIVA LENTA,1,,,,,,
+COLICS NEFRITICS CRISTALLS ACID URIC,1,,,,,,
+COLITIS CRONICA,1,,,,,,
+SENSIBILIDAD NEUROLOGICA,1,,,,,,
+ESTABILITAT EMOCIONAL,1,,,,,,
+INFECCIO CYTIOMEGALOVIRUS,1,,,,,,
+INFECCIO INTESTINAL,1,,,,,,
+PERDER PESO,1,,,,,,
+INFECCION BACTERIANA TEJIDOS BLANDOS SUELO PELVICO BAJO,1,,,,,,
+PERDIDA DE ORINA,1,,,,,,
+ESTAT ANIMIC I DEFICIENCIES NUTRITIVES,1,,,,,,
+INFECCION DE OIDO,1,,,,,,
+COMPLEMENT,1,,,,,,
+ESTAT D`ANIM,1,,,,,,
+INFECCION DE ORINA,1,,,,,,
+COMPLEMENTO VITAMINICO,1,,,,,,
+COMPLEMENTS,1,,,,,,
+COMPLEMENT VITAMINIC FERRO,1,,,,,,
+COMPLEMNT VITAMINIC,1,,,,,,
+ESTENOSI D'URETRA,1,,,,,,
+INFECCIO PER FONGS ALS PEUS,1,,,,,,
+ESTENOSIS DE CANAL MEDULAR,1,,,,,,
+ESTENOSIS URETRAL,1,,,,,,
+ESTETICA,1,,,,,,
+ESTOMAC PROTECTOR,1,,,,,,
+INFLAMACIO D'ESOFAG,1,,,,,,
+ESTOMAGO Y ANTIFLAMATORIO,1,,,,,,
+ESTOMEC,1,,,,,,
+INFLAMACION CRONICA DEL INTESTINO,1,,,,,,
+INFLAMACION DE ESTOMAGO,1,,,,,,
+INFLAMACION DE PROSTATA,1,,,,,,
+CONDROPATIA FEMOROPATELAR BILATERAL GRAU IV,1,,,,,,
+CONDROPATIA GENOLL,1,,,,,,
+CONDROPROTECTOR,1,,,,,,
+CONEXIO NEUROTRANSMISORS,1,,,,,,
+CONGESTIO NASSAL,1,,,,,,
+CONGESTION DEL OIDO,1,,,,,,
+CONIZACION DEL UTERO,1,,,,,,
+INFLAMACIO PROSTATA,1,,,,,,
+ESTRES PER MALATIA DE LA ESPOSA,1,,,,,,
+INSOMIO,1,,,,,,
+INSOMNI /,1,,,,,,
+INSOMNI CRONIC,1,,,,,,
+INSOMNI/NERVIS,1,,,,,,
+INSOMNIO O PREOCUPACION,1,,,,,,
+SINDROME PIERNAS INQUIETAS,1,,,,,,
+INSOMNNI,1,,,,,,
+CONTRACTURAS CERVICALES,1,,,,,,
+INSUFICIENCIA RENAL CRONICA LEVE,1,,,,,,
+CONTRACTURES FACILS,1,,,,,,
+CONTRACTURES MANDIBULARS,1,,,,,,
+EXCESO DE GLOBULOS ROJOS,1,,,,,,
+EXTIRPACIO GANDULA TIROIDEA,1,,,,,,
+"INTOLERANCIA A LACTOSA, FRUCTOSA I SORBITOL",1,,,,,,
+EXTIRPACIO TIROIDES PER NODUL,1,,,,,,
+CONTROL METABOLISME HIDRATS DE CARBONI PER CONTROL DEL PES,1,,,,,,
+CONTROL PESO,1,,,,,,
+EXTRASISTOLES SUPRAVENTRICULARS,1,,,,,,
+ANIMIC/NERVIOS,1,,,,,,
+CORDES VOCALS,1,,,,,,
+COR DISPARAT,1,,,,,,
+CORESTEROL,1,,,,,,
+FALTA B12,1,,,,,,
+FALTA DE B12,1,,,,,,
+LA MENSTRUACIO,1,,,,,,
+LA PROSTATA,1,,,,,,
+PIEDRAS EN VESICULA,1,,,,,,
+PIEL ATOPICA,1,,,,,,
+LESIO MEDULAR,1,,,,,,
+LESION MEDULAR,1,,,,,,
+LESION POR VPH,1,,,,,,
+PIES INQUIETOS,1,,,,,,
+PINCAMENT CIATIC,1,,,,,,
+LESSIO TRAUMATOLOGICA,1,,,,,,
+PINZAMENT VERTEBRAS L4-L5,1,,,,,,
+FALTA VITAMINA D3,1,2689,Carència de vitamina D no especificada,268,Carència de vitamina D,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+FARINGE,1,,,,,,
+"ANSIEDAD, TIROIDES, SUENO",1,,,,,,
+DEFICIT ABSORCIO,1,,,,,,
+"FASCITIS PLANTAR, ESPOLONES, CONTRACTURAS",1,,,,,,
+DEFICIT CALCI,1,,,,,,
+LIQUEFIAR LA SANGRE,1,,,,,,
+FATIGA CRONICA Y FIBROMIALGIA,1,,,,,,
+TAMSUSOLINA,1,,,,,,
+FEBRE REUMATICA,1,,,,,,
+FEBRES DE MALTA,1,,,,,,
+FERRATINA BAIXA,1,,,,,,
+FERRITINA BAIXA,1,,,,,,
+"FERRO, DERMOGRAFISME, PICORS A LA PELL",1,,,,,,
+FERROPENIA SENSE ANEMIA,1,,,,,,
+FETGE TOXIC,1,,,,,,
+FIBIOMALGIA,1,,,,,,
+LLAGA AL DUODE,1,,,,,,
+FIBRIOMALGIA,1,,,,,,
+DEGENERACIO MACULAR,1,,,,,,
+LLEUGER ESTAT NERVIOS,1,79921,Nerviosisme,799,Altres causes desconegudes i mal definides de morbiditat i mortalitat,16,"Símptomes, signes i afeccions mal definides"
+DEIXA DE FUMAR,1,,,,,,
+LUMBALGIA FORTA,1,,,,,,
+"LUMBALGIA, MENICS FASCISTIS PLANTAR",1,,,,,,
+POLIPOS VESICULA BILIAR,1,,,,,,
+TENDINITIS SUPRAESPINOSA,1,,,,,,
+LUMBARES,1,,,,,,
+LUMBARGIA,1,,,,,,
+POLIPS ESOFAG,1,,,,,,
+TENGO EL HIGADO UN POCO DELICADO,1,,,,,,
+DOLOR DE CAIXAL,1,,,,,,
+"DEPRESION, INSOMNIO",1,,,,,,
+MA INFLADA DESPRES DE TRANCAR-ME EL BRAC,1,,,,,,
+FIBROMILGIA,1,,,,,,
+TENSIO INTRA OCULAR,1,36504,Hipertensió ocular,365,Glaucoma,6,Malalties del sistema nerviós i els òrgans dels sentits
+FIEBRES REUMATOIDES,1,,,,,,
+MAL A LES ARTICULACIONS,1,,,,,,
+POQUES HORMONES,1,,,,,,
+POR DETECTAR CELULAS DE TUBERCULOSIS,1,,,,,,
+FIMOSI,1,,,,,,
+FIMOSIS,1,,,,,,
+FISURA ANAL,1,,,,,,
+MALALTIA PELL AUTOIMMUNE,1,,,,,,
+DEPRESSO,1,,,,,,
+MAL A UNA CAMA PER HERNIA DISCAL PROVOCADA PER ESPONDILOLISTESI L5-S1,1,,,,,,
+FLUIDEZ SANGRE,1,,,,,,
+DEPURATIVA,1,,,,,,
+"MAL DE CAP, DOLOR REGLA",1,,,,,,
+MAL DE CAP/DOLORS MUSCULARS,1,,,,,,
+FOBIAS,1,,,,,,
+MAL DE CAP I DOLOR MUSCULAR,1,,,,,,
+FOCUS IRRITATIU,1,,,,,,
+DERRAME PLEUROPERICARDIC,1,,,,,,
+FOGOTS DE LA MENOPAUSIA,1,627,Trastorns menopàusics i postmenopàusics,627,Trastorns menopàusics i postmenopàusics,10,Malalties de l’aparell genitourinari
+DESAJUSTOS HORMONALS,1,,,,,,
+MAL DE CAP O DOLOR GENERAL,1,,,,,,
+MAL DE CAP O LUMBALGIA,1,,,,,,
+FONG A L?UNGLA DEL PEU,1,,,,,,
+MAL DE CAP O MUSCULAR,1,,,,,,
+"MAL DE CAP, REGLA",1,,,,,,
+DESGAST DEL CARTILEG,1,,,,,,
+FONS IRRITATIU TEMPORAL ESQUERRA,1,,,,,,
+FOP CON SHUN I-D,1,,,,,,
+FORTALECER COLUMNA VERTEBRAL,1,,,,,,
+FORTES MENSTRUACIONS,1,,,,,,
+DESGASTE RODILLAS,1,,,,,,
+FRACTURA DE COSTELLA,1,,,,,,
+MAL D?ESQUENA I DIFICULTAT PER A DORMIR.,1,,,,,,
+FRBROMIALGIA,1,,,,,,
+DESPRENDIMENT DE VITRI,1,,,,,,
+FRIBROMALGIA Y ARTROSIS,1,,,,,,
+FUGOTS,1,,,,,,
+FUROSEMIDA,1,,,,,,
+MAL ESTOMAG,1,,,,,,
+MALFORMACIO AL SACRE,1,,,,,,
+TRACTAMENT DE FERTILITAT,1,,,,,,
+MALT DE GENOLLS,1,,,,,,
+DIABETIS DURANT L'EMBARAC,1,,,,,,
+DIARREA,1,,,,,,
+GASTRITIS ATROFICA AUTOINMUNE,1,,,,,,
+DICOCOLON,1,,,,,,
+MANCA VITAMINA B,1,,,,,,
+DIFICULTAD CONCILIAR SUENO,1,,,,,,
+PREVENIR ISQUEMIES CEREBRALS,1,,,,,,
+MANIAS,1,,,,,,
+MASTOCITOSIS SISTEMICA,1,,,,,,
+GENOLLS,1,,,,,,
+GILBERT,1,,,,,,
+GINECOLOGICA,1,,,,,,
+MEMINGIOMA,1,,,,,,
+MEMORIA,1,,,,,,
+PROBLEMA DIGESTIVO,1,,,,,,
+PROBLEMA HEMATOLOGICO,1,,,,,,
+DIGESTIVA,1,,,,,,
+MENINGOENCEFALITIS LINFOCITARIA (PROBABLE ETIOLOGIA HERPETICA),1,,,,,,
+DILATACION URETRAL,1,,,,,,
+GMSI,1,,,,,,
+MENISCS OPERATS,1,,,,,,
+PROBLEMAS PIPI,1,,,,,,
+GOTES NAS,1,,,,,,
+PROBLEMES DEL SON,1,,,,,,
+TRASTORN OBSSIU COMPULSIU,1,,,,,,
+MENOPAUSIA. ANIMO,1,,,,,,
+MENOPAUSIA AVANCADA,1,627,Trastorns menopàusics i postmenopàusics,627,Trastorns menopàusics i postmenopàusics,10,Malalties de l’aparell genitourinari
+MENOPAUSIA I PELL,1,,,,,,
+MENOPAUSIA-SOFOCOS,1,627,Trastorns menopàusics i postmenopàusics,627,Trastorns menopàusics i postmenopàusics,10,Malalties de l’aparell genitourinari
+MENSTRUACIO/MIOMES,1,,,,,,
+DISPEPSIA OCASIONAL,1,,,,,,
+HEMAIGIOMA,1,,,,,,
+"MERALGIA PARESTESICA ESQUERRA I DOLOR , CREMOR, FORMIGUEIX I RAMPES EN CAMES",1,,,,,,
+MIALITIS-VERTIGO,1,,,,,,
+PROSTATA GRANDE,1,,,,,,
+HEMATOMACROSIS,1,,,,,,
+HEMITIROIDECTOMIA,1,,,,,,
+TREMOLORS CAUSATS PEL PLENUR,1,,,,,,
+MICROHEMATURIA A L'ORINA,1,,,,,,
+PROSTATITIS / INFECCIO ORINA,1,,,,,,
+"MIGRANA, DOLOR MENSTRUAL",1,,,,,,
+PROTATITIS,1,,,,,,
+PROTECCIO,1,,,,,,
+"DOLOR,",1,,,,,,
+MILLORAR LA DIGESTIO,1,,,,,,
+HEPATITIS AGUDA,1,,,,,,
+PROTECCIO ESTOMEG,1,,,,,,
+HEPATITIS DESCONEGUDA,1,,,,,,
+TROMBOS,1,,,,,,
+TALASEMIA MINOR,1,,,,,,
+PROTECCION SOLAR,1,,,,,,
+TRONCANTERITIS,1,,,,,,
+MIOMES UTERINS,1,,,,,,
+PROTECIO GASTRICA,1,,,,,,
+MIOPERICARDITIS,1,,,,,,
+MIOPIA FORTA,1,,,,,,
+MOLA,1,,,,,,
+DOLOR CERVICAL I ESQUENA.,1,,,,,,
+MOLESTIAS ESTOMACALES,1,,,,,,
+DOLOR CERVICAL I MUSCULAR,1,,,,,,
+DOLOR CERVICALS,1,,,,,,
+HIPO TIROIDISMO,1,,,,,,
+LLEUGERA HIPERTESIO,1,,,,,,
+MONONUCLEOSIS,1,,,,,,
+MONONUCLEOSIS INFECCIOSA,1,,,,,,
+MONONUCLEOSSIS,1,,,,,,
+MORT DE LA MARE,1,,,,,,
+DOLOR DE CABEZA O MUSCULATURA,1,,,,,,
+HERNIA DISCAL C6-C7,1,,,,,,
+DOLOR DE CABEZA Y CERVICALES,1,,,,,,
+DOLOR DE CABEZA Y LUMBARES,1,,,,,,
+DOLOR DE CADERA,1,,,,,,
+PEDRES AL RUNYO,1,,,,,,
+DOLOR DE ESQUENA,1,,,,,,
+HERNIA DISCAL L4-L5,1,,,,,,
+DOLOR DE HUESOS Y CABEZA,1,,,,,,
+DOLOR DE MUELAS,1,,,,,,
+HERNIA DISCAL LUMBAR L4/L5 YL5/SACRA1,1,,,,,,
+NERVIO MOTRIZ Y SENSITIVO,1,,,,,,
+NERVIOS-ANSIEDAD,1,,,,,,
+DOLOR DERIVAT DE L'HERIA DISCAL,1,,,,,,
+HERNIA HIATO CONGENITA,1,,,,,,
+DOLOR DE RODILLAS,1,,,,,,
+DOLOR DORSAL,1,,,,,,
+DOLOR ELS OSSOS,1,,,,,,
+HERNIA LUMBAR,1,,,,,,
+NEUMONIA/PERICARDITIS,1,,,,,,
+DOLORES ARTICULARES,1,,,,,,
+HERNIAS DE DISCO Y ALTROPATIA EN EL HOMBRO,1,,,,,,
+DOLORES DE CABEZA,1,339,Altres síndromes amb cefalàlgia,339,Altres síndromes amb cefalàlgia,6,Malalties del sistema nerviós i els òrgans dels sentits
+NEURALGIA DEL TRIGEMIN,1,,,,,,
+NEURALGIA DEL TRIGEMINIO,1,,,,,,
+NEURALGIA PUDENDO,1,,,,,,
+DOLORES MESTRUALES ENDOMETRIOSIS,1,,,,,,
+HERNIS DE HIATO,1,,,,,,
+QUISTE SINUVIAL,1,,,,,,
+QUISTES OVARICS,1,,,,,,
+HERPES ZOSTER FACIAL,1,,,,,,
+DOLOR ESPALDA/PIERNA,1,,,,,,
+QUISTES RONYONS,1,,,,,,
+DOLORES VARIOS,1,,,,,,
+HIERRO BAJO,1,,,,,,
+HIPERACTIVIDAD,1,,,,,,
+HIPERACTIVIDAD BRONQUIAL,1,,,,,,
+DOLOR GENERAL,1,,,,,,
+NODULO FRIO EN EL TIROIDES,1,,,,,,
+DOLOR GENERALITZAT,1,,,,,,
+DOLOR GENOLL,1,,,,,,
+DOLOR GENOLL OPERAT,1,,,,,,
+HIPEROSTOSIS ESQUELETICA DIFUSA (DISH),1,,,,,,
+DOLOR-INFLAMACION,1,,,,,,
+NODULS TIROIDALS,1,,,,,,
+DOLO RLUMBAR,1,,,,,,
+HIPERPLASIA BENIGNA PROSTATICA,1,,,,,,
+"DOLOR: MAL DE CAP, DOLOR PREMENSTRUAL",1,,,,,,
+DOLOR MENSTRUACIO,1,,,,,,
+DOLOR MENSTRUAL; CONTRACTURA; INFLAMACION GARGANTA,1,,,,,,
+"OBESIDAD,",1,,,,,,
+DOLOR MUELA,1,,,,,,
+DOLOR MUELAS,1,,,,,,
+DOLOR MUSCUAR,1,,,,,,
+DOLOR  MUSCULAR,1,,,,,,
+OBSESION Y ANSIEDAD,1,,,,,,
+OBSESSIO DELIRANT,1,,,,,,
+HIPERPROSTASIA BENIGNA,1,,,,,,
+HIPERQUERATOSIS,1,,,,,,
+HIPERREACTIVIDAD BRONQUIAL,1,,,,,,
+HIPERREACTIVITAT BRONQUIAL,1,,,,,,
+DOLOR OROFACIAL,1,,,,,,
+DOLOR OSSI,1,,,,,,
+HIPERSENSIBLE/FALTA D?AFECTE,1,,,,,,
+DOLOR NEUROLOGICO,1,,,,,,
+DOLOR NEURONAL,1,,,,,,
+CARCINOMA BASCULAR SUPERFICIAL REGIO ESCOT,1,,,,,,
+DOLOR PREMENSTRUAL,1,,,,,,
+PER POGUE DORMIR,1,,,,,,
+OPERACION,1,,,,,,
+REFORC MUSCULAR,1,,,,,,
+OPERACIO REDUCCIO ESTOMAC,1,,,,,,
+DOLOR TALON,1,,,,,,
+REFREDATS,1,460,Rinofaringitis aguda [refredat comú],460,Rinofaringitis aguda [refredat comú],8,Malalties de l’aparell respiratori
+REFUJO ESOFAGICO,1,,,,,,
+REGENERA EL CARTILAC,1,,,,,,
+PROTECTOR MUSCOLAR,1,,,,,,
+DORMI,1,,,,,,
+OSTEOARTOSIS,1,,,,,,
+OSTEOCONDROMATOSI MULTIPLE,1,,,,,,
+OSTEONECROSIS CONDILO FEMORAL IZQUIERDO,1,,,,,,
+OSTEOPOROIS,1,,,,,,
+"P,ESTOMACAL",1,,,,,,
+SNDROMEWOLFFWHITE,1,,,,,,
+HIPETERSION E INSOMNIO,1,,,,,,
+SOFOCACIONS MENOPAUSIA,1,627,Trastorns menopàusics i postmenopàusics,627,Trastorns menopàusics i postmenopàusics,10,Malalties de l’aparell genitourinari
+REGULAR LA MENSTRUACION,1,,,,,,
+OTOESCLEROSI,1,,,,,,
+OTOESCLEROSIS,1,,,,,,
+SOMATITZACIONS,1,,,,,,
+EN CAS DE MALALTIES O INDISPOSICIONS LLEUS,1,,,,,,
+REGUL. TIROIDES,1,,,,,,
+OVARIS POLIQUISTICS,1,,,,,,
+PAMCREAS,1,,,,,,
+HIPOTENSION ARTERIAL,1,,,,,,
+HIPOTEROIDISMO,1,,,,,,
+RELAJARME UN POCO POR LA NOCHE,1,,,,,,
+HIPOTIEROIDISME,1,,,,,,
+PAPERA,1,,,,,,
+PAPERAS,1,,,,,,
+PAPIL?LOMA HUMA,1,,,,,,
+PITIRIASI LIQUENOIDE CRONICA,1,,,,,,
+SUBSTITUTIU DE LA TIROXINA,1,,,,,,
+PROTECCION ESTOMACAL,1,,,,,,
+PROTECCION ESTOMAGOI,1,,,,,,
+PARA DOLOR DE ESPALDA Y CERVICALES,1,,,,,,
+RETENCIO LIQUITS,1,,,,,,
+PARA EL DOLOR DE COLUMNA  CERVICALES Y LUNBARES,1,,,,,,
+HIPOTIROIDISME DE HASCHIMOTO,1,,,,,,
+RETENCION TEMPORAL DE LIQUIDOS,1,,,,,,
+RETIDA DE LA REGLA PRECOCMENT,1,,,,,,
+PARA LA MENOPAUSA,1,627,Trastorns menopàusics i postmenopàusics,627,Trastorns menopàusics i postmenopàusics,10,Malalties de l’aparell genitourinari
+TCA,1,,,,,,
+PROTECTOR D?ESTOMAC,1,,,,,,
+PROTECTOR D'ESTOMAC PER L'IBUPROFE,1,,,,,,
+TUMOR BENIGNO EPIDERMICO EN LA VULVA,1,,,,,,
+MAL DE CAP TENSIONAL/ DOLOR MENSTRUACIO,1,,,,,,
+PARA PODER MICCIONAR BIEN,1,,,,,,
+ERNIA DE IATO,1,,,,,,
+RIEGO SANGUINEO,1,,,,,,
+PERDUA CARTILAG,1,,,,,,
+MUCOSIDAD,1,,,,,,
+PROTESSI E CADERA,1,,,,,,
+TENDON ROTO TENDINITIS,1,,,,,,
+PROTETOR,1,,,,,,
+PROTISIO LUMBAR,1,,,,,,
+PROTUCIO CERVICAL,1,,,,,,
+MAGNESIO,1,,,,,,
+RODILLA,1,,,,,,
+TENSIO ALTA DE L'ULL,1,,,,,,
+PEL CORTISOL,1,,,,,,
+PEL DOLOR,1,,,,,,
+PEL DOLOR ARTICULAR,1,,,,,,
+HONGO EN LA UNA,1,,,,,,
+HONGOS UNAS DE LOS PIES,1,,,,,,
+PELL ATOPICA,1,,,,,,
+SACROILEITIS,1,,,,,,
+PEL MAL DE LA REGLA I MAL DE CAP,1,,,,,,
+PEL MATI,1,,,,,,
+IBUPROFE,1,,,,,,
+ESPASMES A LA BUFETA,1,,,,,,
+ESPASMES ESOFAGICS,1,,,,,,
+ESPASMOS ESTOMACALES,1,,,,,,
+COLESTEATOMA,1,,,,,,
+COLESTEATOMA OD,1,,,,,,
+COLICS NEFRITICS - CALCULS D'OXALAT CALCIC,1,,,,,,
+ESPONDILITRIS,1,,,,,,
+ESPONDILOSIS L4-L5,1,,,,,,
+INFECCIO CUTANEA,1,,,,,,
+SEQUEDAD VAGINAL,1,,,,,,
+PER CONTROLAR TICS,1,,,,,,
+SEQUETAT D'ULLS,1,,,,,,
+PER DESCANSAR,1,,,,,,
+SERATONINA,1,,,,,,
+INFECCION DE ANGINAS,1,,,,,,
+PER DILUIR LA SANG,1,,,,,,
+SINOVITIS VELLONODULAR PIGMENTADA,1,,,,,,
+SIATICA,1,,,,,,
+SIFILIS,1,,,,,,
+PER DOLORS MUSCULARS,1,,,,,,
+INFECCION MUELA,1,,,,,,
+INFECCIONS D'ORINA RECURRENTS,1,,,,,,
+ESTEATOSI D'ORIGEN NO ALCOHOLIC,1,,,,,,
+ESTEATOSI HEPATICA,1,,,,,,
+INFECCIO RENAL,1,,,,,,
+INFECION DE OIDO,1,,,,,,
+INFLACACIO ARTICULACIO; PER CONCILIAR EL SON,1,,,,,,
+INFLAMACIO ARTICULACIONS,1,,,,,,
+PER ESTAR MES TRANQUILA,1,,,,,,
+INFLAMACIO GENOLL,1,,,,,,
+INFLAMACION,1,,,,,,
+PER HERNIA HIATO,1,,,,,,
+PERICARDITIS VIRICA,1,,,,,,
+PERIMENOPAUSIA,1,,,,,,
+INFLAMACION DE RODILLA,1,,,,,,
+PERIODE,1,,,,,,
+ESTRECHAMIENTO VESICAL,1,,,,,,
+INFLAMACION ESOFAGOB,1,,,,,,
+ESTRENYIMENT DE L'ESOFAG,1,,,,,,
+INFLAMACION MUSCULAR,1,,,,,,
+ESTRES I ANSIETAT,1,,,,,,
+ESTRES I RETENCIO DE LIQUIDS,1,,,,,,
+ESTRES LABORAL,1,,,,,,
+PER L'ESTOMAC,1,,,,,,
+PER L'HERNIA DISCAL,1,,,,,,
+PER NO TENIR LA REGLA,1,,,,,,
+PEROCARDITIS,1,,,,,,
+PER ORINAR MENYS A LA NIT,1,,,,,,
+PROBLEMA CAPILAR,1,,,,,,
+SINDROME POST POLIO,1,,,,,,
+INSUFICIENCIA PANCREATICA ENDOCRINA,1,,,,,,
+GLUCOMA,1,,,,,,
+EVITAR DESCALCIFICACIO OSSOS,1,,,,,,
+SINDROME TUNEL CARPIA,1,,,,,,
+EVITAR REFLUX D'ESTOMAG,1,,,,,,
+EXCES D'HISTAMINA,1,,,,,,
+PER RELAXA,1,,,,,,
+PER RELAXAR TENSIO,1,,,,,,
+PER STRESS,1,,,,,,
+INTOLERANCIA A LA LACTOSA,1,,,,,,
+INTOLERANCIA SORBITOL,1,,,,,,
+EXTRASISTOLES,1,,,,,,
+IPERACTIBIDAD UNA MICA DE HORINA,1,,,,,,
+CORAZON MAS GRUESO DE LO HABITUAL,1,,,,,,
+EXTRASISTOLIA,1,,,,,,
+FALLO OVARIC,1,,,,,,
+FALTA ACIDO FOLICO,1,,,,,,
+KLINELFERTER,1,,,,,,
+L,1,,,,,,
+SOFOCOS MENOPAUSIA,1,627,Trastorns menopàusics i postmenopàusics,627,Trastorns menopàusics i postmenopàusics,10,Malalties de l’aparell genitourinari
+SOM,1,,,,,,
+PIEL-MUCOSAS,1,,,,,,
+PIELONEFRITIS AGUDA,1,,,,,,
+PIEL Y HUESOS,1,,,,,,
+SOMNOLENCIA IDEOPATICA,1,,,,,,
+SOPLO,1,,,,,,
+PINCAMENT LUMBAR,1,,,,,,
+"TRISTEZA, DORMIR, ESTRES, ANSIEDAD",1,,,,,,
+PINZAMIENTO DE NERVIO,1,,,,,,
+PIODERMA GANGRENOS,1,,,,,,
+LIGERA VALVULOPATIA MITRAL IZQUIERDA,1,,,,,,
+LIKEN PLA,1,,,,,,
+DEFICIENCIA PANCREATICA EXOCRINA,1,,,,,,
+FASCISTIS PLANTAR,1,,,,,,
+LIPOMAS MATRIZ,1,,,,,,
+FASCITIS PLANTAR/ MAL DE CAP,1,,,,,,
+PLEURA TUBERCULOSA,1,,,,,,
+LIQUEL ATROFICO,1,,,,,,
+DOLOR ARTICULAR/MUSCULAR,1,,,,,,
+LIQUEN ESCLEROS,1,,,,,,
+LIQUEN ESCLEROSO VULVAR,1,,,,,,
+LIQUEN PLANO EN LA BOCA,1,,,,,,
+"LISTESIS LUMBAR,MENISCOPATIA",1,,,,,,
+LITIASI BILIAR,1,,,,,,
+LITIASIS,1,,,,,,
+LITIASIS BILIAR,1,,,,,,
+LITOTRICIA INFECCIOSA,1,,,,,,
+TDAH COMBINADO,1,,,,,,
+LLAGUES A LA BOCA I UN PARELL DE COPS VAGINALS,1,,,,,,
+MOLSTIES ESTOMAC,1,,,,,,
+HERNIA DE STOMAGO,1,,,,,,
+FIBROMIALGIA CON FATIGA CRONICA,1,,,,,,
+TENDINITIS CALCIFICANT ESPATLLA,1,,,,,,
+RIESGO DE TROMBOSIS,1,,,,,,
+POLIPS AL INTESTI,1,,,,,,
+"HERNIA DISCAL CERVICAL, ESCOLIOSIS Y PROTUSION LUMBAR",1,,,,,,
+TENER SUENO DE CALIDAD,1,,,,,,
+RINOSINUSITIS CRONICA,1,,,,,,
+HERNIA DISCAL GRADO II,1,,,,,,
+HERNIA DISCAL I CERVICAL,1,,,,,,
+POLIPS NASAL I CORRECCIO TABIC NASAL,1,,,,,,
+POLIPS TIROIDES,1,,,,,,
+HERNIA DISCAL L5 S1,1,,,,,,
+MALA DIGESTIO,1,,,,,,
+POLIQUISTOSI RENAL,1,,,,,,
+TENSION EN EL OJO,1,,,,,,
+TENSION OJO,1,,,,,,
+MALALTIA DE GROVER,1,,,,,,
+MALALTIA DE HASHIMOTO(TIROIDES),1,,,,,,
+MALALTIA MENTAL,1,,,,,,
+POST CIRURGIA,1,,,,,,
+FLEBITIS,1,,,,,,
+POTASI,1,,,,,,
+"MAL DE CAP, DOLOR DE REGLA",1,,,,,,
+FLUIDOS ESTOMAGO,1,,,,,,
+PRECAUCIO,1,,,,,,
+TIROIDE COLECTEROL,1,,,,,,
+PRE-MENOPAUSA,1,627,Trastorns menopàusics i postmenopàusics,627,Trastorns menopàusics i postmenopàusics,10,Malalties de l’aparell genitourinari
+PRECION ARTERIAL,1,,,,,,
+"MAL DE CAP, ESGUINC",1,,,,,,
+PRE MENOPAUSEA,1,627,Trastorns menopàusics i postmenopàusics,627,Trastorns menopàusics i postmenopàusics,10,Malalties de l’aparell genitourinari
+MAL DE CAP I GRIP,1,,,,,,
+FOGOTS,1,,,,,,
+PRESBICIA,1,,,,,,
+PRESIO (9 I 14),1,,,,,,
+PRESIO ALTA,1,,,,,,
+PRESION,1,,,,,,
+PRESION OCULAR ALTA,1,36504,Hipertensió ocular,365,Glaucoma,6,Malalties del sistema nerviós i els òrgans dels sentits
+FONGS A LES UNGLES DELS PEUS,1,,,,,,
+MAL DE CERVICALS,1,,,,,,
+MAL DE GENOLL,1,,,,,,
+MAL DE GENOLLS,1,,,,,,
+MAL DE GILBERT,1,,,,,,
+FOTOSENSIBILIDAD,1,,,,,,
+MAL D?ESQUENA,1,,,,,,
+PREVENCIO EMBARAS,1,,,,,,
+MAL DESTOMEC,1,,,,,,
+FRECUENCIA CARDIACA ELEVADA,1,,,,,,
+MALESTAR-ACOSTIPAT,1,,,,,,
+MALESTAR ESTOMACAL,1,,,,,,
+MALESTAR GRAL.,1,,,,,,
+PREVENCION EMBARAZO,1,,,,,,
+PREVENCION GLAUCOMA,1,,,,,,
+REFLUGO ESOFAGICO,1,,,,,,
+PREVENCION POR FALTA DE   HIERRO HIERRO,1,,,,,,
+GAS,1,,,,,,
+GASTITIS,1,,,,,,
+MANCA DE POTASI,1,,,,,,
+GASTRITIS/CICURLATORI,1,,,,,,
+PREVENCIO TROMBOSIS,1,,,,,,
+MANCA VIT D,1,,,,,,
+GASTROENTERITIS,1,,,,,,
+OBSTRUCCIO VIES RESPIRATORIES ALTES,1,,,,,,
+PREVENIR RESFRIADOS,1,460,Rinofaringitis aguda [refredat comú],460,Rinofaringitis aguda [refredat comú],8,Malalties de l’aparell respiratori
+PREVENTIU,1,,,,,,
+MEDICACION ESPECIFICA PARA FIBROMIALGIA,1,,,,,,
+MEGACOLON,1,,,,,,
+MEJORAR ESTADO ANIMICO,1,,,,,,
+PRINCIPI DE DEPRESSIO,1,,,,,,
+OMEPRAZOL,1,,,,,,
+ONGLES DANYADES,1,,,,,,
+TRANSTORNO DE ANSIEDAD,1,,,,,,
+OPERACIO DE PEU,1,,,,,,
+PROBLEMAS DEL SUENO,1,,,,,,
+GLUCOSA ALTA,1,,,,,,
+MENISCO Y CARTILAGO,1,,,,,,
+PROBLEMAS GASTRICOS,1,,,,,,
+TRASTORN EMOCIONAL,1,,,,,,
+"MENOPAUSA, ANGOIXA",1,,,,,,
+TRASTORNO BIPOLAR,1,,,,,,
+SINROME CAMES INQUIETES,1,,,,,,
+PROBLEMES GASTRICS,1,,,,,,
+PROBLEMES GENOLL,1,,,,,,
+PROBLEMES MENTALS,1,,,,,,
+PROBLEMES SON,1,,,,,,
+PROBLEMES ULL,1,,,,,,
+PROFILAXI,1,,,,,,
+PROLAPSE UTERI,1,,,,,,
+PROSTATA BENIGNA,1,,,,,,
+TREMOLOR,1,,,,,,
+MIASTENIA GRAVIS,1,,,,,,
+MICOSIS FUNGOIDE,1,,,,,,
+HIPOACUSIA OTOTOXICA,1,,,,,,
+PROSTATITIS CRONICA I TEMA PSIQUIATRIC,1,,,,,,
+TRIGLESERIDOS,1,,,,,,
+PROSTATS,1,,,,,,
+TRIGLICERID,1,,,,,,
+PANCREAS,1,,,,,,
+MILLORAR ANIM,1,,,,,,
+PROTECCIO ESTOMACAL,1,,,,,,
+MIOCARDIOPATIA DILATADA,1,,,,,,
+TROMBOEMBOLISMO PULMONAR,1,,,,,,
+MIOCLONUUS NOCTURNO.MENOPAUSIA,1,,,,,,
+MIODESOPSIAS,1,,,,,,
+PROTECCION DE ESTOMAGO,1,,,,,,
+NEUMOTORAX ESPONTANEOS,1,,,,,,
+PEQUENA DEPRESION,1,,,,,,
+TROMBOSIS EN PIERNA IZQUIERDA,1,,,,,,
+SD. WOLF-PARKINSON-WHITE,1,,,,,,
+PROTECION DE ESTOMAGO,1,,,,,,
+MIOPIA,1,,,,,,
+PROTECION PROSTATA,1,,,,,,
+PROTECTOR DE ESTMAGO,1,,,,,,
+HERNIA DE HIATO Y HIPOTIROIDISMO,1,,,,,,
+PROTECTOR DEL ESTOMAGO,1,,,,,,
+HIPOTIROIDISME SUBCLINIC,1,,,,,,
+REUMA ESPONDILITIS ANQUILOSANT.,1,,,,,,
+TEMBLOR,1,,,,,,
+POLIPOSIS NASOSINUSAL,1,,,,,,
+PROTECTOR Y ANTIINFLAMATORIO,1,,,,,,
+PROTEFCTOR ESTOMACAL,1,,,,,,
+PROTESIS DENTAL,1,,,,,,
+PROTESIS LUMBAR,1,,,,,,
+TUMOR NERVIO OIDO,1,,,,,,
+MULTIVITAMINICO,1,,,,,,
+TENDINOPATIA ROTULIANA,1,,,,,,
+HERNIA DISCAL DORSAL,1,,,,,,
+NATURAL/PREVENTIVA,1,,,,,,
+NEFRITIS CRONICA TIPUS IGA,1,,,,,,
+NEFROPATIA,1,,,,,,
+NEFROSIS,1,,,,,,
+HERNIA DISCAL L5,1,,,,,,
+ROTURA DEL TENDON SUPRAESPINOSO,1,,,,,,
+NERVIO FACIAL ALTERADO,1,,,,,,
+PSICOSIS MANIACO DEPRESIVA. TRASTORNO BIPOLAR.,1,,,,,,
+PSIQUIATRIA,1,,,,,,
+HERNIA FORAMINAL,1,,,,,,
+NERVIS E INSOMNI,1,,,,,,
+HERNIA HIATOS,1,,,,,,
+HERNIA INGUINAL IZQUIERDA,1,,,,,,
+HERNIA INGUINEAL,1,,,,,,
+"NEUMONIA,",1,,,,,,
+QUISTE,1,,,,,,
+HERNIAS CERVICALES,1,,,,,,
+NEUMOTORAX,1,,,,,,
+HERNIAS DISCALS,1,,,,,,
+QUISTE RENAL SINUSAL,1,,,,,,
+QUISTER OVARIC,1,,,,,,
+QUISTES,1,,,,,,
+HERNIES,1,,,,,,
+"NEURALGIA TRIJEMINO,COLON IRRITABLE  GASTRITIS CRONICA  FIBROMIALGIA , TATIGA CRONICA",1,,,,,,
+NEURODERMATITIS,1,,,,,,
+VALVULA AORTICA,1,,,,,,
+VALVULA AORTICA BICUSPIDE,1,,,,,,
+"TIROIDES, OPERADA D?UN GANGLI ADOSAT A LA TIROIDES",1,,,,,,
+VARICEL?LA,1,,,,,,
+HIDROCEFALIA,1,,,,,,
+NIVEL BAJO,1,,,,,,
+NIVELES BAJOS DE  VITAMINA B12,1,,,,,,
+NIVELLAR NIVELL TIROIDES,1,,,,,,
+"HIPERCALCIURIA, HIPERFOSFATURIA",1,,,,,,
+QUITAR EL DOLOR,1,,,,,,
+HIPERERUCEMIA,1,,,,,,
+HIPERLAXITUD LLIGAMENTOSA,1,,,,,,
+HIPERLORDOSI,1,,,,,,
+NODULS A LES TIROIDES,1,,,,,,
+NODULS SOLIDS,1,,,,,,
+RECTOCELE,1,,,,,,
+NODULS TIROIDES,1,,,,,,
+NODUL TIROIDAL FRED,1,,,,,,
+HIPERPLASIA COMPLEXA D'ENDOMETRI,1,,,,,,
+NO TINC TIROIDE,1,,,,,,
+NUTRICION,1,,,,,,
+SINDROME DE HASHIMOTO,1,,,,,,
+HIPERPLASSIA PROSTATA,1,,,,,,
+OBESITAT MORBIDA,1,,,,,,
+OBSESION,1,,,,,,
+HIPERPLASTIA DE PROSTATA,1,,,,,,
+VITAMINAS CABELLO,1,,,,,,
+VITAMINAS DEL EMBARAZO,1,,,,,,
+OBSESSIO EMOCIONAL,1,,,,,,
+OBSTRUBCIO VENOSA,1,,,,,,
+PER LES ARTICULACIONS,1,,,,,,
+VITAMINES PER A LES OIDES,1,,,,,,
+HIPERSENSIBILIDAD DE LA PIEL,1,,,,,,
+HIPERSENSIBILITAT BRONQUIAL,1,,,,,,
+OIDO,1,,,,,,
+HIPERSOMNIA IDIOPATICA,1,,,,,,
+REFLUX GASTRIC I ACIDESA,1,,,,,,
+SINDROME MUSOSES SEQUES,1,,,,,,
+REFLUX GASTRIC I PROITECCIO.,1,,,,,,
+OPERACIO,1,,,,,,
+SINDROME SJORGEN,1,,,,,,
+REFORC CARTILAGS,1,,,,,,
+ZONA LUMBAR,1,,,,,,
+REFREDAT I/O DOLOR,1,,,,,,
+OPERACIO ULL,1,,,,,,
+TYROIDIS,1,,,,,,
+POLIPS NASAL,1,,,,,,
+QUISTES TIROIDEOS,1,,,,,,
+VASCULAR,1,,,,,,
+PER TIROIDECTOMIA,1,,,,,,
+ULCERA DUODENO,1,,,,,,
+SINDREME DE RAYNAUD,1,,,,,,
+SINDREM OBSESIU,1,,,,,,
+SINDRIME DE RAYNAUD,1,,,,,,
+TIROXINA,1,,,,,,
+SINDROME ANTIFOSFOLIPIDOS,1,,,,,,
+OSTIOMELITIS,1,,,,,,
+TLP (BORDERLINE),1,,,,,,
+RELAXANT DEL SISTEMA URINARI,1,,,,,,
+SUBIR EL NIVEL DE HIERRO,1,,,,,,
+TREMOLOR ESENCIAL,1,,,,,,
+VISTA,1,,,,,,
+OVARI POLIQUISTIC,1,,,,,,
+TRANSTORN DEL SON,1,,,,,,
+PALDA CIATICA,1,,,,,,
+ULCERA EN EL DUODE,1,,,,,,
+SORDERA,1,,,,,,
+RELAJANTES,1,,,,,,
+TROCANTERITIS,1,,,,,,
+HIPOTIRAIDISME,1,,,,,,
+PIORREA DENTAL,1,,,,,,
+SINDROME WOLF PARKINSON WHITE,1,,,,,,
+SINDROME DE CAROLI,1,,,,,,
+SINDROME GILBERT,1,,,,,,
+VITILIC,1,,,,,,
+QUISTE RENAL,1,,,,,,
+VASCULITIS,1,,,,,,
+TENCIO,1,,,,,,
+URICEMIA,1,,,,,,
+QUISTE SACRE,1,,,,,,
+PARA EL RINON,1,,,,,,
+TIROIDES I COLESTEROL,1,,,,,,
+SEQUEDAT VAGINAL,1,,,,,,
+PARA LA REGLA,1,,,,,,
+VESICULA,1,,,,,,
+SARCOIDOSI,1,,,,,,
+TOS FERINA,1,,,,,,
+TRASTORN ANSIOS DEPRESSIU,1,,,,,,
+ULCERA DUODE,1,,,,,,
+TRANSTORN DE LA SON,1,,,,,,
+REUMATISME INTERMITENT,1,,,,,,
+QUIST SACRO,1,,,,,,
+"SIRINGOMELIA, KLINERFELTER, MERINGITIS VIRICA, FETGE INFLAMAT, NEUMONIES, HIPERSAMNIA AMB APNEAS DEL SON, CARDIOPATIA HIPERTENSIVA, ORELLA ESQUERRA OPERADA PERDUA AUDICIO I XIULETS DINTRE",1,,,,,,
+RAMPAS,1,,,,,,
+PREVENCIO COAGULS,1,,,,,,
+RAYNAUD,1,,,,,,
+TIROIDITIS SUBAGUDA,1,,,,,,
+SARAMPION,1,,,,,,
+YURELAX,1,,,,,,
+POST INTERVENCIO QUIRURGICA,1,,,,,,
+TENGO GASES,1,,,,,,
+TINC UNA MICA D'INSOMNI,1,,,,,,
+ROTURA MENISCO - DOLOR,1,,,,,,
+RUIDO OIDOS,1,,,,,,
+RUIDOS OIDO,1,,,,,,
+PEL DOLOR DELS OSSOS,1,,,,,,
+RYNAUD PRIMARI,1,,,,,,
+POR PRESCRIPCIO MEDICA,1,,,,,,
+SACROILIEITIS,1,,,,,,
+SALUT GENERAL,1,,,,,,
+PELO,1,,,,,,
+IMNSOMNI,1,,,,,,
+IMPLANT DENTAL,1,,,,,,
+IMPULSIVIDAD,1,,,,,,
+INALADO,1,,,,,,
+COLIC NEFRITIC ( 2 ) I PUNTES D'ACID URIC ( 3 ),1,,,,,,
+COLICOS RINON,1,,,,,,
+ESPONDILITIS AXIAL,1,,,,,,
+INFECCIO AL QUEXAL,1,,,,,,
+NEURALGIA TRIGEMIN,1,,,,,,
+PER BAIXA DE SERATONINA,1,,,,,,
+XARELTO,1,,,,,,
+"TOS, ACIDESA ESTOMAC",1,,,,,,
+VERTIGEN I NAS,1,,,,,,
+TRANSTORN ALIMENTARI,1,,,,,,
+PREVENIR HERPES SIMPLE,1,,,,,,
+REFLUXES GASTRICS,1,,,,,,
+STRESS EMOCIONAL,1,,,,,,
+UN BULTO BENIGNA EN UNA MAMA,1,,,,,,
+PRESSIO ALTA,1,,,,,,
+PRESSIO ARTERIAL,1,,,,,,
+SIMPTOMES PROSTATICS,1,,,,,,
+INFECCION VIRICA,1,,,,,,
+INFECCION VIRUS DEL PAPILOMA HUMANO,1,,,,,,
+INFECCIOO ORINA,1,,,,,,
+PERDUA DE PROTEINES PER ORINA,1,,,,,,
+PERDUES D0ORINA,1,,,,,,
+PERDUES ORINA,1,,,,,,
+PER EL TIROIDES,1,,,,,,
+SINDROME DE FARTIGA CRONICA.,1,,,,,,
+"PER FALTA DE FERRO, NOMES QUAN TINC LA REGLA",1,,,,,,
+PER FORCAR LA ORINA,1,,,,,,
+TRACTAMENT ACID URIC,1,,,,,,
+SINDROME DE LAS PIERNAS INQUIETAS,1,,,,,,
+SINDROME DE LES CAMES INQUIETES,1,,,,,,
+PER INTERVENCIO QUIRURGICA DE GENOLL,1,,,,,,
+SINDROME DE PIERNAS INQUIETAS,1,,,,,,
+PERIODONTITIS,1,,,,,,
+INFLAMACION LESION PIE,1,,,,,,
+PERITONITIS,1,,,,,,
+INFLAMACION PROSTATA,1,,,,,,
+INFLAMACION TENDONES,1,,,,,,
+INFLAMACION VERTEBRAS,1,,,,,,
+PER LES CERVICALS,1,,,,,,
+INSOMI,1,,,,,,
+SINDROME INTESTI IRRITABLE I CREMORS,1,,,,,,
+SINDROME MENIER,1,,,,,,
+PREVINDRE MAL A LES ARTICULACIONS,1,,,,,,
+TRANSTORNO ADAPTATIVO,1,,,,,,
+"RETENCIO LIQUIDS, PEL TRACTAMENT HORMONAL D'UTROGESTAN",1,,,,,,
+WOLF-PARKINSON-WHITE,1,,,,,,
+PROTECION DEL  ESTOMAGO,1,,,,,,
+REFORCAR DEFENSES,1,,,,,,
+TRANSTORNS ALIMENTARIS,1,,,,,,
+MENISC,1,,,,,,
+INSUFICIENCIA VENOSA EXTREMITATS INFERIORS,1,,,,,,
+TRASTORN D'ANGOIXA,1,,,,,,
+RETINOPATIA SEROSA,1,,,,,,
+QUISTES TIROIDES,1,,,,,,
+SEROTONINA,1,,,,,,
+ORMONAL,1,,,,,,
+TUMOR GLANDULA PAROTIDA,1,,,,,,
+TUMOR HIPOFISIARIO,1,,,,,,
+NODULOS MAMARIOS PSEUDOANGIOMATOSI,1,,,,,,
+REGULACION DE LA MENSTRUACION,1,,,,,,
+REGULADOR INTESTINAL,1,,,,,,
+TUNELMETACARPEANO,1,,,,,,
+PICORS DE PELL,1,,,,,,
+REGULAR CORAZON,1,,,,,,
+RECUION DE ESTOMAGO,1,,,,,,
+PROTUSION DISCAL,1,,,,,,
+REGULAR MENSTRUACIO,1,,,,,,
+REGULAR MESTRUACION,1,,,,,,
+SOMNIFERO,1,,,,,,
+PSA ALT,1,,,,,,
+TENSION DESCOMPENSADA,1,,,,,,
+REFLUJO ESOFAGICO,1,,,,,,
+NERVIS ANSIETAT,1,,,,,,
+PTI,1,,,,,,
+PROTECCIO DIGESTIVA,1,,,,,,
+STRES,1,,,,,,
+PROTECCIO ESTOMAG,1,,,,,,
+RELAXANT,1,,,,,,
+PROTECCION,1,,,,,,
+RENITIS,1,,,,,,
+OIDA,1,,,,,,
+TROMBOPENIA,1,,,,,,
+TIROEDES,1,,,,,,
+TROMBOSIS,1,,,,,,
+TROMBOSI VENOSA,1,,,,,,
+TTRANSTORN LIMIT DE LA PERSONALITAT,1,,,,,,
+POLIMIALGIA REUMATICA,1,,,,,,
+TUBERCOLOSIS,1,,,,,,
+TUBERCULOSI LATENT,1,,,,,,
+POLIOMELITIS,1,,,,,,
+RETINA,1,,,,,,
+TUMOR AL OVARI,1,,,,,,
+VALVULA MITRAL,1,,,,,,
+SINDROME WPW,1,,,,,,
+PERDIDAS DE ORINA,1,,,,,,
+PRESIO OCULAR,1,36504,Hipertensió ocular,365,Glaucoma,6,Malalties del sistema nerviós i els òrgans dels sentits
+LUMBALGIA/CIATICA,1,,,,,,
+VEJIGA CONTRAIDA ( NO TERMINA EL VACIADO ),1,,,,,,
+REGLES MOLT ABUNDANTS,1,,,,,,
+NODULO TIROIDES,1,,,,,,
+NODULO TIROIDES FRED,1,,,,,,
+RECOMENDACION DIGESTIOLOGO,1,,,,,,
+RECOMENDACION GINECOLOGO,1,,,,,,
+VIES URINARIES,1,,,,,,
+TRATAMIENTO,1,,,,,,
+REDUCCION DE ESTOMAGO,1,,,,,,
+PRPOSTATA,1,,,,,,
+ULCERA DUODENAL,1,,,,,,
+NERVIO CIATICO AFECTADO,1,,,,,,
+POLIQUISTOSI HEPATORENAL,1,,,,,,
+TRACTAMENT FECUNDACIO IN VITRO,1,,,,,,
+ULCUS,1,,,,,,
+MANCA DE CALC,1,,,,,,
+PREVENCIO OSTEOPOROSIS,1,,,,,,
+"""PORQUE SE DUERMEN""",1,,,,,,
+POSIBLE INFECCIO,1,,,,,,
+TESTOSTERONA,1,,,,,,
+MALALTIES ESTOMAC,1,,,,,,
+TIFOIDEA,1,,,,,,
+PREACLAMPSIA GESTACIONAL,1,,,,,,
+MAL DE CAP/DOLOR DORSAL,1,,,,,,
+PREVENTIU PER EPISODIS D'INSOMNI DE FA DOS ANYS,1,,,,,,
+URTICARIA IDIOPATICA,1,,,,,,
+TIROIDECTOMIA PARCIAL BILATERAL,1,,,,,,
+SECUELAS QUIMIO,1,,,,,,
+TIROIDES AUTOINMUNE,1,,,,,,
+PREMENOPAUSIA,1,627,Trastorns menopàusics i postmenopàusics,627,Trastorns menopàusics i postmenopàusics,10,Malalties de l’aparell genitourinari
+MAL DE CAP /MALESTAR,1,,,,,,
+"MAL DE CAP, MALESTAR GENERAL",1,,,,,,
+FOGOTS MENOPAUSIA,1,627,Trastorns menopàusics i postmenopàusics,627,Trastorns menopàusics i postmenopàusics,10,Malalties de l’aparell genitourinari
+NEUROMA DE MORTON,1,,,,,,
+TIROIDIS DE HASHIMOTO,1,,,,,,
+NIC CERVIX,1,,,,,,
+SINOSITIS,1,,,,,,
+TRASTORN LIMIT DE LA PERSONALITAT,1,,,,,,
+QUIST OVARIS,1,,,,,,
+NODUL A LES TIROIDES,1,,,,,,
+TRASTORNO COMPULSIVO ADAPTATIVO,1,,,,,,
+TRASTORNO DE ANSIEDAD,1,,,,,,
+TRASTORNO EMOCIONAL,1,,,,,,
+PREVENCIO DESCALSIFICACIO OSEA,1,,,,,,
+TITOIDES,1,,,,,,
+SISTEMA NERVIOSO,1,,,,,,
+"MAL D'OSSOS, FARINGITIS",1,,,,,,
+PREVENCIO HERNIA HIATO,1,,,,,,
+TRAUMA,1,,,,,,
+TPSV,1,,,,,,
+TRAASPLANTE PULMONAR,1,,,,,,
+REFLUFJO,1,,,,,,
+VITAMINA CALCIO.,1,,,,,,
+TRENCAMENT PARCIAL TENDO D'AQUILES,1,,,,,,
+MANCA CALCI,1,,,,,,
+REGURGITACIONS GASTROESOFAGIQUES,1,,,,,,
+RUTURA COMPLETA DE MENISCO INTERNO RODILLA IZQUIERDA,1,,,,,,
+MANCA VITAMINA,1,,,,,,
+TRANSTORN,1,,,,,,
+PREVENIR COLIC NEFRITIC,1,,,,,,
+REFLUJO INTESTINAL,1,,,,,,
+REFLUX D'ESTOMAG,1,,,,,,
+VITAMINAS Y COLAGENO,1,,,,,,
+TRANSTORN D?ANSIETAT GENERALITZADA,1,,,,,,
+QUISTE OVARIO,1,,,,,,
+PREVENTIVO,1,,,,,,
+VIRUS DEL PAPILOMA,1,,,,,,
+VITAMINA D I CALC,1,,,,,,
+ULCUS GASTRIC,1,,,,,,
+TAQUICARDIA PAROXISTICA SUPRAVENTRICULAR CON MORFOLOGIA BRHH,1,,,,,,
+QUISTES ENDIOMETROSIS,1,,,,,,
+TAQUICARDIA SUPRAVENTRICULAR PAROXISTICA,1,,,,,,
+TAQUICARDIES / BRADICARDIES,1,,,,,,
+MOLESTIAS DE ORINA,1,,,,,,
+TRASTORN BIPOLAR I HIPOTIROIDISME,1,,,,,,
+TUMOR BENIGNO DE LA GLANDULA PARATIROIDEA,1,,,,,,
+PARA LA VISTA,1,,,,,,
+TUMOR BENIGNO DE PAROTIDA,1,,,,,,
+TIROIDISMOEUROTIROXHIPER,1,,,,,,
+TUMOR EN LA PAROTIDA,1,,,,,,
+TIROIDITIS DE HASIMOTO,1,,,,,,
+SINUCITIS,1,,,,,,
+"TENDINITIS AQUILES, BESSONS CURTS",1,,,,,,
+PER VIT.D,1,,,,,,
+PESADEZ DE PIERNAS,1,,,,,,
+TRASTORN PER DEFICIT D'ATENCIO,1,,,,,,
+TRATAMIENTO DENTAL,1,,,,,,
+SOFOCACIONS,1,,,,,,
+TRATAMIENTO TEMPORAL INFECCION,1,,,,,,
+SOFOCOS DE LA MENOPAUSIA,1,627,Trastorns menopàusics i postmenopàusics,627,Trastorns menopàusics i postmenopàusics,10,Malalties de l’aparell genitourinari
+NEFROPATIA IGA,1,,,,,,
+QUISTE A L'OS DEL PEU (5E META.),1,,,,,,
+OVARIO POLIQUISTICO,1,,,,,,
+VISTA CANSADA,1,,,,,,
+ULCERA GASTRICA NO SAGNANT,1,,,,,,
+TENSION DE LOS HOJOS,1,,,,,,
+VITAMINA D MOLT BAIXA,1,2689,Carència de vitamina D no especificada,268,Carència de vitamina D,3,"Malalties endocrines, nutricionals i metabòliques, i trastorns de la immunitat"
+OBSESIONS,1,,,,,,
+NERVIS ESTOMAC,1,,,,,,
+TROCANTERITS I PER UNA LESSIO AL MANGUITO DEL ROTADOR,1,,,,,,
+NERVI TRIGEMI,1,,,,,,
+QUERATOSIS ACTINICA,1,,,,,,
+PIROSI,1,,,,,,
+SUBSTITUCIO HORMONAL,1,,,,,,
+PROTECCION DE CARTILAGO,1,,,,,,
+OIDA (SORDERA),1,,,,,,
+REFLUX ESOFAGOGASTRIC,1,,,,,,
+URTICARIES,1,,,,,,
+REFLUX GASTRIC/ESOFAGITIS,1,,,,,,
+SDRC,1,,,,,,
+URTICARIA E FRIGORE,1,,,,,,
+PRENTIVA,1,,,,,,
+PREPARACION MATERNIDAD,1,,,,,,
+"MAL DE CAP, MENSTRUACIO",1,,,,,,
+TBT II,1,,,,,,
+SINDROME DE REINAU,1,,,,,,
+PERQUE EM PRENC EL IBUPROFENO,1,,,,,,
+PER QUE PRENC IBUPROFENO,1,,,,,,
+PER REGULAR LA REGLA,1,,,,,,
+QUIST OVARIC,1,,,,,,
+VIRUS PAPIL?LOMA HUMA,1,,,,,,
+TENDENCIA ESCORIOTICA,1,,,,,,
+PREVENCIO CANCER PROSTATA,1,,,,,,
+TIROIDITIS LINFOCITARIA,1,,,,,,
+PERDUA DE OIDA,1,,,,,,
+SINDROM DE LES CAMES INQUIETES,1,,,,,,
+PERDUA D'OLOR,1,,,,,,
+VITAMINAS YCALCIO,1,,,,,,
+QUEMAZON EN LA BOCA,1,,,,,,
+PREPARAR EMBARAZO,1,,,,,,
+PULSACIONES,1,,,,,,
+TROMBO EN LA RETINA,1,,,,,,
+PRURITO,1,,,,,,
+TRACTAMENT PROFILACTIC,1,,,,,,
+VITAMINA CAPILAR,1,,,,,,
+TROMBOEMBOLISMO PULMONAL,1,,,,,,
+ULCERA GASTRICA,1,,,,,,
+QUISTES HEPATICOS,1,,,,,,
+ULL SEC,1,,,,,,
+NERVIS I L' ESTOMAC,1,,,,,,
+PERITONITIS PER DIVERTICULITIS,1,,,,,,
+PER L'ARDOR D'ESTOMAG,1,,,,,,
+UN PROTECTOR,1,,,,,,
+NEUMONIES,1,,,,,,
+SINDROME FATIGA CRONICA,1,,,,,,
+SINDROME GUILLEM BARRE,1,,,,,,
+TRACTAMENT REGENERACIO CARTILAG,1,,,,,,
+INDUCCION SUENO,1,,,,,,
+INFALAMCION RODILLA Y DOLOR CERVICAL,1,,,,,,
+INFECCIO,1,,,,,,
+TRANSTORNO SUENO,1,,,,,,
+TAQUICARDIAS,1,,,,,,
+SE ME DORMIA LA MANO,1,,,,,,
+VEJIGA,1,,,,,,
+TIROIDES UNA MICA LENTA,1,,,,,,
+SEQUETAT VAGINAL,1,,,,,,
+"REFREDAT, MALESTAR",1,,,,,,
+PROBLEMAS DE MEMORIA,1,,,,,,
+ZUCAR,1,,,,,,
+VARICES INTERNA,1,,,,,,
+TUMOR CEREBRAL BENIGNO,1,,,,,,
+SINTOMAS MENOPAUSIA,1,627,Trastorns menopàusics i postmenopàusics,627,Trastorns menopàusics i postmenopàusics,10,Malalties de l’aparell genitourinari
+TIROIDITIS DE QUERVAIN,1,,,,,,
+REGULACIO CICLE MENSTRUAL,1,,,,,,
+SISTEMA IMUNITARI,1,,,,,,
+SISTEMA INMUNOLOGICO,1,,,,,,
+TUNEL CARPIANO,1,,,,,,
+PROCTECTOR,1,,,,,,
+SINDROME CAMAS INQUIETAS,1,,,,,,
+SINDROME DE BEZHET,1,,,,,,
+"REDUCCION GASTRICA, BY PASS INTESTINAL",1,,,,,,
+REDUCIR PULSACIONES,1,,,,,,
+SINDROME DE GUILLEM BARRE,1,,,,,,
+TREMOLOR ESSENCIAL,1,,,,,,
+REGULAR REGLA,1,,,,,,
+REGULAR PERIODOS MENSTRUALES,1,,,,,,
+VOLVULO DE CIEGO,1,,,,,,
+SINDROME DE LYNCH,1,,,,,,
+TRANQUILITZARME,1,,,,,,
+PREVENCIO PROSTATA,1,,,,,,
+REFLUJO G-ESOFAGICO,1,,,,,,
+SINDROME DE REINAUD,1,,,,,,
+SINDROME DE REYNOLDS,1,,,,,,
+TRANSTORN ANSIEDAD,1,,,,,,
+PEL SON,1,,,,,,
+PELS OSSOS.,1,,,,,,
+PEL VERTIGEN,1,7804,Vertigen i mareig,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+OJOS TENSION,1,,,,,,
+PEQUENAS AGNEAS,1,,,,,,
+REGENERAR CARTILAGO,1,,,,,,
+VITILIGEN,1,,,,,,
+RETENCION DE LIPIDOS,1,,,,,,
+REFORCA EL NERVI,1,,,,,,
+PROBLEMAS DE ESTOMAGO,1,,,,,,
+PER PROTEGIR L'ESTOMAG,1,,,,,,
+INSUFICIENCIA VENOSA,1,,,,,,
+QUISTES RENALES,1,,,,,,
+INSUFICIENCI CARDIACA,1,,,,,,
+INTESTINAL,1,,,,,,
+TUMOR BENIGNO EN TIROIDES,1,,,,,,
+TEMBLOR DE MANOS,1,,,,,,
+REUMA I DOLOR,1,,,,,,
+HIPERTIROIDISMO SUBCLINICO/NODULOS/BOCIO,1,,,,,,
+PER UNS POLIPS,1,,,,,,
+EXTRASISTOLES VENTRICULARES,1,,,,,,
+IRRITACION DEI COLON,1,,,,,,
+JAQUECAS,1,,,,,,
+JARSE,1,,,,,,
+VESICULA BILIAR,1,,,,,,
+PICOS,1,,,,,,
+PIEDRAS EN EL RINON,1,,,,,,
+PIEDRAS EN LA VESICULA,1,,,,,,
+"PROSTAT, BUFETA",1,,,,,,
+PROSTATIS,1,,,,,,
+PRURITO CRONICO,1,,,,,,
+SOMNOLENCIA DIURNA,1,,,,,,
+TINNITUS/ACUFENOS,1,,,,,,
+TRIGLICEDIS,1,,,,,,
+PREVENCIO OSTEOPOROSI,1,,,,,,
+PULMONIA,1,,,,,,
+SPI,1,,,,,,
+PAPANICOLAU,1,,,,,,
+LINFEDEMA EEII,1,,,,,,
+FARINGITIS CRONICA,1,,,,,,
+LIPOMA INTRAMUSCULAR,1,,,,,,
+PITIDO A L'OIDA,1,,,,,,
+LIQUAR LA SANG,1,,,,,,
+SUPORT: COLAGEN I MAGNESI,1,,,,,,
+MIOMAS EN EL UTERO,1,,,,,,
+HERNIA DE DISCO,1,,,,,,
+TAQUICARDIA PAROXISTICA,1,,,,,,
+POLICITEMIA VERA,1,,,,,,
+RETENCION DE  LIQUIDOS,1,,,,,,
+POLINEUROPATIA DIABETICA,1,,,,,,
+POLIO,1,,,,,,
+PROTECTOR DE ESTOMAC,1,,,,,,
+POLIP CORDES VOCALS,1,,,,,,
+POLIP MATRIU,1,,,,,,
+MOLESTIAS HEMORROIDES,1,,,,,,
+MOLESTIES AL ESTOMAG,1,,,,,,
+PARA NO DEPRIMIRME,1,,,,,,
+MOLT SENSIBLE,1,,,,,,
+SDME. PIERNAS INQUIETAS,1,,,,,,
+POLIPOS UTERINOS,1,,,,,,
+POLIPOS VESICULA,1,,,,,,
+MAL D ESQUENA,1,,,,,,
+PROTESIS VALVULA AORTICA,1,,,,,,
+NARIZ,1,,,,,,
+PREVENCIO ESTOMAC,1,,,,,,
+TURMELL,1,,,,,,
+TUVERCULOSIS,1,,,,,,
+PREVENCION CARDIOLOGICA,1,,,,,,
+TENSIO?,1,,,,,,
+NERVI CIATIC,1,,,,,,
+VISION,1,,,,,,
+PREBENIR DOLOR,1,,,,,,
+SARCOPESIA,1,,,,,,
+PEL GENOLL,1,,,,,,
+PREVENCION PROBLEMAS OSEOS,1,,,,,,
+TENSION Y RINON,1,,,,,,
+TEP MASSIU BILATERAL,1,,,,,,
+TERATOMA,1,,,,,,
+SINDROME TUNEL CARPIANO,1,,,,,,
+VERTIGS,1,7804,Vertigen i mareig,780,Símptomes generals,16,"Símptomes, signes i afeccions mal definides"
+PREVENCIO GLAUCOMA,1,,,,,,
+TIC NERVIOS,1,,,,,,
+"SINDROME DE FATIGA CRONICA,OJOS SECOSFIBROMIALGIA,COLON IRRITABLE,ANSIEDAD,TDAH",1,,,,,,
+ESPINA BIFIDA,1,,,,,,
+ESPONDILITIS,1,,,,,,
+SENSITIVITAT EMOCIONAL,1,,,,,,
+SINDROME MENIERE,1,,,,,,
+VTAMINA D,1,,,,,,
+VPH,1,,,,,,
+WPW,1,,,,,,
+SARCOIDOSIS,1,,,,,,
+SINDROME DEPRESSIU,1,,,,,,
+MENSTRUACIONES,1,,,,,,
+VHP,1,,,,,,
+MANCA VIT.D,1,,,,,,
+TUBERCOLOSI,1,,,,,,
+PER LES SOFOCACIONS,1,,,,,,
+SINOSITIS CRONICA,1,,,,,,
+UVEITIS I CATARACTES CONGENITES,1,,,,,,
+REFLUJO ESTOMACAL O ARDOR.,1,,,,,,
+PERDUA CABELL,1,,,,,,
+PER VARIES,1,,,,,,
+RAMPA Y DOLOR,1,,,,,,
+UBEAITIS,1,,,,,,
+TIROIDITE HASHIMOTO,1,,,,,,
+UVEITIS HIPERTENSIVA,1,,,,,,
+TBC PULMONAR,1,,,,,,
+UROLOGIA,1,,,,,,
+YAGA ESTOMACAL,1,,,,,,
+UVEITIS BAHCET,1,,,,,,
+RELAX,1,,,,,,
+T.O.C,1,,,,,,
+TIROIDITIS HASHIMOTO,1,,,,,,
+POLIPOS NASAL,1,,,,,,
+VITAMINA PER LA VISTA,1,,,,,,
+PROTUSSIO  L5,1,,,,,,
+TIROIDESEUTIROX,1,,,,,,
+PURPURA IDIOPATICA,1,,,,,,
+"VITAMINAS, VASCULARIZANTE",1,,,,,,
+UNAS,1,,,,,,
