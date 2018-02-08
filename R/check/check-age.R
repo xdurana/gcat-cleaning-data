@@ -35,6 +35,8 @@ ds <- gcat %>%
     age=floor(as.numeric(interval(FECHA_NACIMIENTO, Admin.Interview.startDate), unit = 'year'))
   )
 
+ds %>% write_csv('output/check/age/raw.csv')
+
 ### Tots els errors
 
 errors <- ds %>%

@@ -16,6 +16,11 @@ long <- long %>%
     is_core_spain = entity_id %in% gcat_core_spain$entity_id
   )
 
+a <- long %>%
+  filter(is_core_spain) %>%
+  group_by(code, short_desc) %>%
+  summarize(count = n())
+
 build_table <- function(ds, category, category_text) {
   data.frame(
     'Category' = category,
@@ -40,7 +45,6 @@ ds_table <- do.call("rbind", list(
   long %>% filter(substring(long$code, 1, 3) %in% sprintf('A%02d', 15:19)) %>% build_table(category = 'A15-A19', category_text = 'Tuberculosis'),
   long %>% filter(substring(long$code, 1, 3) %in% c(sprintf('A%02d', 00:99), sprintf('B%02d', 00:99))) %>% build_table(category = 'A00-B99', category_text = 'Certain infectious and parasitic diseases'),
   long %>% filter(substring(long$code, 1, 3) %in% sprintf('F%02d', 30:39)) %>% build_table(category = 'F30-F39', category_text = 'Mood [affective] disorders'),
-  long %>% filter(substring(long$code, 1, 3) %in% sprintf('F%02d', 00:99)) %>% build_table(category = 'F00-F99', category_text = 'Mental and behavioural disorders'),
   long %>% filter(substring(long$code, 1, 3) %in% sprintf('C%02d', 81:96)) %>% build_table(category = 'C81-C96', category_text = 'Malignant neoplasms of lymphoid, haematopoietic and related tissue'),
   long %>% filter(substring(long$code, 1, 3) %in% sprintf('C%02d', 00:97)) %>% build_table(category = 'C00-C97', category_text = 'Malignant neoplasms'),
   long %>% filter(substring(long$code, 1, 3) %in% sprintf('K%02d', 70:77)) %>% build_table(category = 'K70-K77', category_text = 'Diseases of liver'),
