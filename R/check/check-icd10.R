@@ -65,23 +65,33 @@ long %>%
   ) %>%
   write_csv('output/check/icd10/long.csv')
 
+# gcat core
+
+core <- fread('output/check/core/data.csv')
+long <- long %>% left_join(core %>% select(entity_id, core_plate))
+
 # summary
 
-icd10_summary <- long %>%
+conditions <- long %>%
+  mutate(
+    core = ifelse(is.na(core_plate), 0, 1)
+  ) %>%
   group_by(code) %>%
-  summarise(
+  dplyr::summarize(
     participants = sum(count),
+    participants_core = sum(count*core),
     text = toString(unique(text))
   ) %>%
   filter(
     !is.na(code)
   ) %>%
-  left_join(long %>% select(-entity_id, -participants, -text) %>% unique) %>%
+  left_join(long %>% select(-entity_id, -participants, -text, -core_plate) %>% unique) %>%
   arrange(desc(participants)) %>%
   select(-count) %>%
   select(
     code,
     participants,
+    participants_core,
     short_desc,
     long_desc,
     three_digit,
@@ -91,4 +101,6 @@ icd10_summary <- long %>%
     text
   )
 
-icd10_summary %>% write_csv('output/check/icd10/summary.csv')
+conditions %>% write_csv('output/check/icd10/summary.csv')
+
+save(conditions, file = '/home/labs/dnalab/share/lims/R/gcat-shinyapps/diseases/data/conditions.RData')
